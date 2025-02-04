@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c184fd8d8363121020eccc50ceaad332" label="Skills &amp; Certifications" max_length="40" name="x_1033940_gym_port_skills_certifications" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Expiration Date" max_length="40" name="expiration_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Issue Date" max_length="40" name="issue_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="encode_utf8=false" label="Instructor" mandatory="true" max_length="32" name="instructor" reference="x_1033940_gym_port_members" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="erea_of_expertise" label="Qualification Type" mandatory="true" max_length="40" name="qualification_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Erea of expertise" value="erea_of_expertise"/>
+                <element inactive_on_update="false" label="Certification" value="certification"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Title" mandatory="true" max_length="40" name="title" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="240" name="description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Issuing Organization" max_length="40" name="issuing_organization" type="string"/>
+        <index name="index">
+            <element name="instructor"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="06cfa5498363121020eccc50ceaad383" label="Exercises" max_length="40" name="x_1033940_gym_port_exercises" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Muscle Group" mandatory="true" max_length="40" name="muscle_group" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="edge_encryption_enabled=true" label="Exercise Step by Step" mandatory="true" max_length="1000" name="exercise_step_by_step" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Short Description" mandatory="true" max_length="240" name="short_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Target Muscles" mandatory="true" max_length="40" name="target_muscles" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
