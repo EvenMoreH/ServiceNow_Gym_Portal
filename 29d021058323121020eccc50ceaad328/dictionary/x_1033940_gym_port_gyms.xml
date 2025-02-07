@@ -4,19 +4,19 @@
         <element attributes="edge_encryption_enabled=true" label="Email Address" mandatory="true" max_length="80" name="email_address" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Street" mandatory="true" max_length="120" name="street" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="State/Province" max_length="120" name="state_province" type="string"/>
-        <element attributes="encode_utf8=false" label="Manager Contact" max_length="32" name="manager_contact" reference="x_1033940_gym_port_members" type="reference"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Operating Hours" mandatory="true" max_length="40" name="operating_hours" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Country" mandatory="true" max_length="40" name="country" type="string"/>
-        <element attributes="encode_utf8=false" label="Manager" mandatory="true" max_length="32" name="manager" reference="x_1033940_gym_port_members" type="reference"/>
+        <element attributes="encode_utf8=false" label="Manager" max_length="32" name="manager" reference="x_1033940_gym_port_members" type="reference"/>
         <element label="Phone Number" mandatory="true" max_length="40" name="phone_number" type="phone_number_e164"/>
         <element attributes="edge_encryption_enabled=true" label="Postal Code" mandatory="true" max_length="40" name="postal_code" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" formula="manager" label="Managers Contact" max_length="32" name="managers_contact" reference="x_1033940_gym_port_members" type="reference" virtual="true" virtual_type="formula"/>
         <element attributes="edge_encryption_enabled=true" display="true" label="Name" mandatory="true" max_length="80" name="name" type="string"/>
         <index name="index">
             <element name="manager"/>
         </index>
         <index name="index2">
-            <element name="manager_contact"/>
+            <element name="managers_contact"/>
         </index>
     </element>
 </database>
