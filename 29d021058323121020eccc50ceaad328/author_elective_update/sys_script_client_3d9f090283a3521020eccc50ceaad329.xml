@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>show_manager_contact</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   // g_form.getReference automatically uses the reference table defined in the dictionary (gym_port_members)
+	g_form.getReference('x_1033940_gym_port_members', managerPhone); 
+	var phone = managerPhone.email;
+	g_form.setValue('managers_contact', phone); 
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 11:18:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3d9f090283a3521020eccc50ceaad329</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>show_manager_contact</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_update_name>sys_script_client_3d9f090283a3521020eccc50ceaad329</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 12:04:22</sys_updated_on>
+        <table>x_1033940_gym_port_gyms</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gym Portal">29d021058323121020eccc50ceaad328</application>
+        <file_path/>
+        <instance_id>0a2000d81bd982dc78c7cb7b234bcb61</instance_id>
+        <instance_name>dev250396</instance_name>
+        <name>sys_script_client_3d9f090283a3521020eccc50ceaad329</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;show_manager_contact&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   // g_form.getReference automatically uses the reference table defined in the dictionary (gym_port_members)
+	g_form.getReference('x_1033940_gym_port_members', managerPhone); 
+	var phone = managerPhone.email;
+	g_form.setValue('managers_contact', phone); 
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-07 11:18:00&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;3d9f090283a3521020eccc50ceaad329&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name&gt;show_manager_contact&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Gym Portal" source="x_1033940_gym_port"&gt;29d021058323121020eccc50ceaad328&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Gym Portal"&gt;29d021058323121020eccc50ceaad328&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_3d9f090283a3521020eccc50ceaad329&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-07 12:04:22&lt;/sys_updated_on&gt;&lt;table&gt;x_1033940_gym_port_gyms&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>856826730</payload_hash>
+        <record_name>show_manager_contact</record_name>
+        <reverted_from/>
+        <source>dd08b50183a3121020eccc50ceaad35e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 12:04:22</sys_created_on>
+        <sys_id>891b5d0e83a3521020eccc50ceaad3a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194e04bf8340000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 12:04:22</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>011b5d0edaa35210025da3ba433076a5</update_guid>
+        <update_guid_history>011b5d0edaa35210025da3ba433076a5:856826730,380b958ed4a35210cd03b161311e8e8a:1886733293,f90a5d0e10a3521084d7ecfcbaeade9d:1101741664,91b9914646a35210a34b608d21f92749:-680437424,a833d1465aa352107360e194bc319792:-792909786,9923914628a352107fbd0ffeebdb8b40:1101741664,6dd2d906e6a35210454dcc7d1a0cded9:-1571474944,2da25d8259a3521004a1bbf6c9d90276:1423189621,2172d1062ca35210017f65c123ce6197:167970475,54c11d827fa3521015363a24a1a56ad1:-25660433,7d411d82c1a3521081ec7159a2554cca:-358744298,b8f09d429ca352107ade8a40df968a99:-1698626594,c2705502f0a352106c0bb96910b35551:404476861</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 12:06:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>2bcc5d20e02b439b9d59a5d96aa5b891</sys_id>
+        <sys_metadata>3d9f090283a3521020eccc50ceaad329</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>show_manager_contact</sys_name>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_parent display_value="Gyms">1c48e5018363121020eccc50ceaad3bc</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_scope_delete display_value="">4ef7c16b5f9f42c89374a9b807c00710</sys_scope_delete>
+        <sys_update_name>sys_script_client_3d9f090283a3521020eccc50ceaad329</sys_update_name>
+        <sys_update_version display_value="sys_script_client_3d9f090283a3521020eccc50ceaad329">891b5d0e83a3521020eccc50ceaad3a5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 12:06:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
