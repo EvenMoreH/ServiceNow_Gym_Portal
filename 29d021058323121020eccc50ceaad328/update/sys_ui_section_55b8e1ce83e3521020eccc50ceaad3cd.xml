@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Management" section_id="55b8e1ce83e3521020eccc50ceaad3cd" sys_domain="global" table="x_1033940_gym_port_gyms" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>managers_contact</element>
+            <element>manager</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-07 13:03:55</sys_created_on>
-            <sys_id>6db825ce83e3521020eccc50ceaad33c</sys_id>
+            <sys_created_on>2025-02-10 20:35:59</sys_created_on>
+            <sys_id>64fcaecf836b121020eccc50ceaad35b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Management" display_value="Management" name="x_1033940_gym_port_gyms" sys_domain="global" view="Default view">55b8e1ce83e3521020eccc50ceaad3cd</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-07 13:03:55</sys_updated_on>
+            <sys_updated_on>2025-02-10 20:35:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,27 +18,27 @@
             <element>.split</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-07 13:03:55</sys_created_on>
-            <sys_id>65b825ce83e3521020eccc50ceaad33d</sys_id>
+            <sys_created_on>2025-02-10 20:35:59</sys_created_on>
+            <sys_id>20fcaecf836b121020eccc50ceaad35c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Management" display_value="Management" name="x_1033940_gym_port_gyms" sys_domain="global" view="Default view">55b8e1ce83e3521020eccc50ceaad3cd</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-07 13:03:55</sys_updated_on>
+            <sys_updated_on>2025-02-10 20:35:59</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>manager</element>
+            <element>managers_contact</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-07 13:03:55</sys_created_on>
-            <sys_id>6db825ce83e3521020eccc50ceaad33d</sys_id>
+            <sys_created_on>2025-02-10 20:35:59</sys_created_on>
+            <sys_id>a4fcaecf836b121020eccc50ceaad35c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Management" display_value="Management" name="x_1033940_gym_port_gyms" sys_domain="global" view="Default view">55b8e1ce83e3521020eccc50ceaad3cd</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-07 13:03:55</sys_updated_on>
+            <sys_updated_on>2025-02-10 20:35:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

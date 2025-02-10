@@ -17,8 +17,14 @@
 
    //Type appropriate comment here, and begin script below
 	g_form.getReference('manager', function(managerRecord) {
-		var managers_phone = managerRecord.phone;
-		g_form.setValue('managers_contact', managers_phone, managers_phone);
+		var managers_contact_information;
+
+		if (managerRecord.phone == '') {
+			managers_contact_information = managerRecord.email;
+		} else {
+			managers_contact_information = managerRecord.phone;
+		}
+		g_form.setValue('managers_contact', managers_contact_information,managers_contact_information);
    });
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
@@ -27,7 +33,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ad9bd1ce83a3521020eccc50ceaad3fd</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Show Managers Contact</sys_name>
         <sys_overrides/>
         <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
@@ -35,7 +41,7 @@
         <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
         <sys_update_name>sys_script_client_ad9bd1ce83a3521020eccc50ceaad3fd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-07 12:20:54</sys_updated_on>
+        <sys_updated_on>2025-02-10 20:43:02</sys_updated_on>
         <table>x_1033940_gym_port_gyms</table>
         <type>onChange</type>
         <ui_type>0</ui_type>
