@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="Gym Portal">bb7ae00283ef121020eccc50ceaad3d9</application>
+        <filter/>
+        <name>Amenities</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_1033940_gym_port.amenities_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 08:32:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bb7ae00283ef121020eccc50ceaad3dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Amenities</sys_name>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_update_name>sys_ui_module_bb7ae00283ef121020eccc50ceaad3dd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 08:32:07</sys_updated_on>
+        <table>x_1033940_gym_port_amenities</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gym Portal">29d021058323121020eccc50ceaad328</application>
+        <file_path/>
+        <instance_id>0a2000d81bd982dc78c7cb7b234bcb61</instance_id>
+        <instance_name>dev250396</instance_name>
+        <name>sys_ui_module_bb7ae00283ef121020eccc50ceaad3dd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Gym Portal">bb7ae00283ef121020eccc50ceaad3d9</application><filter/><name>Amenities</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_1033940_gym_port.amenities_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-07 08:32:07</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>bb7ae00283ef121020eccc50ceaad3dd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Amenities</sys_name><sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package><sys_policy/><sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope><sys_update_name>sys_ui_module_bb7ae00283ef121020eccc50ceaad3dd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-07 08:32:07</sys_updated_on><table>x_1033940_gym_port_amenities</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>-1697377315</payload_hash>
+        <record_name>Amenities</record_name>
+        <reverted_from/>
+        <source>dd08b50183a3121020eccc50ceaad35e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 08:32:07</sys_created_on>
+        <sys_id>7b7ae00283ef121020eccc50ceaad3ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194df89a4210000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 08:32:07</sys_updated_on>
+        <type>Module</type>
+        <update_guid>3f7ae0024cef12109e45e7e87a8a6eec</update_guid>
+        <update_guid_history>3f7ae0024cef12109e45e7e87a8a6eec:-1697377315</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-12 08:52:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>184f64f3c9f34f2084db5fbae5dec900</sys_id>
+        <sys_metadata>bb7ae00283ef121020eccc50ceaad3dd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Amenities</sys_name>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_scope_delete display_value="">4ef7c16b5f9f42c89374a9b807c00710</sys_scope_delete>
+        <sys_update_name>sys_ui_module_bb7ae00283ef121020eccc50ceaad3dd</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_bb7ae00283ef121020eccc50ceaad3dd">7b7ae00283ef121020eccc50ceaad3ed</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-12 08:52:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
