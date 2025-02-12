@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+    <sys_relationship action="DELETE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_1033940_gym_port_members</basic_apply_to>
+        <basic_query_from>x_1033940_gym_port_skills_certifications</basic_query_from>
+        <insert_callback/>
+        <name>Skills &amp; Certifications</name>
+        <query_from/>
+        <query_with><![CDATA[(function refineQuery(current, parent) {
+    // Check if the current record (member) has the role 'instructor'
+    if (current.role == 'instructor') {
+        // If an instructor, add a query to match member name with owner in the Skills table
+        current.addQuery('title', current.instructor);
+    } else {
+        // If not an instructor, add a query that will return no records
+        current.addQuery('number', '1=2'); // This is a dummy condition that will always be false
+    }
+})(current, parent);]]></query_with>
+        <reference_field/>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-12 09:51:02</sys_created_on>
+        <sys_id>04bb622383a3121020eccc50ceaad3b3</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Skills &amp; Certifications</sys_name>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_update_name>sys_relationship_04bb622383a3121020eccc50ceaad3b3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-12 10:16:47</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="DELETE" query="documentkey=04bb622383a3121020eccc50ceaad3b3"/>
+    <sys_es_latest_script action="DELETE">
+        <id>04bb622383a3121020eccc50ceaad3b3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-12 09:51:02</sys_created_on>
+        <sys_id>248c622383a3121020eccc50ceaad35b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-12 09:51:02</sys_updated_on>
+        <table>sys_relationship</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gym Portal">29d021058323121020eccc50ceaad328</application>
+        <file_path/>
+        <instance_id>0a2000d81bd982dc78c7cb7b234bcb61</instance_id>
+        <instance_name>dev250396</instance_name>
+        <name>sys_relationship_04bb622383a3121020eccc50ceaad3b3</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_relationship"&gt;&lt;sys_relationship action="INSERT_OR_UPDATE"&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;apply_to/&gt;&lt;basic_apply_to&gt;x_1033940_gym_port_members&lt;/basic_apply_to&gt;&lt;basic_query_from&gt;x_1033940_gym_port_skills_certifications&lt;/basic_query_from&gt;&lt;insert_callback/&gt;&lt;name&gt;Skills &amp;amp; Certifications&lt;/name&gt;&lt;query_from/&gt;&lt;query_with&gt;&lt;![CDATA[(function refineQuery(current, parent) {
+    // Check if the current record (member) has the role 'instructor'
+    if (current.role == 'instructor') {
+        // If an instructor, add a query to match member name with owner in the Skills table
+        current.addQuery('title', current.instructor);
+    } else {
+        // If not an instructor, add a query that will return no records
+        current.addQuery('number', '1=2'); // This is a dummy condition that will always be false
+    }
+})(current, parent);]]&gt;&lt;/query_with&gt;&lt;reference_field/&gt;&lt;related_list/&gt;&lt;simple_reference&gt;false&lt;/simple_reference&gt;&lt;sys_class_name&gt;sys_relationship&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-12 09:51:02&lt;/sys_created_on&gt;&lt;sys_id&gt;04bb622383a3121020eccc50ceaad3b3&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;Skills &amp;amp; Certifications&lt;/sys_name&gt;&lt;sys_package display_value="Gym Portal" source="x_1033940_gym_port"&gt;29d021058323121020eccc50ceaad328&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Gym Portal"&gt;29d021058323121020eccc50ceaad328&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_relationship_04bb622383a3121020eccc50ceaad3b3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-12 10:16:47&lt;/sys_updated_on&gt;&lt;/sys_relationship&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=04bb622383a3121020eccc50ceaad3b3"/&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;04bb622383a3121020eccc50ceaad3b3&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-12 09:51:02&lt;/sys_created_on&gt;&lt;sys_id&gt;248c622383a3121020eccc50ceaad35b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-12 09:51:02&lt;/sys_updated_on&gt;&lt;table&gt;sys_relationship&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1042806993</payload_hash>
+        <record_name>Skills &amp; Certifications</record_name>
+        <reverted_from/>
+        <source>dd08b50183a3121020eccc50ceaad35e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-12 10:16:47</sys_created_on>
+        <sys_id>8662f6e783a3121020eccc50ceaad30d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194f9a946390000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-12 10:16:47</sys_updated_on>
+        <type>Relationship</type>
+        <update_guid>0e62f6e7c4a312103498b087d96bea0c</update_guid>
+        <update_guid_history>0e62f6e7c4a312103498b087d96bea0c:1042806993,9fbfea27afa3121070a02ab127c14cd6:1402582918,1f0f6ae3b8a31210c738a4bb4876b74a:1580333057,36de6627dba312106621f5ebd28b139b:-2122008664,016ea2e31aa31210b492796e0d7820f8:-2057933348,9d3e6223b5a31210c5e2ed41042d940a:299671802,12ad2e6344a312101df945a855bb309d:-662018686,a88ca22372a312108f3019de58074b3b:1777295769</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-12 10:17:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_relationship">sys_relationship</sys_db_object>
+        <sys_id>7c3d7d0eab8a45c082a3a35652cd0040</sys_id>
+        <sys_metadata>04bb622383a3121020eccc50ceaad3b3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Skills &amp; Certifications</sys_name>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_parent display_value="Members">c5b3e1c98323121020eccc50ceaad3ab</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_scope_delete display_value="">4ef7c16b5f9f42c89374a9b807c00710</sys_scope_delete>
+        <sys_update_name>sys_relationship_04bb622383a3121020eccc50ceaad3b3</sys_update_name>
+        <sys_update_version display_value="sys_relationship_04bb622383a3121020eccc50ceaad3b3">8662f6e783a3121020eccc50ceaad30d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-12 10:17:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
