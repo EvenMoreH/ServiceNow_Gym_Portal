@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b0e04dc483ff521020eccc50ceaad3eb" label="Groups" max_length="40" name="x_1033940_gym_port_groups" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Roles" max_length="4000" name="roles" reference="sys_user_role" reference_qual="sys_scope=29d021058323121020eccc50ceaad328^ORname=admin^EQ" reference_qual_condition="sys_scope=29d021058323121020eccc50ceaad328^ORname=admin^EQ" type="glide_list"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Group Name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Group Description" max_length="4000" name="group_description" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Group Manager" max_length="32" name="group_manager" reference="x_1033940_gym_port_members" reference_qual="roleNOT INmember,vip^EQ" reference_qual_condition="roleNOT INmember,vip^EQ" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Group Members" max_length="4000" name="group_members" reference="x_1033940_gym_port_members" type="glide_list"/>
+        <index name="index">
+            <element name="group_manager"/>
+        </index>
+    </element>
+</database>

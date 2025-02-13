@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Gym Portal">63b435cd8363121020eccc50ceaad3e8</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Roles</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1033940_gym_port_roles</name>
+        <order>33</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_1033940_gym_port.roles_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-13 15:15:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5b6049c483ff521020eccc50ceaad369</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Roles</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_update_name>sys_app_module_5b6049c483ff521020eccc50ceaad369</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-13 15:16:23</sys_updated_on>
+        <timeline_page/>
+        <title>Roles</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gym Portal">29d021058323121020eccc50ceaad328</application>
+        <file_path/>
+        <instance_id>0a2000d81bd982dc78c7cb7b234bcb61</instance_id>
+        <instance_name>dev250396</instance_name>
+        <name>sys_app_module_5b6049c483ff521020eccc50ceaad369</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Gym Portal">63b435cd8363121020eccc50ceaad3e8</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Roles</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1033940_gym_port_roles</name><order>33</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>x_1033940_gym_port.roles_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-13 15:15:46</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5b6049c483ff521020eccc50ceaad369</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Roles</sys_name><sys_overrides/><sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package><sys_policy/><sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope><sys_update_name>sys_app_module_5b6049c483ff521020eccc50ceaad369</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-13 15:16:23</sys_updated_on><timeline_page/><title>Roles</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1153981203</payload_hash>
+        <record_name>Roles</record_name>
+        <reverted_from/>
+        <source>dd08b50183a3121020eccc50ceaad35e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-13 15:16:23</sys_created_on>
+        <sys_id>9090418483ff521020eccc50ceaad3a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194ffe1ea200000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-13 15:16:23</sys_updated_on>
+        <type>Module</type>
+        <update_guid>94904184a4ff52106045a980041ad2a2</update_guid>
+        <update_guid_history>94904184a4ff52106045a980041ad2a2:1153981203,976049c4a6ff5210c7ec4ff7f48b976c:887680733</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Roles">35d0c10883ff521020eccc50ceaad3e9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-13 15:17:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>06ed0185513344e885d7015621e3ac40</sys_id>
+        <sys_metadata>5b6049c483ff521020eccc50ceaad369</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Roles</sys_name>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_scope_delete display_value="">4ef7c16b5f9f42c89374a9b807c00710</sys_scope_delete>
+        <sys_update_name>sys_app_module_5b6049c483ff521020eccc50ceaad369</sys_update_name>
+        <sys_update_version display_value="sys_app_module_5b6049c483ff521020eccc50ceaad369">9090418483ff521020eccc50ceaad3a3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-13 15:17:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
