@@ -8,15 +8,21 @@
                 <element inactive_on_update="false" label="Manager" sequence="50" value="manager"/>
                 <element inactive_on_update="false" label="Instructor" sequence="30" value="instructor"/>
                 <element inactive_on_update="false" label="Staff" sequence="40" value="staff"/>
+                <element inactive_on_update="false" label="Engineer" sequence="60" value="engineer"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" display="true" label="Name" mandatory="true" max_length="80" name="name" read_only="true" type="string"/>
         <element label="Phone" max_length="40" name="phone" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Last Name" mandatory="true" max_length="80" name="surname" type="string"/>
         <element label="Email" mandatory="true" max_length="80" name="email" type="string"/>
+        <element label="Gym" max_length="32" name="gym" reference="x_1033940_gym_port_gyms" type="reference"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="First Name" mandatory="true" max_length="40" name="first_name" type="string"/>
+        <element label="First Name" mandatory="true" max_length="40" name="first_name" type="string"/>
+        <element label="Service Area" max_length="40" name="service_area" type="string"/>
         <index name="index">
+            <element name="gym"/>
+        </index>
+        <index name="index2">
             <element name="sys_class_name"/>
         </index>
     </element>
