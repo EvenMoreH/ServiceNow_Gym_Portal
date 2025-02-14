@@ -14,20 +14,6 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-02-10 20:59:39</sys_updated_on>
         </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-13 22:43:30</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>fde6268483f7921020eccc50ceaad35a</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_1033940_gym_port_members" name="x_1033940_gym_port_members" sys_domain="global" view="Default view">0b527e8783ab121020eccc50ceaad37d</sys_ui_form>
-            <sys_ui_section caption="Skills &amp; Certifications" display_value="Skills &amp; Certifications" name="x_1033940_gym_port_members" sys_domain="global" view="Default view">b5e6268483f7921020eccc50ceaad359</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-13 22:43:30</sys_updated_on>
-        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_1033940_gym_port_members</name>
             <roles/>

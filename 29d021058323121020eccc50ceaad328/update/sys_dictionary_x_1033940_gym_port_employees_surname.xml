@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="gym" table="x_1033940_gym_port_members">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="surname" table="x_1033940_gym_port_employees">
         <active>true</active>
         <array>false</array>
         <attributes/>
@@ -13,7 +13,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Gym</column_label>
+        <column_label>Last Name</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -26,41 +26,39 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>gym</element>
+        <element>surname</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Reference">reference</internal_type>
-        <mandatory>false</mandatory>
-        <max_length>32</max_length>
-        <name>x_1033940_gym_port_members</name>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>true</mandatory>
+        <max_length>80</max_length>
+        <name>x_1033940_gym_port_employees</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="x_1033940_gym_port_gyms">x_1033940_gym_port_gyms</reference>
+        <reference/>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
-        <reference_qual>franchise=576d19108377d21020eccc50ceaad370^EQ</reference_qual>
-        <reference_qual_condition table="x_1033940_gym_port_gyms">franchise=576d19108377d21020eccc50ceaad370^EQ<item display_table="x_1033940_gym_port_franchise" display_value="None" endquery="false" field="franchise" goto="false" newquery="false" operator="=" or="false" value="576d19108377d21020eccc50ceaad370"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
-        </reference_qual_condition>
+        <reference_qual/>
+        <reference_qual_condition/>
         <reference_type/>
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-02-13 18:55:12</sys_created_on>
-        <sys_name>Gym</sys_name>
+        <sys_created_on>2025-02-14 10:51:43</sys_created_on>
+        <sys_name>Last Name</sys_name>
         <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
         <sys_policy/>
         <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
-        <sys_update_name>sys_dictionary_x_1033940_gym_port_members_gym</sys_update_name>
+        <sys_update_name>sys_dictionary_x_1033940_gym_port_employees_surname</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-14 13:56:07</sys_updated_on>
+        <sys_updated_on>2025-02-14 10:51:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

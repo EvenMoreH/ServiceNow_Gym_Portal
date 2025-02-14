@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="66c2454883ff521020eccc50ceaad3ba" sys_domain="global" table="x_1033940_gym_port_groups" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-13 15:42:05</sys_created_on>
+            <sys_id>3476c1008333921020eccc50ceaad30a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1033940_gym_port_groups" sys_domain="global" view="Default view">66c2454883ff521020eccc50ceaad3ba</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-13 15:42:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-13 15:42:05</sys_created_on>
+            <sys_id>b876c1008333921020eccc50ceaad30a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1033940_gym_port_groups" sys_domain="global" view="Default view">66c2454883ff521020eccc50ceaad3ba</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-13 15:42:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-13 15:42:05</sys_created_on>
+            <sys_id>3076c1008333921020eccc50ceaad30b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1033940_gym_port_groups" sys_domain="global" view="Default view">66c2454883ff521020eccc50ceaad3ba</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-13 15:42:05</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>group_manager</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-13 15:42:05</sys_created_on>
+            <sys_id>b476c1008333921020eccc50ceaad30b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1033940_gym_port_groups" sys_domain="global" view="Default view">66c2454883ff521020eccc50ceaad3ba</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-13 15:42:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-13 15:42:05</sys_created_on>
+            <sys_id>3c76c1008333921020eccc50ceaad30b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1033940_gym_port_groups" sys_domain="global" view="Default view">66c2454883ff521020eccc50ceaad3ba</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-13 15:42:05</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>group_description</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-13 15:42:05</sys_created_on>
+            <sys_id>b076c1008333921020eccc50ceaad30c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1033940_gym_port_groups" sys_domain="global" view="Default view">66c2454883ff521020eccc50ceaad3ba</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-13 15:42:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-13 15:42:05</sys_created_on>
+            <sys_id>3876c1008333921020eccc50ceaad30c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1033940_gym_port_groups" sys_domain="global" view="Default view">66c2454883ff521020eccc50ceaad3ba</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-13 15:42:05</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>group_members</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-13 15:42:05</sys_created_on>
+            <sys_id>bc76c1008333921020eccc50ceaad30c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1033940_gym_port_groups" sys_domain="global" view="Default view">66c2454883ff521020eccc50ceaad3ba</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-13 15:42:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-13 15:42:05</sys_created_on>
+            <sys_id>3476c1008333921020eccc50ceaad30d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1033940_gym_port_groups" sys_domain="global" view="Default view">66c2454883ff521020eccc50ceaad3ba</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-13 15:42:05</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>roles</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-13 15:42:05</sys_created_on>
+            <sys_id>b876c1008333921020eccc50ceaad30d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1033940_gym_port_groups" sys_domain="global" view="Default view">66c2454883ff521020eccc50ceaad3ba</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-13 15:42:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>gym</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-13 18:55:40</sys_created_on>
+            <sys_id>6cc27dc083f3921020eccc50ceaad30d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1033940_gym_port_groups" sys_domain="global" view="Default view">66c2454883ff521020eccc50ceaad3ba</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-13 18:55:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_1033940_gym_port_groups</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-13 15:26:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>66c2454883ff521020eccc50ceaad3ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1033940_gym_port_groups</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+            <sys_update_name>sys_ui_section_66c2454883ff521020eccc50ceaad3ba</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-13 15:26:06</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gym Portal">29d021058323121020eccc50ceaad328</application>
+        <file_path/>
+        <instance_id>0a2000d81bd982dc78c7cb7b234bcb61</instance_id>
+        <instance_name>dev250396</instance_name>
+        <name>sys_ui_section_66c2454883ff521020eccc50ceaad3ba</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="66c2454883ff521020eccc50ceaad3ba" sys_domain="global" table="x_1033940_gym_port_groups" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>name</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-13 15:42:05</sys_created_on><sys_id>3476c1008333921020eccc50ceaad30a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1033940_gym_port_groups" sys_domain="global" view="Default view">66c2454883ff521020eccc50ceaad3ba</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-13 15:42:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>number</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-13 15:42:05</sys_created_on><sys_id>b876c1008333921020eccc50ceaad30a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1033940_gym_port_groups" sys_domain="global" view="Default view">66c2454883ff521020eccc50ceaad3ba</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-13 15:42:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-13 15:42:05</sys_created_on><sys_id>3076c1008333921020eccc50ceaad30b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1033940_gym_port_groups" sys_domain="global" view="Default view">66c2454883ff521020eccc50ceaad3ba</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-13 15:42:05</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>group_manager</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-13 15:42:05</sys_created_on><sys_id>b476c1008333921020eccc50ceaad30b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1033940_gym_port_groups" sys_domain="global" view="Default view">66c2454883ff521020eccc50ceaad3ba</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-13 15:42:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-13 15:42:05</sys_created_on><sys_id>3c76c1008333921020eccc50ceaad30b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1033940_gym_port_groups" sys_domain="global" view="Default view">66c2454883ff521020eccc50ceaad3ba</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-13 15:42:05</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>group_description</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-13 15:42:05</sys_created_on><sys_id>b076c1008333921020eccc50ceaad30c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1033940_gym_port_groups" sys_domain="global" view="Default view">66c2454883ff521020eccc50ceaad3ba</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-13 15:42:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-13 15:42:05</sys_created_on><sys_id>3876c1008333921020eccc50ceaad30c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1033940_gym_port_groups" sys_domain="global" view="Default view">66c2454883ff521020eccc50ceaad3ba</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-13 15:42:05</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>group_members</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-13 15:42:05</sys_created_on><sys_id>bc76c1008333921020eccc50ceaad30c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1033940_gym_port_groups" sys_domain="global" view="Default view">66c2454883ff521020eccc50ceaad3ba</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-13 15:42:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-13 15:42:05</sys_created_on><sys_id>3476c1008333921020eccc50ceaad30d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1033940_gym_port_groups" sys_domain="global" view="Default view">66c2454883ff521020eccc50ceaad3ba</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-13 15:42:05</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>roles</element><position>9</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-13 15:42:05</sys_created_on><sys_id>b876c1008333921020eccc50ceaad30d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1033940_gym_port_groups" sys_domain="global" view="Default view">66c2454883ff521020eccc50ceaad3ba</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-13 15:42:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>gym</element><position>10</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-13 18:55:40</sys_created_on><sys_id>6cc27dc083f3921020eccc50ceaad30d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1033940_gym_port_groups" sys_domain="global" view="Default view">66c2454883ff521020eccc50ceaad3ba</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-13 18:55:40</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_1033940_gym_port_groups</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-13 15:26:06</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>66c2454883ff521020eccc50ceaad3ba</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1033940_gym_port_groups</sys_name><sys_overrides/><sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package><sys_policy/><sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope><sys_update_name>sys_ui_section_66c2454883ff521020eccc50ceaad3ba</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-13 15:26:06</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>118968665</payload_hash>
+        <record_name>Groups</record_name>
+        <reverted_from/>
+        <source>903c1a0883b7921020eccc50ceaad3b1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-13 21:56:44</sys_created_on>
+        <sys_id>b43c5a0883b7921020eccc50ceaad347</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195015074950000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-13 21:56:44</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>2cc27dc074f3921077ba7714cf8fc50f</update_guid>
+        <update_guid_history>2cc27dc074f3921077ba7714cf8fc50f:118968665,ccab5ac43eb7921010f662936de46fe7:0,2cc27dc074f3921077ba7714cf8fc50f:118968665,e16a96449cb79210916358b3d496c636:0,2cc27dc074f3921077ba7714cf8fc50f:118968665,f476c100963392102f4b93f10163040f:-590355077,a6a581cc4bff521053c49808f5264375:-1898384153,86758d8ccfff521029dbf4da14e5dd0a:1335134230,6145098c5eff52101a252f564e9840f0:-476327061,4705c18c27ff521004accdc56fc785e1:-381432210,ff348d0cd8ff5210f8aca503d163f68e:40857075,2d140d0cccff52105cb98e0d94dfe9fc:256032633,50b3050cdfff52102537013ad9af026e:1827646097,e6c2cd8881ff5210ec545a99c343a1b5:-2125227148,66c2cd8803ff5210209c77f6d9f954af:-2138381433</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-14 14:37:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>00a553fa370b4eb1bf4c4fb5a40ef541</sys_id>
+        <sys_metadata>66c2454883ff521020eccc50ceaad3ba</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1033940_gym_port_groups</sys_name>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_parent display_value="">b0e04dc483ff521020eccc50ceaad3eb</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_scope_delete display_value="">4ef7c16b5f9f42c89374a9b807c00710</sys_scope_delete>
+        <sys_update_name>sys_ui_section_66c2454883ff521020eccc50ceaad3ba</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_66c2454883ff521020eccc50ceaad3ba">b43c5a0883b7921020eccc50ceaad347</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-14 14:37:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

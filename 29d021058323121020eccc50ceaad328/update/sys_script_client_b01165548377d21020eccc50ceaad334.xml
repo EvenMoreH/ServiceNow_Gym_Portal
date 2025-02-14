@@ -1,50 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
     <sys_script_client action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <applies_extended>false</applies_extended>
         <condition/>
-        <description/>
-        <field/>
+        <description>obsolete</description>
+        <field>franchise</field>
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>Engineer Form Control</name>
+        <name>Member Assignment Form</name>
         <order/>
-        <script><![CDATA[function onLoad() {
-   //Type appropriate comment here, and begin script below
-   var getRole = g_form.getValue('role');
-
-   if (getRole != 'engineer') {
-		g_form.setVisible('service_area', false);
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
    }
-
-    if (getRole != 'engineer') {
-		g_form.setMandatory('service_area', false);
-   } else {
-		g_form.setMandatory('service_area', true);
-   }
-
-    if (getRole == 'engineer') {
+	var getFranchise = g_form.getValue('franchise');
+	if (getFranchise != '576d19108377d21020eccc50ceaad370') {
+		g_form.setMandatory('gym', false); 
 		g_form.setVisible('gym', false);
-   }
+	}
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-02-13 19:41:03</sys_created_on>
+        <sys_created_on>2025-02-14 12:19:52</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>f5d5b10883f3921020eccc50ceaad361</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_name>Engineer Form Control</sys_name>
+        <sys_id>b01165548377d21020eccc50ceaad334</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>Member Assignment Form</sys_name>
         <sys_overrides/>
         <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
         <sys_policy/>
         <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
-        <sys_update_name>sys_script_client_f5d5b10883f3921020eccc50ceaad361</sys_update_name>
+        <sys_update_name>sys_script_client_b01165548377d21020eccc50ceaad334</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-14 11:55:23</sys_updated_on>
-        <table>x_1033940_gym_port_employees</table>
-        <type>onLoad</type>
+        <sys_updated_on>2025-02-14 13:39:06</sys_updated_on>
+        <table>x_1033940_gym_port_members</table>
+        <type>onChange</type>
         <ui_type>0</ui_type>
         <view/>
     </sys_script_client>
