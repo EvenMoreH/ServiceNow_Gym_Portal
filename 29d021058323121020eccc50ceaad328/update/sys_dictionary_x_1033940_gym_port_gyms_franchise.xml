@@ -16,7 +16,7 @@
         <column_label>Franchise</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>None</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -58,7 +58,7 @@
         <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
         <sys_update_name>sys_dictionary_x_1033940_gym_port_gyms_franchise</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-13 23:49:34</sys_updated_on>
+        <sys_updated_on>2025-02-14 12:01:16</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
