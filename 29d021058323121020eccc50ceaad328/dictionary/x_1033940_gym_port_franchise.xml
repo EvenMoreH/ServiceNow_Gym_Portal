@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="62653a04833b921020eccc50ceaad323" label="Franchise" max_length="40" name="x_1033940_gym_port_franchise" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" display="true" label="Name" mandatory="true" max_length="80" name="name" type="string"/>
+    </element>
+</database>

@@ -3,182 +3,182 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_1033940_gym_port_gyms" element="NULL" name="x_1033940_gym_port_gyms" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">360c4e8983e3121020eccc50ceaad3b5</list_id>
+            <list_id display_value="x_1033940_gym_port_gyms" element="NULL" name="x_1033940_gym_port_gyms" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">7c07fa88833b921020eccc50ceaad32c</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-04 13:04:22</sys_created_on>
-            <sys_id>720c4e8983e3121020eccc50ceaad3b6</sys_id>
+            <sys_created_on>2025-02-13 23:53:53</sys_created_on>
+            <sys_id>b807fa88833b921020eccc50ceaad32d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-04 13:04:22</sys_updated_on>
+            <sys_updated_on>2025-02-13 23:53:53</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>name</element>
-            <list_id display_value="x_1033940_gym_port_gyms" element="NULL" name="x_1033940_gym_port_gyms" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">360c4e8983e3121020eccc50ceaad3b5</list_id>
+            <list_id display_value="x_1033940_gym_port_gyms" element="NULL" name="x_1033940_gym_port_gyms" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">7c07fa88833b921020eccc50ceaad32c</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-04 13:04:22</sys_created_on>
-            <sys_id>f20c4e8983e3121020eccc50ceaad3b6</sys_id>
+            <sys_created_on>2025-02-13 23:53:53</sys_created_on>
+            <sys_id>3c07fa88833b921020eccc50ceaad32d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-04 13:04:22</sys_updated_on>
+            <sys_updated_on>2025-02-13 23:53:53</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>operating_hours</element>
-            <list_id display_value="x_1033940_gym_port_gyms" element="NULL" name="x_1033940_gym_port_gyms" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">360c4e8983e3121020eccc50ceaad3b5</list_id>
+            <element>franchise</element>
+            <list_id display_value="x_1033940_gym_port_gyms" element="NULL" name="x_1033940_gym_port_gyms" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">7c07fa88833b921020eccc50ceaad32c</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-04 13:04:22</sys_created_on>
-            <sys_id>760c4e8983e3121020eccc50ceaad3b6</sys_id>
+            <sys_created_on>2025-02-13 23:53:53</sys_created_on>
+            <sys_id>bc07fa88833b921020eccc50ceaad32d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-04 13:04:22</sys_updated_on>
+            <sys_updated_on>2025-02-13 23:53:53</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>email_address</element>
-            <list_id display_value="x_1033940_gym_port_gyms" element="NULL" name="x_1033940_gym_port_gyms" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">360c4e8983e3121020eccc50ceaad3b5</list_id>
+            <element>operating_hours</element>
+            <list_id display_value="x_1033940_gym_port_gyms" element="NULL" name="x_1033940_gym_port_gyms" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">7c07fa88833b921020eccc50ceaad32c</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-04 13:04:22</sys_created_on>
-            <sys_id>f60c4e8983e3121020eccc50ceaad3b6</sys_id>
+            <sys_created_on>2025-02-13 23:53:53</sys_created_on>
+            <sys_id>3007fa88833b921020eccc50ceaad32e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-04 13:04:22</sys_updated_on>
+            <sys_updated_on>2025-02-13 23:53:53</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>phone_number</element>
-            <list_id display_value="x_1033940_gym_port_gyms" element="NULL" name="x_1033940_gym_port_gyms" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">360c4e8983e3121020eccc50ceaad3b5</list_id>
+            <element>email_address</element>
+            <list_id display_value="x_1033940_gym_port_gyms" element="NULL" name="x_1033940_gym_port_gyms" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">7c07fa88833b921020eccc50ceaad32c</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-04 13:04:22</sys_created_on>
-            <sys_id>7a0c4e8983e3121020eccc50ceaad3b6</sys_id>
+            <sys_created_on>2025-02-13 23:53:53</sys_created_on>
+            <sys_id>b007fa88833b921020eccc50ceaad32e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-04 13:04:22</sys_updated_on>
+            <sys_updated_on>2025-02-13 23:53:53</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>street</element>
-            <list_id display_value="x_1033940_gym_port_gyms" element="NULL" name="x_1033940_gym_port_gyms" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">360c4e8983e3121020eccc50ceaad3b5</list_id>
+            <element>phone_number</element>
+            <list_id display_value="x_1033940_gym_port_gyms" element="NULL" name="x_1033940_gym_port_gyms" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">7c07fa88833b921020eccc50ceaad32c</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-04 13:04:22</sys_created_on>
-            <sys_id>fa0c4e8983e3121020eccc50ceaad3b6</sys_id>
+            <sys_created_on>2025-02-13 23:53:53</sys_created_on>
+            <sys_id>3407fa88833b921020eccc50ceaad32e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-04 13:04:22</sys_updated_on>
+            <sys_updated_on>2025-02-13 23:53:53</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>state_province</element>
-            <list_id display_value="x_1033940_gym_port_gyms" element="NULL" name="x_1033940_gym_port_gyms" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">360c4e8983e3121020eccc50ceaad3b5</list_id>
+            <element>street</element>
+            <list_id display_value="x_1033940_gym_port_gyms" element="NULL" name="x_1033940_gym_port_gyms" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">7c07fa88833b921020eccc50ceaad32c</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>6</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-04 13:04:22</sys_created_on>
-            <sys_id>7e0c4e8983e3121020eccc50ceaad3b6</sys_id>
+            <sys_created_on>2025-02-13 23:53:53</sys_created_on>
+            <sys_id>b407fa88833b921020eccc50ceaad32e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-04 13:04:22</sys_updated_on>
+            <sys_updated_on>2025-02-13 23:53:53</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>city</element>
-            <list_id display_value="x_1033940_gym_port_gyms" element="NULL" name="x_1033940_gym_port_gyms" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">360c4e8983e3121020eccc50ceaad3b5</list_id>
+            <element>state_province</element>
+            <list_id display_value="x_1033940_gym_port_gyms" element="NULL" name="x_1033940_gym_port_gyms" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">7c07fa88833b921020eccc50ceaad32c</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>7</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-04 13:04:22</sys_created_on>
-            <sys_id>fe0c4e8983e3121020eccc50ceaad3b6</sys_id>
+            <sys_created_on>2025-02-13 23:53:53</sys_created_on>
+            <sys_id>3807fa88833b921020eccc50ceaad32e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-04 13:04:22</sys_updated_on>
+            <sys_updated_on>2025-02-13 23:53:53</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>postal_code</element>
-            <list_id display_value="x_1033940_gym_port_gyms" element="NULL" name="x_1033940_gym_port_gyms" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">360c4e8983e3121020eccc50ceaad3b5</list_id>
+            <element>city</element>
+            <list_id display_value="x_1033940_gym_port_gyms" element="NULL" name="x_1033940_gym_port_gyms" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">7c07fa88833b921020eccc50ceaad32c</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>8</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-04 13:04:22</sys_created_on>
-            <sys_id>720c4e8983e3121020eccc50ceaad3b7</sys_id>
+            <sys_created_on>2025-02-13 23:53:53</sys_created_on>
+            <sys_id>b807fa88833b921020eccc50ceaad32e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-04 13:04:22</sys_updated_on>
+            <sys_updated_on>2025-02-13 23:53:53</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>country</element>
-            <list_id display_value="x_1033940_gym_port_gyms" element="NULL" name="x_1033940_gym_port_gyms" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">360c4e8983e3121020eccc50ceaad3b5</list_id>
+            <element>postal_code</element>
+            <list_id display_value="x_1033940_gym_port_gyms" element="NULL" name="x_1033940_gym_port_gyms" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">7c07fa88833b921020eccc50ceaad32c</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>9</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-04 13:04:22</sys_created_on>
-            <sys_id>f20c4e8983e3121020eccc50ceaad3b7</sys_id>
+            <sys_created_on>2025-02-13 23:53:53</sys_created_on>
+            <sys_id>3c07fa88833b921020eccc50ceaad32e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-04 13:04:22</sys_updated_on>
+            <sys_updated_on>2025-02-13 23:53:53</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>manager</element>
-            <list_id display_value="x_1033940_gym_port_gyms" element="NULL" name="x_1033940_gym_port_gyms" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">360c4e8983e3121020eccc50ceaad3b5</list_id>
+            <element>country</element>
+            <list_id display_value="x_1033940_gym_port_gyms" element="NULL" name="x_1033940_gym_port_gyms" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">7c07fa88833b921020eccc50ceaad32c</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>10</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-04 13:04:22</sys_created_on>
-            <sys_id>760c4e8983e3121020eccc50ceaad3b7</sys_id>
+            <sys_created_on>2025-02-13 23:53:53</sys_created_on>
+            <sys_id>bc07fa88833b921020eccc50ceaad32e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-04 13:04:22</sys_updated_on>
+            <sys_updated_on>2025-02-13 23:53:53</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>manager_contact</element>
-            <list_id display_value="x_1033940_gym_port_gyms" element="NULL" name="x_1033940_gym_port_gyms" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">360c4e8983e3121020eccc50ceaad3b5</list_id>
+            <element>manager</element>
+            <list_id display_value="x_1033940_gym_port_gyms" element="NULL" name="x_1033940_gym_port_gyms" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">7c07fa88833b921020eccc50ceaad32c</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>11</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-04 13:04:22</sys_created_on>
-            <sys_id>f60c4e8983e3121020eccc50ceaad3b7</sys_id>
+            <sys_created_on>2025-02-13 23:53:53</sys_created_on>
+            <sys_id>3007fa88833b921020eccc50ceaad32f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-04 13:04:22</sys_updated_on>
+            <sys_updated_on>2025-02-13 23:53:53</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -192,10 +192,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-04 13:04:22</sys_created_on>
+            <sys_created_on>2025-02-13 23:53:53</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>360c4e8983e3121020eccc50ceaad3b5</sys_id>
+            <sys_id>7c07fa88833b921020eccc50ceaad32c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_1033940_gym_port_gyms</sys_name>
             <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
@@ -203,7 +203,7 @@
             <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
             <sys_update_name>sys_ui_list_x_1033940_gym_port_gyms_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-04 13:04:22</sys_updated_on>
+            <sys_updated_on>2025-02-13 23:53:53</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
