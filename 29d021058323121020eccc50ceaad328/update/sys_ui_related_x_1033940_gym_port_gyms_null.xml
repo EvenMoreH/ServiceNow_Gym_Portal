@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_1033940_gym_port_gyms" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Gyms - Default view" name="x_1033940_gym_port_gyms" related_list="NULL" sys_domain="global" view="Default view">049ff9d183f7121020eccc50ceaad3ed</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_1033940_gym_port_amenities.gym</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-17 17:04:02</sys_created_on>
+            <sys_id>049ff9d183f7121020eccc50ceaad3ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-17 17:04:02</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Gyms - Default view" name="x_1033940_gym_port_gyms" related_list="NULL" sys_domain="global" view="Default view">049ff9d183f7121020eccc50ceaad3ed</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>x_1033940_gym_port_members.gym</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-17 17:04:02</sys_created_on>
+            <sys_id>0c9ff9d183f7121020eccc50ceaad3ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-17 17:04:02</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Gyms - Default view" name="x_1033940_gym_port_gyms" related_list="NULL" sys_domain="global" view="Default view">049ff9d183f7121020eccc50ceaad3ed</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>REL:13eefd9183f7121020eccc50ceaad323</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-17 17:04:02</sys_created_on>
+            <sys_id>009ff9d183f7121020eccc50ceaad3ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-17 17:04:02</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Gyms - Default view" name="x_1033940_gym_port_gyms" related_list="NULL" sys_domain="global" view="Default view">049ff9d183f7121020eccc50ceaad3ed</list_id>
+            <order_by/>
+            <position>3</position>
+            <related_list>x_1033940_gym_port_employees.gym</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-17 17:04:02</sys_created_on>
+            <sys_id>049ff9d183f7121020eccc50ceaad3ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-17 17:04:02</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Gyms - Default view</calculated_name>
+            <filter/>
+            <name>x_1033940_gym_port_gyms</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-17 17:04:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>049ff9d183f7121020eccc50ceaad3ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Gyms - Default view</sys_name>
+            <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+            <sys_update_name>sys_ui_related_x_1033940_gym_port_gyms_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-17 17:04:02</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

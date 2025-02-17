@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="c184fd8d8363121020eccc50ceaad332" label="Skills &amp; Certifications" max_length="40" name="x_1033940_gym_port_skills_certifications" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Expiration Date" max_length="40" name="expiration_date" type="glide_date"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Holders" max_length="4000" name="holders" reference="x_1033940_gym_port_employees" type="glide_list"/>
         <element attributes="edge_encryption_enabled=true" label="Issue Date" max_length="40" name="issue_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
-        <element attributes="encode_utf8=false" label="Instructor" max_length="32" name="instructor" reference="x_1033940_gym_port_members" reference_qual="role=instructor^EQ" reference_qual_condition="role=instructor^EQ" type="glide_list"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Qualification Type" mandatory="true" max_length="40" name="qualification_type" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Area of expertise" value="area_of_expertise"/>
                 <element inactive_on_update="false" label="Certification" value="certification"/>
+                <element inactive_on_update="false" label="Area of expertise" value="area_of_expertise"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" display="true" label="Title" mandatory="true" max_length="80" name="title" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Description" max_length="4000" name="description" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Issuing Organization" max_length="80" name="issuing_organization" type="string"/>
-        <index name="index">
-            <element name="instructor"/>
-        </index>
     </element>
 </database>

@@ -17,44 +17,30 @@
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-07 12:31:12</sys_created_on>
+            <sys_created_on>2025-02-17 16:09:23</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>4631298683e3521020eccc50ceaad30f</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_id>a303751583b7121020eccc50ceaad3e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1033940_gym_port_gyms" name="x_1033940_gym_port_gyms" sys_domain="global" view="Default view">0231e58683e3521020eccc50ceaad3a7</sys_ui_form>
-            <sys_ui_section caption="Details" display_value="Details" name="x_1033940_gym_port_gyms" sys_domain="global" view="Default view">c231e58683e3521020eccc50ceaad3a5</sys_ui_section>
+            <sys_ui_section caption="Details" display_value="Details" name="x_1033940_gym_port_gyms" sys_domain="global" view="Default view">e703751583b7121020eccc50ceaad367</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-07 13:05:06</sys_updated_on>
+            <sys_updated_on>2025-02-17 16:09:23</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-07 13:03:55</sys_created_on>
+            <sys_created_on>2025-02-17 16:09:23</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>edb825ce83e3521020eccc50ceaad32d</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_1033940_gym_port_gyms" name="x_1033940_gym_port_gyms" sys_domain="global" view="Default view">0231e58683e3521020eccc50ceaad3a7</sys_ui_form>
-            <sys_ui_section caption="Management" display_value="Management" name="x_1033940_gym_port_gyms" sys_domain="global" view="Default view">55b8e1ce83e3521020eccc50ceaad3cd</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-07 13:05:06</sys_updated_on>
-        </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-07 13:06:41</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>0659a1028327521020eccc50ceaad32b</sys_id>
+            <sys_id>ef03751583b7121020eccc50ceaad3e9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1033940_gym_port_gyms" name="x_1033940_gym_port_gyms" sys_domain="global" view="Default view">0231e58683e3521020eccc50ceaad3a7</sys_ui_form>
-            <sys_ui_section caption="Amenities" display_value="Amenities" name="x_1033940_gym_port_gyms" sys_domain="global" view="Default view">c25961028327521020eccc50ceaad3ea</sys_ui_section>
+            <sys_ui_section caption="Management" display_value="Management" name="x_1033940_gym_port_gyms" sys_domain="global" view="Default view">a703751583b7121020eccc50ceaad368</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-07 13:06:41</sys_updated_on>
+            <sys_updated_on>2025-02-17 16:09:23</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_1033940_gym_port_gyms</name>

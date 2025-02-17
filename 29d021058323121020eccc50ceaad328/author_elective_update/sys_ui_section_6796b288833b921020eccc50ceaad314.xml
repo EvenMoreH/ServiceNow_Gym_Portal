@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Gyms" section_id="6796b288833b921020eccc50ceaad314" sys_domain="global" table="x_1033940_gym_port_franchise" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>12M.x_1033940_gym_port_franchise.x_1033940_gym_port_gyms.franchise</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-13 23:52:09</sys_created_on>
+            <sys_id>eb96b288833b921020eccc50ceaad31b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Gyms" display_value="Gyms" name="x_1033940_gym_port_franchise" sys_domain="global" view="Default view">6796b288833b921020eccc50ceaad314</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-13 23:52:09</sys_updated_on>
+            <sys_user/>
+            <type>list</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Gyms</caption>
+            <header>false</header>
+            <name>x_1033940_gym_port_franchise</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-13 23:52:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6796b288833b921020eccc50ceaad314</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1033940_gym_port_franchise</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+            <sys_update_name>sys_ui_section_6796b288833b921020eccc50ceaad314</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-13 23:52:09</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gym Portal">29d021058323121020eccc50ceaad328</application>
+        <file_path/>
+        <instance_id>0a2000d81bd982dc78c7cb7b234bcb61</instance_id>
+        <instance_name>dev250396</instance_name>
+        <name>sys_ui_section_6796b288833b921020eccc50ceaad314</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Gyms" section_id="6796b288833b921020eccc50ceaad314" sys_domain="global" table="x_1033940_gym_port_franchise" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>12M.x_1033940_gym_port_franchise.x_1033940_gym_port_gyms.franchise</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-13 23:52:09</sys_created_on><sys_id>eb96b288833b921020eccc50ceaad31b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Gyms" display_value="Gyms" name="x_1033940_gym_port_franchise" sys_domain="global" view="Default view">6796b288833b921020eccc50ceaad314</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-13 23:52:09</sys_updated_on><sys_user/><type>list</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Gyms</caption><header>false</header><name>x_1033940_gym_port_franchise</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-13 23:52:09</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6796b288833b921020eccc50ceaad314</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1033940_gym_port_franchise</sys_name><sys_overrides/><sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package><sys_policy/><sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope><sys_update_name>sys_ui_section_6796b288833b921020eccc50ceaad314</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-13 23:52:09</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-1558505359</payload_hash>
+        <record_name>Franchise</record_name>
+        <reverted_from/>
+        <source>dd08b50183a3121020eccc50ceaad35e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-13 23:52:09</sys_created_on>
+        <sys_id>2f96b288833b921020eccc50ceaad31d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19501ba1fde0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-13 23:52:09</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>a396b2883a3b9210c0f789568dc3ae1d</update_guid>
+        <update_guid_history>a396b2883a3b9210c0f789568dc3ae1d:-1558505359</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-17 16:06:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>8cc3582833c24958b96a198d079f7040</sys_id>
+        <sys_metadata>6796b288833b921020eccc50ceaad314</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Gyms</sys_name>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_parent display_value="Franchise">62653a04833b921020eccc50ceaad323</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_scope_delete display_value="">4ef7c16b5f9f42c89374a9b807c00710</sys_scope_delete>
+        <sys_update_name>sys_ui_section_6796b288833b921020eccc50ceaad314</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_6796b288833b921020eccc50ceaad314">2f96b288833b921020eccc50ceaad31d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-17 16:06:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

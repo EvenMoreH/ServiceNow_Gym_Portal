@@ -6,6 +6,7 @@
             <choice>
                 <element inactive_on_update="false" label="Instructor" sequence="20" value="instructor"/>
                 <element inactive_on_update="false" label="Manager" sequence="30" value="manager"/>
+                <element inactive_on_update="false" label="Inactive" sequence="50" value="inactive"/>
                 <element inactive_on_update="false" label="Staff" sequence="10" value="staff"/>
                 <element inactive_on_update="false" label="Engineer" sequence="40" value="engineer"/>
             </choice>

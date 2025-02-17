@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="instructor" label="Instructor" language="en" table="x_1033940_gym_port_skills_certifications">
+    <sys_documentation element="holders" label="Holders" language="en" table="x_1033940_gym_port_skills_certifications">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>instructor</element>
+            <element>holders</element>
             <help/>
             <hint/>
-            <label>Instructor</label>
+            <label>Holders</label>
             <language>en</language>
             <name>x_1033940_gym_port_skills_certifications</name>
-            <plural>Instructors</plural>
+            <plural>Holders</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-04 11:21:35</sys_created_on>
+            <sys_created_on>2025-02-17 15:58:02</sys_created_on>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Instructor</sys_name>
+            <sys_name>Holders</sys_name>
             <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
             <sys_policy/>
             <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
-            <sys_update_name>sys_documentation_x_1033940_gym_port_skills_certifications_instructor_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_1033940_gym_port_skills_certifications_holders_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-04 11:21:35</sys_updated_on>
+            <sys_updated_on>2025-02-17 15:58:02</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
