@@ -2,12 +2,12 @@
     <element db_object_id="234c25458363121020eccc50ceaad375" label="Standard Workout Plans" max_length="40" name="x_1033940_gym_port_standard_workout_plans" type="collection">
         <element attributes="edge_encryption_enabled=true" choice="3" default="full_body" label="Type" mandatory="true" max_length="40" name="type" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Push-Pull-Legs" value="push_pull_legs"/>
                 <element inactive_on_update="false" label="Full Body" value="full_body"/>
-                <element inactive_on_update="false" label="Yoga" value="yoga"/>
-                <element inactive_on_update="false" label="Push-Legs-Pull" value="push_legs_pull"/>
-                <element inactive_on_update="false" label="Stretching" value="stretching"/>
                 <element inactive_on_update="false" label="Interval(HIIT)" value="interval"/>
+                <element inactive_on_update="false" label="Push-Legs-Pull" value="push_legs_pull"/>
+                <element inactive_on_update="false" label="Push-Pull-Legs" value="push_pull_legs"/>
+                <element inactive_on_update="false" label="Stretching" value="stretching"/>
+                <element inactive_on_update="false" label="Yoga" value="yoga"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>

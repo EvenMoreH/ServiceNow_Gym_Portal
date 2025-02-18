@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Add New Gym Member">3e66ee6d83b3121020eccc50ceaad32a</sc_cat_item>
+        <sc_category display_value="Services">109f0438c6112276003ae8ac13e7009d</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-18 14:53:57</sys_created_on>
+        <sys_id>646beaa583f3121020eccc50ceaad3e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services.Add New Gym Member</sys_name>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_update_name>sc_cat_item_category_646beaa583f3121020eccc50ceaad3e0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-18 14:53:57</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gym Portal">29d021058323121020eccc50ceaad328</application>
+        <file_path/>
+        <instance_id>0a2000d81bd982dc78c7cb7b234bcb61</instance_id>
+        <instance_name>dev250396</instance_name>
+        <name>sc_cat_item_category_646beaa583f3121020eccc50ceaad3e0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Add New Gym Member">3e66ee6d83b3121020eccc50ceaad32a</sc_cat_item><sc_category display_value="Services">109f0438c6112276003ae8ac13e7009d</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-18 14:53:57</sys_created_on><sys_id>646beaa583f3121020eccc50ceaad3e0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Services.Add New Gym Member</sys_name><sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package><sys_policy/><sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope><sys_update_name>sc_cat_item_category_646beaa583f3121020eccc50ceaad3e0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-18 14:53:57</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-799338339</payload_hash>
+        <record_name>Services.Add New Gym Member</record_name>
+        <reverted_from/>
+        <source>dd08b50183a3121020eccc50ceaad35e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-18 14:53:57</sys_created_on>
+        <sys_id>ac6beaa583f3121020eccc50ceaad3ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195198d2d700000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-18 14:53:57</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>a06beaa550f312109a43c918c52a2bea</update_guid>
+        <update_guid_history>a06beaa550f312109a43c918c52a2bea:-799338339</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Services.Add New Gym Member">9c1007a18377121020eccc50ceaad3f5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-18 16:24:19</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>0ce2521f324b4d6084fd2593e6577519</sys_id>
+        <sys_metadata>646beaa583f3121020eccc50ceaad3e0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services.Add New Gym Member</sys_name>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_scope_delete display_value="">4ef7c16b5f9f42c89374a9b807c00710</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_646beaa583f3121020eccc50ceaad3e0</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_646beaa583f3121020eccc50ceaad3e0">ac6beaa583f3121020eccc50ceaad3ea</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-18 16:24:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
