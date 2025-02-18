@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_catalog">
+    <m2m_sp_portal_catalog action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <order>200</order>
+        <sc_catalog display_value="MyGym">1a52362d83f3121020eccc50ceaad3df</sc_catalog>
+        <sp_portal display_value="Gym Portal">700b7ae98337121020eccc50ceaad395</sp_portal>
+        <sys_class_name>m2m_sp_portal_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-18 16:04:10</sys_created_on>
+        <sys_id>4d7b7ae98337121020eccc50ceaad332</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>MyGym.Gym Portal</sys_name>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_update_name>m2m_sp_portal_catalog_4d7b7ae98337121020eccc50ceaad332</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-18 16:12:58</sys_updated_on>
+    </m2m_sp_portal_catalog>
+</record_update>
