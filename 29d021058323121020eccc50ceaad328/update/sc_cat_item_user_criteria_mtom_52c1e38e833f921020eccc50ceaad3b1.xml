@@ -3,16 +3,16 @@
         <sc_cat_item display_value="Add New Gym Member">3e66ee6d83b3121020eccc50ceaad32a</sc_cat_item>
         <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-02-18 14:49:31</sys_created_on>
-        <sys_id>235aae2583f3121020eccc50ceaad368</sys_id>
+        <sys_created_on>2025-02-20 08:08:36</sys_created_on>
+        <sys_id>52c1e38e833f921020eccc50ceaad3b1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Add New Gym Member.Any User</sys_name>
-        <sys_package/>
+        <sys_name>Add New Gym Member.Gym Staff</sys_name>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
         <sys_policy/>
         <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
-        <sys_update_name>sc_cat_item_user_criteria_mtom_235aae2583f3121020eccc50ceaad368</sys_update_name>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_52c1e38e833f921020eccc50ceaad3b1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-18 14:49:31</sys_updated_on>
-        <user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria>
+        <sys_updated_on>2025-02-20 08:08:36</sys_updated_on>
+        <user_criteria display_value="Gym Staff">5311a38e833f921020eccc50ceaad36e</user_criteria>
     </sc_cat_item_user_criteria_mtom>
 </record_update>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Add New Employee">dca5ebc2837f921020eccc50ceaad33c</catalog_item>
+        <catalog_variable>IO:a1043f4683bf921020eccc50ceaad380</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-20 09:38:34</sys_created_on>
+        <sys_id>ad46334a83bf921020eccc50ceaad363</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>gym</sys_name>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_ad46334a83bf921020eccc50ceaad363</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-20 11:02:05</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Gym Based on Franchise">b5263f0a83bf921020eccc50ceaad3d8</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>gym</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=ad46334a83bf921020eccc50ceaad363"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gym Portal">29d021058323121020eccc50ceaad328</application>
+        <file_path/>
+        <instance_id>0a2000d81bd982dc78c7cb7b234bcb61</instance_id>
+        <instance_name>dev250396</instance_name>
+        <name>catalog_ui_policy_action_ad46334a83bf921020eccc50ceaad363</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Add New Employee">dca5ebc2837f921020eccc50ceaad33c</catalog_item><catalog_variable>IO:a1043f4683bf921020eccc50ceaad380</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><field_message/><field_message_type>none</field_message_type><mandatory>true</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-20 09:38:34</sys_created_on><sys_id>ad46334a83bf921020eccc50ceaad363</sys_id><sys_mod_count>2</sys_mod_count><sys_name>gym</sys_name><sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package><sys_policy/><sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope><sys_update_name>catalog_ui_policy_action_ad46334a83bf921020eccc50ceaad363</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-20 11:02:05</sys_updated_on><table/><ui_policy display_value="Gym Based on Franchise">b5263f0a83bf921020eccc50ceaad3d8</ui_policy><value/><value_action>ignore</value_action><variable>gym</variable><variable_set/><visible>true</visible></catalog_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=ad46334a83bf921020eccc50ceaad363"/></record_update>]]></payload>
+        <payload_hash>1900489625</payload_hash>
+        <record_name>gym</record_name>
+        <reverted_from/>
+        <source>dd08b50183a3121020eccc50ceaad35e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-20 11:02:05</sys_created_on>
+        <sys_id>ef7940d28333d21020eccc50ceaad3db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19523059ee30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-20 11:02:05</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>677940d23633d2101df507f341e503db</update_guid>
+        <update_guid_history>677940d23633d2101df507f341e503db:1900489625,7e7940d2d533d210dd21dad5e6c72a84:-1571441082,1c66b34af8bf921028bfcd69108b01a4:-878800885</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="gym">a21b18d68373d21020eccc50ceaad3de</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-20 12:19:02</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>40a00a39d0dd4ca4a99fcc50ea615cb1</sys_id>
+        <sys_metadata>ad46334a83bf921020eccc50ceaad363</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>gym</sys_name>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_scope_delete display_value="">4ef7c16b5f9f42c89374a9b807c00710</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_ad46334a83bf921020eccc50ceaad363</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_ad46334a83bf921020eccc50ceaad363">ef7940d28333d21020eccc50ceaad3db</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-20 12:19:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
