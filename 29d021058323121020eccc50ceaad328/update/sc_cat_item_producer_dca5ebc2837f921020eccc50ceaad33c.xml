@@ -6,7 +6,7 @@
         <availability>on_desktop</availability>
         <billable>false</billable>
         <can_cancel>false</can_cancel>
-        <category display_value="Members Management">2b13be6d83f3121020eccc50ceaad35e</category>
+        <category display_value="Employees Management">3f63b6218337121020eccc50ceaad34f</category>
         <checked_out>false</checked_out>
         <cost>0</cost>
         <custom_cart/>
@@ -31,7 +31,7 @@
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>Add New Gym Member</name>
+        <name>Add New Employee</name>
         <no_attachment_v2>true</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>false</no_cart_v2>
@@ -55,7 +55,7 @@
 * To access the variables, use `producer.var1` where var1 is the name of the variable
 * To access the Record Producer use `cat_item`
 */]]></post_insert_script>
-        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=3e66ee6d83b3121020eccc50ceaad32a&amp;sysparm_preview=true", "summary");</preview>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=dca5ebc2837f921020eccc50ceaad33c&amp;sysparm_preview=true", "summary");</preview>
         <price>0</price>
         <published_ref/>
         <recurring_frequency/>
@@ -82,25 +82,25 @@
 * Use `producer.var1` to access variables
 */
 
-producer.portal_redirect = '?id=gym_portal_ticket_1&is_new_order=true&table=x_1033940_gym_port_members&sys_id=' + current.sys_id;]]></script>
+producer.portal_redirect = '?id=gym_portal_ticket_1&is_new_order=true&table=x_1033940_gym_port_employees&sys_id=' + current.sys_id;]]></script>
         <short_description/>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
         <state>published</state>
         <sys_class_name>sc_cat_item_producer</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-02-18 14:32:21</sys_created_on>
-        <sys_id>3e66ee6d83b3121020eccc50ceaad32a</sys_id>
-        <sys_mod_count>32</sys_mod_count>
-        <sys_name>Add New Gym Member</sys_name>
+        <sys_created_on>2025-02-20 08:41:36</sys_created_on>
+        <sys_id>dca5ebc2837f921020eccc50ceaad33c</sys_id>
+        <sys_mod_count>35</sys_mod_count>
+        <sys_name>Add New Employee</sys_name>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
-        <sys_update_name>sc_cat_item_producer_3e66ee6d83b3121020eccc50ceaad32a</sys_update_name>
+        <sys_update_name>sc_cat_item_producer_dca5ebc2837f921020eccc50ceaad33c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-20 14:04:04</sys_updated_on>
-        <table_name>x_1033940_gym_port_members</table_name>
-        <taxonomy_topic display_value="Technology services">06d3df67c3053010069aec4b7d40dd70</taxonomy_topic>
+        <sys_updated_on>2025-02-20 14:02:43</sys_updated_on>
+        <table_name>x_1033940_gym_port_employees</table_name>
+        <taxonomy_topic/>
         <template/>
         <template_manager_roles/>
         <type>item</type>
@@ -113,33 +113,33 @@ producer.portal_redirect = '?id=gym_portal_ticket_1&is_new_order=true&table=x_10
         <visible_standalone>true</visible_standalone>
         <workflow/>
     </sc_cat_item_producer>
-    <sys_translated_text action="delete_multiple" query="documentkey=3e66ee6d83b3121020eccc50ceaad32a"/>
-    <fx_price action="delete_multiple" query="id=3e66ee6d83b3121020eccc50ceaad32a"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=dca5ebc2837f921020eccc50ceaad33c"/>
+    <fx_price action="delete_multiple" query="id=dca5ebc2837f921020eccc50ceaad33c"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price</field>
-        <id>3e66ee6d83b3121020eccc50ceaad32a</id>
+        <id>dca5ebc2837f921020eccc50ceaad33c</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-02-18 14:32:21</sys_created_on>
-        <sys_id>cc766aed83b3121020eccc50ceaad3de</sys_id>
+        <sys_created_on>2025-02-20 08:41:37</sys_created_on>
+        <sys_id>b959e30a837f921020eccc50ceaad387</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-18 14:32:21</sys_updated_on>
+        <sys_updated_on>2025-02-20 08:41:37</sys_updated_on>
         <table>sc_cat_item_producer</table>
         <type>calculated</type>
     </fx_price>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
-        <id>3e66ee6d83b3121020eccc50ceaad32a</id>
+        <id>dca5ebc2837f921020eccc50ceaad33c</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-02-18 14:53:28</sys_created_on>
-        <sys_id>194b2aa583f3121020eccc50ceaad322</sys_id>
+        <sys_created_on>2025-02-20 10:22:44</sys_created_on>
+        <sys_id>0f700c5683ff921020eccc50ceaad395</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-18 14:53:28</sys_updated_on>
+        <sys_updated_on>2025-02-20 10:22:44</sys_updated_on>
         <table>sc_cat_item_producer</table>
         <use_es_latest>true</use_es_latest>
     </sys_es_latest_script>

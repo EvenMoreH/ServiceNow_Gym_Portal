@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>200</order>
+        <published_ref/>
+        <question display_value="Role">ca50bf0283bf921020eccc50ceaad36b</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-20 09:19:44</sys_created_on>
+        <sys_id>5c12b3c283bf921020eccc50ceaad3b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Instructor</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_update_name>question_choice_5c12b3c283bf921020eccc50ceaad3b1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-20 09:19:44</sys_updated_on>
+        <text>Instructor</text>
+        <value>instructor</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=5c12b3c283bf921020eccc50ceaad3b1"/>
+</record_update>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="DELETE">
+        <sc_cat_item display_value="Add New Employee">dca5ebc2837f921020eccc50ceaad33c</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-20 09:33:26</sys_created_on>
+        <sys_id>093577c683bf921020eccc50ceaad35c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Add New Employee.Gym Staff</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_093577c683bf921020eccc50ceaad35c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-20 09:33:26</sys_updated_on>
+        <user_criteria display_value="Gym Staff">5311a38e833f921020eccc50ceaad36e</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gym Portal">29d021058323121020eccc50ceaad328</application>
+        <file_path/>
+        <instance_id>0a2000d81bd982dc78c7cb7b234bcb61</instance_id>
+        <instance_name>dev250396</instance_name>
+        <name>sc_cat_item_user_criteria_mtom_093577c683bf921020eccc50ceaad35c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom"><sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Add New Employee">dca5ebc2837f921020eccc50ceaad33c</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-20 09:33:26</sys_created_on><sys_id>093577c683bf921020eccc50ceaad35c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Add New Employee.Gym Staff</sys_name><sys_package/><sys_policy/><sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope><sys_update_name>sc_cat_item_user_criteria_mtom_093577c683bf921020eccc50ceaad35c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-20 09:33:26</sys_updated_on><user_criteria display_value="Gym Staff">5311a38e833f921020eccc50ceaad36e</user_criteria></sc_cat_item_user_criteria_mtom></record_update>]]></payload>
+        <payload_hash>256113311</payload_hash>
+        <record_name>Add New Employee.Gym Staff</record_name>
+        <reverted_from/>
+        <source>213577c683bf921020eccc50ceaad329</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-20 09:33:30</sys_created_on>
+        <sys_id>f135b7c683bf921020eccc50ceaad318</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19522b4825d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-20 09:33:30</sys_updated_on>
+        <type>Catalog Item Available for</type>
+        <update_guid>f535b7c68dbf92107e0f174b669e9817</update_guid>
+        <update_guid_history>f535b7c68dbf92107e0f174b669e9817:256113311,713577c6bbbf92108cf2854e3ad792fb:-1279234586</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Add New Employee.Gym Staff">24753fc683bf921020eccc50ceaad385</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-20 09:34:30</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_mtom">sc_cat_item_user_criteria_mtom</sys_db_object>
+        <sys_id>0219dcc05c804f208061f1f69c910c40</sys_id>
+        <sys_metadata>093577c683bf921020eccc50ceaad35c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Add New Employee.Gym Staff</sys_name>
+        <sys_package/>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_scope_delete display_value="">4ef7c16b5f9f42c89374a9b807c00710</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_093577c683bf921020eccc50ceaad35c</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_mtom_093577c683bf921020eccc50ceaad35c">f135b7c683bf921020eccc50ceaad318</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-20 09:34:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
