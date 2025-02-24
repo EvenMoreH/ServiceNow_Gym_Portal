@@ -5,7 +5,7 @@
         <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice>1</choice>
         <choice_field/>
         <choice_table/>
         <column_label>Muscle Group</column_label>
@@ -27,7 +27,7 @@
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="Choice">choice</internal_type>
         <mandatory>true</mandatory>
         <max_length>40</max_length>
         <name>x_1033940_gym_port_exercises</name>
@@ -53,7 +53,7 @@
         <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
         <sys_update_name>sys_dictionary_x_1033940_gym_port_exercises_muscle_group</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-04 11:00:56</sys_updated_on>
+        <sys_updated_on>2025-02-24 13:53:45</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
