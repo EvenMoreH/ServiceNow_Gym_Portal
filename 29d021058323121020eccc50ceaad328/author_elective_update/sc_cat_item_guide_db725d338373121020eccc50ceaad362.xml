@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_guide">
+    <sc_cat_item_guide action="DELETE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <cascade>true</cascade>
+        <category/>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<p>TEST TEST</p>]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <include_items>true</include_items>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Create a Workout Plan</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>true</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>false</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <order_to_cart>false</order_to_cart>
+        <ordered_item_link/>
+        <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
+        <picture/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_guide_view.do?v=1&amp;sysparm_initial=true&amp;sysparm_guide=db725d338373121020eccc50ceaad362&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <request_method>submit</request_method>
+        <roles/>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script/>
+        <short_description>TEST</short_description>
+        <show_variable_help_on_load>true</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item_guide</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-25 08:13:02</sys_created_on>
+        <sys_id>db725d338373121020eccc50ceaad362</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Create a Workout Plan</sys_name>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_update_name>sc_cat_item_guide_db725d338373121020eccc50ceaad362</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-25 13:42:45</sys_updated_on>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <two_step>false</two_step>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <validator/>
+        <vendor/>
+        <version>17</version>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_guide>
+    <sys_translated_text action="DELETE" query="documentkey=db725d338373121020eccc50ceaad362"/>
+    <fx_price action="DELETE" query="id=db725d338373121020eccc50ceaad362"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>db725d338373121020eccc50ceaad362</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-25 08:13:02</sys_created_on>
+        <sys_id>37b29dbf8333121020eccc50ceaad3e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-25 08:13:02</sys_updated_on>
+        <table>sc_cat_item_guide</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gym Portal">29d021058323121020eccc50ceaad328</application>
+        <file_path/>
+        <instance_id>0a2000d81bd982dc78c7cb7b234bcb61</instance_id>
+        <instance_name>dev250396</instance_name>
+        <name>sc_cat_item_guide_db725d338373121020eccc50ceaad362</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sc_cat_item_guide"&gt;&lt;sc_cat_item_guide action="INSERT_OR_UPDATE"&gt;&lt;access_type&gt;restricted&lt;/access_type&gt;&lt;active&gt;true&lt;/active&gt;&lt;availability&gt;on_desktop&lt;/availability&gt;&lt;billable&gt;false&lt;/billable&gt;&lt;cascade&gt;true&lt;/cascade&gt;&lt;category/&gt;&lt;checked_out/&gt;&lt;cost&gt;0&lt;/cost&gt;&lt;custom_cart/&gt;&lt;delivery_plan display_value="DEFAULT"&gt;523da512c611228900811a37c97c2014&lt;/delivery_plan&gt;&lt;delivery_plan_script/&gt;&lt;delivery_time&gt;1970-01-03 00:00:00&lt;/delivery_time&gt;&lt;description&gt;&lt;![CDATA[&lt;p&gt;TEST TEST&lt;/p&gt;]]&gt;&lt;/description&gt;&lt;display_price_property&gt;non_zero&lt;/display_price_property&gt;&lt;entitlement_script/&gt;&lt;flow_designer_flow/&gt;&lt;fulfillment_automation_level&gt;unspecified&lt;/fulfillment_automation_level&gt;&lt;group/&gt;&lt;hide_sp&gt;false&lt;/hide_sp&gt;&lt;icon/&gt;&lt;ignore_price&gt;true&lt;/ignore_price&gt;&lt;image/&gt;&lt;include_items&gt;true&lt;/include_items&gt;&lt;location/&gt;&lt;make_item_non_conversational&gt;false&lt;/make_item_non_conversational&gt;&lt;mandatory_attachment&gt;false&lt;/mandatory_attachment&gt;&lt;meta/&gt;&lt;mobile_hide_price&gt;false&lt;/mobile_hide_price&gt;&lt;mobile_picture/&gt;&lt;mobile_picture_type&gt;use_desktop_picture&lt;/mobile_picture_type&gt;&lt;model/&gt;&lt;name&gt;Create a Workout Plan&lt;/name&gt;&lt;no_attachment_v2&gt;false&lt;/no_attachment_v2&gt;&lt;no_cart&gt;false&lt;/no_cart&gt;&lt;no_cart_v2&gt;true&lt;/no_cart_v2&gt;&lt;no_delivery_time_v2&gt;false&lt;/no_delivery_time_v2&gt;&lt;no_order&gt;false&lt;/no_order&gt;&lt;no_order_now&gt;false&lt;/no_order_now&gt;&lt;no_proceed_checkout&gt;false&lt;/no_proceed_checkout&gt;&lt;no_quantity&gt;false&lt;/no_quantity&gt;&lt;no_quantity_v2&gt;false&lt;/no_quantity_v2&gt;&lt;no_save_as_draft&gt;false&lt;/no_save_as_draft&gt;&lt;no_search&gt;false&lt;/no_search&gt;&lt;no_wishlist_v2&gt;false&lt;/no_wishlist_v2&gt;&lt;omit_price&gt;false&lt;/omit_price&gt;&lt;order&gt;0&lt;/order&gt;&lt;order_to_cart&gt;false&lt;/order_to_cart&gt;&lt;ordered_item_link/&gt;&lt;owner display_value="System Administrator"&gt;6816f79cc0a8016401c5a33be04be441&lt;/owner&gt;&lt;picture/&gt;&lt;preview&gt;JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_guide_view.do?v=1&amp;amp;sysparm_initial=true&amp;amp;sysparm_guide=db725d338373121020eccc50ceaad362&amp;amp;sysparm_preview=true", "summary");&lt;/preview&gt;&lt;price&gt;0&lt;/price&gt;&lt;published_ref/&gt;&lt;recurring_frequency/&gt;&lt;request_method&gt;submit&lt;/request_method&gt;&lt;roles/&gt;&lt;sc_catalogs/&gt;&lt;sc_ic_item_staging/&gt;&lt;sc_ic_version/&gt;&lt;sc_template/&gt;&lt;script/&gt;&lt;short_description&gt;TEST&lt;/short_description&gt;&lt;show_variable_help_on_load&gt;true&lt;/show_variable_help_on_load&gt;&lt;start_closed&gt;false&lt;/start_closed&gt;&lt;state/&gt;&lt;sys_class_name&gt;sc_cat_item_guide&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-25 08:13:02&lt;/sys_created_on&gt;&lt;sys_id&gt;db725d338373121020eccc50ceaad362&lt;/sys_id&gt;&lt;sys_mod_count&gt;16&lt;/sys_mod_count&gt;&lt;sys_name&gt;Create a Workout Plan&lt;/sys_name&gt;&lt;sys_package display_value="Gym Portal" source="x_1033940_gym_port"&gt;29d021058323121020eccc50ceaad328&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Gym Portal"&gt;29d021058323121020eccc50ceaad328&lt;/sys_scope&gt;&lt;sys_update_name&gt;sc_cat_item_guide_db725d338373121020eccc50ceaad362&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-25 13:42:45&lt;/sys_updated_on&gt;&lt;taxonomy_topic/&gt;&lt;template/&gt;&lt;template_manager_roles/&gt;&lt;two_step&gt;false&lt;/two_step&gt;&lt;type&gt;item&lt;/type&gt;&lt;use_sc_layout&gt;true&lt;/use_sc_layout&gt;&lt;validator/&gt;&lt;vendor/&gt;&lt;version&gt;17&lt;/version&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;workflow/&gt;&lt;/sc_cat_item_guide&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=db725d338373121020eccc50ceaad362"/&gt;&lt;fx_price action="delete_multiple" query="id=db725d338373121020eccc50ceaad362"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price&lt;/field&gt;&lt;id&gt;db725d338373121020eccc50ceaad362&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-25 08:13:02&lt;/sys_created_on&gt;&lt;sys_id&gt;37b29dbf8333121020eccc50ceaad3e2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-25 08:13:02&lt;/sys_updated_on&gt;&lt;table&gt;sc_cat_item_guide&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>463058602</payload_hash>
+        <record_name>Create a Workout Plan</record_name>
+        <reverted_from/>
+        <source>dd08b50183a3121020eccc50ceaad35e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-25 13:42:46</sys_created_on>
+        <sys_id>f13e563b83f7121020eccc50ceaad310</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1953d5884da0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-25 13:42:46</sys_updated_on>
+        <type>Order guide</type>
+        <update_guid>793e563bfaf712105fff68acd0e1270f</update_guid>
+        <update_guid_history>793e563bfaf712105fff68acd0e1270f:463058602,4af81a333cf712104ed89580ade3ae5c:1789642665,46981633e4f71210d753d267f8f4578d:-1116865688,c448d2ffa4b71210322d8005556a3960:271593255,f42492bbadb71210647e25c4f604cff1:1660052198,4f38c2fb0d771210184f82de1dec479f:-1246456155,d6f60a7b28771210ad429fa9e0a2651c:1074925471,a687fd37fb37121062c686974555835a:-975864541,d992a9f7e7b31210c22c945ba1a4da2c:-587331203,fe21e577ccb31210b17340857244ebad:1365022123,111dddbf0b7312108b85f2db5b8e68ec:135967666,cc8995bbea731210b637caf0dc28fb04:1524426609,afa8157ba2731210b74eac9f2162a4c1:-635376272,9b98d17bee7312103518098cc7a98436:-100474704,0513997375731210829dd1003b616017:1706712351,c4c29173cb73121090819daf407ea3d8:596032270,08c291739a7312108e51e32b5ac7e8cc:317246310</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Create a Workout Plan">b93e563b83f7121020eccc50ceaad314</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-02-25 13:42:46</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_guide">sc_cat_item_guide</sys_db_object>
+        <sys_id>50144ab1735547be9fbb0e420b578e64</sys_id>
+        <sys_metadata>db725d338373121020eccc50ceaad362</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create a Workout Plan</sys_name>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_scope_delete display_value="">4ef7c16b5f9f42c89374a9b807c00710</sys_scope_delete>
+        <sys_update_name>sc_cat_item_guide_db725d338373121020eccc50ceaad362</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_guide_db725d338373121020eccc50ceaad362">f13e563b83f7121020eccc50ceaad310</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-02-25 13:42:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

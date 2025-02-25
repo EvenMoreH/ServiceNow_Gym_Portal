@@ -182,6 +182,34 @@
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lookup</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-25 09:54:22</sys_created_on>
+            <sys_id>1cf925b383f3121020eccc50ceaad31e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1033940_gym_port_workout_day" sys_domain="global" view="Default view">eb35216f8377121020eccc50ceaad3f1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-25 09:54:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>is_rest_day</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-25 11:07:52</sys_created_on>
+            <sys_id>3cca3d3b8337121020eccc50ceaad3f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1033940_gym_port_workout_day" sys_domain="global" view="Default view">eb35216f8377121020eccc50ceaad3f1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-25 11:07:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page_route_map">
+    <sp_page_route_map action="DELETE">
+        <active>true</active>
+        <order>10</order>
+        <portals>700b7ae98337121020eccc50ceaad395</portals>
+        <route_from_page display_value="requests">31ed6a51d7130200a9ad1e173e24d479</route_from_page>
+        <route_to_page display_value="gym_portal_workout_form">f869aa37833b121020eccc50ceaad3fd</route_to_page>
+        <short_description>test redirect</short_description>
+        <sys_class_name>sp_page_route_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-25 15:48:37</sys_created_on>
+        <sys_id>6baaba3f837b121020eccc50ceaad316</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>31ed6a51d7130200a9ad1e173e24d479</sys_name>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_update_name>sp_page_route_map_6baaba3f837b121020eccc50ceaad316</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-25 15:48:37</sys_updated_on>
+    </sp_page_route_map>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gym Portal">29d021058323121020eccc50ceaad328</application>
+        <file_path/>
+        <instance_id>0a2000d81bd982dc78c7cb7b234bcb61</instance_id>
+        <instance_name>dev250396</instance_name>
+        <name>sp_page_route_map_6baaba3f837b121020eccc50ceaad316</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page_route_map"><sp_page_route_map action="INSERT_OR_UPDATE"><active>true</active><order>10</order><portals>700b7ae98337121020eccc50ceaad395</portals><route_from_page display_value="requests">31ed6a51d7130200a9ad1e173e24d479</route_from_page><route_to_page display_value="gym_portal_workout_form">f869aa37833b121020eccc50ceaad3fd</route_to_page><short_description>test redirect</short_description><sys_class_name>sp_page_route_map</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-25 15:48:37</sys_created_on><sys_id>6baaba3f837b121020eccc50ceaad316</sys_id><sys_mod_count>0</sys_mod_count><sys_name>31ed6a51d7130200a9ad1e173e24d479</sys_name><sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package><sys_policy/><sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope><sys_update_name>sp_page_route_map_6baaba3f837b121020eccc50ceaad316</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-25 15:48:37</sys_updated_on></sp_page_route_map></record_update>]]></payload>
+        <payload_hash>-482967154</payload_hash>
+        <record_name>31ed6a51d7130200a9ad1e173e24d479</record_name>
+        <reverted_from/>
+        <source>dd08b50183a3121020eccc50ceaad35e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-25 15:48:37</sys_created_on>
+        <sys_id>a10bfafb837b121020eccc50ceaad37b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1953dcbbec20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-25 15:48:37</sys_updated_on>
+        <type>Page Route Map</type>
+        <update_guid>a50bfafb737b1210ef8756fc6c2c997a</update_guid>
+        <update_guid_history>a50bfafb737b1210ef8756fc6c2c997a:-482967154</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="requests">4a2cb2bf837b121020eccc50ceaad3f7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-25 15:53:34</sys_created_on>
+        <sys_db_object display_value="" name="sp_page_route_map">sp_page_route_map</sys_db_object>
+        <sys_id>0f8abd71164b4c30a3b6659e1a3cee64</sys_id>
+        <sys_metadata>6baaba3f837b121020eccc50ceaad316</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>31ed6a51d7130200a9ad1e173e24d479</sys_name>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_scope_delete display_value="">4ef7c16b5f9f42c89374a9b807c00710</sys_scope_delete>
+        <sys_update_name>sp_page_route_map_6baaba3f837b121020eccc50ceaad316</sys_update_name>
+        <sys_update_version display_value="sp_page_route_map_6baaba3f837b121020eccc50ceaad316">a10bfafb837b121020eccc50ceaad37b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-25 15:53:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

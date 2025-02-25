@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Workout Day 1">afc4d9f38373121020eccc50ceaad3db</sc_cat_item>
+        <sc_category display_value="Classes  &amp; Workouts">76bd057b8333121020eccc50ceaad3f2</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-25 13:41:49</sys_created_on>
+        <sys_id>840e5ef783f7121020eccc50ceaad3f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Classes  &amp; Workouts.Workout Day 1</sys_name>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_update_name>sc_cat_item_category_840e5ef783f7121020eccc50ceaad3f8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-25 13:41:49</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

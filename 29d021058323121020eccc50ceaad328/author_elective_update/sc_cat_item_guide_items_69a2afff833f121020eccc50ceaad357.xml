@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_guide_items">
+    <sc_cat_item_guide_items action="DELETE">
+        <condition/>
+        <guide display_value="Create Workout Days">7f3e563b83f7121020eccc50ceaad339</guide>
+        <ignore_mandatory_eval>false</ignore_mandatory_eval>
+        <item display_value="Workout Plan Configuration">7cee1b7b833f121020eccc50ceaad3fa</item>
+        <order>99999</order>
+        <quantity>1</quantity>
+        <requested_by/>
+        <requested_for/>
+        <show_quantity>false</show_quantity>
+        <sys_class_name>sc_cat_item_guide_items</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-25 18:42:00</sys_created_on>
+        <sys_id>69a2afff833f121020eccc50ceaad357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>7cee1b7b833f121020eccc50ceaad3fa</sys_name>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_update_name>sc_cat_item_guide_items_69a2afff833f121020eccc50ceaad357</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-25 18:42:00</sys_updated_on>
+        <use_sc_layout>true</use_sc_layout>
+    </sc_cat_item_guide_items>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gym Portal">29d021058323121020eccc50ceaad328</application>
+        <file_path/>
+        <instance_id>0a2000d81bd982dc78c7cb7b234bcb61</instance_id>
+        <instance_name>dev250396</instance_name>
+        <name>sc_cat_item_guide_items_69a2afff833f121020eccc50ceaad357</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_guide_items"><sc_cat_item_guide_items action="INSERT_OR_UPDATE"><condition/><guide display_value="Create Workout Days">7f3e563b83f7121020eccc50ceaad339</guide><ignore_mandatory_eval>false</ignore_mandatory_eval><item display_value="Workout Plan Configuration">7cee1b7b833f121020eccc50ceaad3fa</item><order>99999</order><quantity>1</quantity><requested_by/><requested_for/><show_quantity>false</show_quantity><sys_class_name>sc_cat_item_guide_items</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-25 18:42:00</sys_created_on><sys_id>69a2afff833f121020eccc50ceaad357</sys_id><sys_mod_count>0</sys_mod_count><sys_name>7cee1b7b833f121020eccc50ceaad3fa</sys_name><sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package><sys_policy/><sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope><sys_update_name>sc_cat_item_guide_items_69a2afff833f121020eccc50ceaad357</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-25 18:42:00</sys_updated_on><use_sc_layout>true</use_sc_layout></sc_cat_item_guide_items></record_update>]]></payload>
+        <payload_hash>2058947181</payload_hash>
+        <record_name>7cee1b7b833f121020eccc50ceaad3fa</record_name>
+        <reverted_from/>
+        <source>dd08b50183a3121020eccc50ceaad35e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-25 18:42:00</sys_created_on>
+        <sys_id>1db2afff833f121020eccc50ceaad39f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1953e6a7b810000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-25 18:42:00</sys_updated_on>
+        <type>Rule</type>
+        <update_guid>11b2afff383f1210b5242365d5776a9f</update_guid>
+        <update_guid_history>11b2afff383f1210b5242365d5776a9f:2058947181</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">a7276b77837f121020eccc50ceaad39c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-25 19:01:33</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_guide_items">sc_cat_item_guide_items</sys_db_object>
+        <sys_id>cf403e8a3ae84dc19c7420145fb83229</sys_id>
+        <sys_metadata>69a2afff833f121020eccc50ceaad357</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>7cee1b7b833f121020eccc50ceaad3fa</sys_name>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_scope_delete display_value="">4ef7c16b5f9f42c89374a9b807c00710</sys_scope_delete>
+        <sys_update_name>sc_cat_item_guide_items_69a2afff833f121020eccc50ceaad357</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_guide_items_69a2afff833f121020eccc50ceaad357">1db2afff833f121020eccc50ceaad39f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-25 19:01:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
