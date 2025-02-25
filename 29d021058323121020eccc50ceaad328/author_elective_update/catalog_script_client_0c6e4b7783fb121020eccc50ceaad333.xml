@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="DELETE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Workout Day 1">afc4d9f38373121020eccc50ceaad3db</cat_item>
+        <cat_variable/>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>load the test redirect</name>
+        <order/>
+        <published_ref/>
+        <script><![CDATA[function onLoad() {
+  setTimeout(function() {
+    // Create a URL object from the current window location
+    var url = new URL(window.location.href);
+    
+    // Retrieve the parameter value from the URL
+    var paramValue = url.searchParams.get('sysparm_sys_id');
+    
+    // Check if the parameter exists and then populate the field
+    if (paramValue) {
+      g_form.setValue('redirect_id', paramValue);
+    }
+  }, 300); // 300ms delay
+}
+]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-25 17:15:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0c6e4b7783fb121020eccc50ceaad333</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>load the test redirect</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_update_name>catalog_script_client_0c6e4b7783fb121020eccc50ceaad333</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-25 17:53:49</sys_updated_on>
+        <table/>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <va_supported>false</va_supported>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+    <sys_es_latest_script action="DELETE">
+        <id>0c6e4b7783fb121020eccc50ceaad333</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-25 17:15:55</sys_created_on>
+        <sys_id>1c0f4b7783fb121020eccc50ceaad325</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-25 17:15:55</sys_updated_on>
+        <table>catalog_script_client</table>
+        <use_es_latest>false</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gym Portal">29d021058323121020eccc50ceaad328</application>
+        <file_path/>
+        <instance_id>0a2000d81bd982dc78c7cb7b234bcb61</instance_id>
+        <instance_name>dev250396</instance_name>
+        <name>catalog_script_client_0c6e4b7783fb121020eccc50ceaad333</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="Workout Day 1"&gt;afc4d9f38373121020eccc50ceaad3db&lt;/cat_item&gt;&lt;cat_variable/&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;load the test redirect&lt;/name&gt;&lt;order/&gt;&lt;published_ref/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+  setTimeout(function() {
+    // Create a URL object from the current window location
+    var url = new URL(window.location.href);
+    
+    // Retrieve the parameter value from the URL
+    var paramValue = url.searchParams.get('sysparm_sys_id');
+    
+    // Check if the parameter exists and then populate the field
+    if (paramValue) {
+      g_form.setValue('redirect_id', paramValue);
+    }
+  }, 300); // 300ms delay
+}
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-25 17:15:56&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;0c6e4b7783fb121020eccc50ceaad333&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name&gt;load the test redirect&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Gym Portal" source="x_1033940_gym_port"&gt;29d021058323121020eccc50ceaad328&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Gym Portal"&gt;29d021058323121020eccc50ceaad328&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_0c6e4b7783fb121020eccc50ceaad333&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-25 17:53:49&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;va_supported&gt;false&lt;/va_supported&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;0c6e4b7783fb121020eccc50ceaad333&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-25 17:15:55&lt;/sys_created_on&gt;&lt;sys_id&gt;1c0f4b7783fb121020eccc50ceaad325&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-25 17:15:55&lt;/sys_updated_on&gt;&lt;table&gt;catalog_script_client&lt;/table&gt;&lt;use_es_latest&gt;false&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-102146364</payload_hash>
+        <record_name>load the test redirect</record_name>
+        <reverted_from/>
+        <source>dd08b50183a3121020eccc50ceaad35e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-25 17:53:49</sys_created_on>
+        <sys_id>a3a79b73833f121020eccc50ceaad3b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1953e3e5f570000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-25 17:53:49</sys_updated_on>
+        <type>Catalog Client Scripts</type>
+        <update_guid>a3a79f33593f121098be978b8611e58a</update_guid>
+        <update_guid_history>a3a79f33593f121098be978b8611e58a:-102146364,a757d373533f12108fba9ae2909caacb:1419751613,d4d61b33d93f121031bc7a5512f6638a:-204035706,abb553ff0cfb1210aa96013c615f2002:2118104494,a394db7f70fb1210f961a11f885dc19a:-254051428,9614537fccfb1210f733948cdfe3bed8:-728475306,dd7253fb0afb121018fbb160638ef7a6:-1181541098,0451db7b79fb12104f9a0cf2bfadc252:-855856597,140fcbb7c7fb12103687c6a0a8d38d54:-837967500</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="load the test redirect">eda9dff3833f121020eccc50ceaad3d0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-25 18:02:26</sys_created_on>
+        <sys_db_object display_value="" name="catalog_script_client">catalog_script_client</sys_db_object>
+        <sys_id>679a8ed2f31542549b251a3e40c6c010</sys_id>
+        <sys_metadata>0c6e4b7783fb121020eccc50ceaad333</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>load the test redirect</sys_name>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_scope_delete display_value="">4ef7c16b5f9f42c89374a9b807c00710</sys_scope_delete>
+        <sys_update_name>catalog_script_client_0c6e4b7783fb121020eccc50ceaad333</sys_update_name>
+        <sys_update_version display_value="catalog_script_client_0c6e4b7783fb121020eccc50ceaad333">a3a79b73833f121020eccc50ceaad3b0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-25 18:02:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

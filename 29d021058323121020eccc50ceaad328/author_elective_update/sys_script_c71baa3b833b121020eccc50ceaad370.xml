@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1033940_gym_port_custom_workout_plans</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Redirect to Workout Plan Record</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var workoutRecordPage = 'https://dev250396.service-now.com/gp?id=gym_portal_workout_form&is_new_order=true&table=x_1033940_gym_port_standard_workout_plans&sys_id=';
+	var recordSysId = current.sys_id.toString();
+	var url = workoutRecordPage + recordSysId
+	gs.setRedirect(url);
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-25 14:45:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c71baa3b833b121020eccc50ceaad370</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Redirect to Workout Plan Record</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_update_name>sys_script_c71baa3b833b121020eccc50ceaad370</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-25 16:07:33</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=c71baa3b833b121020eccc50ceaad370"/>
+    <sys_es_latest_script action="DELETE">
+        <id>c71baa3b833b121020eccc50ceaad370</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-25 14:45:06</sys_created_on>
+        <sys_id>c77c263b833b121020eccc50ceaad3aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-25 14:45:06</sys_updated_on>
+        <table>sys_script</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gym Portal">29d021058323121020eccc50ceaad328</application>
+        <file_path/>
+        <instance_id>0a2000d81bd982dc78c7cb7b234bcb61</instance_id>
+        <instance_name>dev250396</instance_name>
+        <name>sys_script_c71baa3b833b121020eccc50ceaad370</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_1033940_gym_port_custom_workout_plans&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Redirect to Workout Plan Record&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var workoutRecordPage = 'https://dev250396.service-now.com/gp?id=gym_portal_workout_form&amp;is_new_order=true&amp;table=x_1033940_gym_port_standard_workout_plans&amp;sys_id=';
+	var recordSysId = current.sys_id.toString();
+	var url = workoutRecordPage + recordSysId
+	gs.setRedirect(url);
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-25 14:45:06&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;c71baa3b833b121020eccc50ceaad370&lt;/sys_id&gt;&lt;sys_mod_count&gt;12&lt;/sys_mod_count&gt;&lt;sys_name&gt;Redirect to Workout Plan Record&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Gym Portal" source="x_1033940_gym_port"&gt;29d021058323121020eccc50ceaad328&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Gym Portal"&gt;29d021058323121020eccc50ceaad328&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_c71baa3b833b121020eccc50ceaad370&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-25 16:07:33&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=c71baa3b833b121020eccc50ceaad370"/&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;c71baa3b833b121020eccc50ceaad370&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-25 14:45:06&lt;/sys_created_on&gt;&lt;sys_id&gt;c77c263b833b121020eccc50ceaad3aa&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-25 14:45:06&lt;/sys_updated_on&gt;&lt;table&gt;sys_script&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>940752783</payload_hash>
+        <record_name>Redirect to Workout Plan Record</record_name>
+        <reverted_from/>
+        <source>dd08b50183a3121020eccc50ceaad35e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-25 16:07:33</sys_created_on>
+        <sys_id>f65f7e3383bb121020eccc50ceaad348</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1953ddd13d00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-25 16:07:33</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>ba5f7e3323bb121014dc118ab3ad0747</update_guid>
+        <update_guid_history>ba5f7e3323bb121014dc118ab3ad0747:940752783,efc9f6fb037b12109372aac6c536dfc9:-905694753,9ca972fb097b121011b58804ca32d036:-844769522,766932fb9d7b121014ff8b9fee329ebf:-1887363324,5ca6faf7c17b1210e6c83fe64f86f7a5:1970706754,5946ba777a7b1210b862037fae39782a:1067906404,bb053e77367b1210cbf98bf689bb04cb:1020732691,68f2bab3117b12109ab3e4d73086e664:-1887363324,ea41b2738a7b1210cc3f6ad1f2af4a2e:-1288173746,b68d26bbfa3b12103666bf4016a05969:1333619607,610d263b683b12100d7b84cef79c6fb0:-1955027853,17fc6ebb233b121037ac43762488dd9d:-1508333901,077ce2bb1f3b12104c5665ca26ac04e5:-2057883779</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-25 16:46:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>9eea38bed63d46b69b70adfa68ad8f41</sys_id>
+        <sys_metadata>c71baa3b833b121020eccc50ceaad370</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Redirect to Workout Plan Record</sys_name>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_parent display_value="Custom Workout Plans">448e6dc58363121020eccc50ceaad360</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_scope_delete display_value="">4ef7c16b5f9f42c89374a9b807c00710</sys_scope_delete>
+        <sys_update_name>sys_script_c71baa3b833b121020eccc50ceaad370</sys_update_name>
+        <sys_update_version display_value="sys_script_c71baa3b833b121020eccc50ceaad370">f65f7e3383bb121020eccc50ceaad348</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-25 16:46:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

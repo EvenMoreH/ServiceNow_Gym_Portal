@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>obsolete</description>
+        <field>franchise</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Member Assignment Form</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	var getFranchise = g_form.getValue('franchise');
+	if (getFranchise != '576d19108377d21020eccc50ceaad370') {
+		g_form.setMandatory('gym', false); 
+		g_form.setVisible('gym', false);
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-14 12:19:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b01165548377d21020eccc50ceaad334</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>Member Assignment Form</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_update_name>sys_script_client_b01165548377d21020eccc50ceaad334</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-14 13:39:06</sys_updated_on>
+        <table>x_1033940_gym_port_members</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gym Portal">29d021058323121020eccc50ceaad328</application>
+        <file_path/>
+        <instance_id>0a2000d81bd982dc78c7cb7b234bcb61</instance_id>
+        <instance_name>dev250396</instance_name>
+        <name>sys_script_client_b01165548377d21020eccc50ceaad334</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;obsolete&lt;/description&gt;&lt;field&gt;franchise&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Member Assignment Form&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	var getFranchise = g_form.getValue('franchise');
+	if (getFranchise != '576d19108377d21020eccc50ceaad370') {
+		g_form.setMandatory('gym', false); 
+		g_form.setVisible('gym', false);
+	}
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-14 12:19:52&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;b01165548377d21020eccc50ceaad334&lt;/sys_id&gt;&lt;sys_mod_count&gt;19&lt;/sys_mod_count&gt;&lt;sys_name&gt;Member Assignment Form&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Gym Portal" source="x_1033940_gym_port"&gt;29d021058323121020eccc50ceaad328&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Gym Portal"&gt;29d021058323121020eccc50ceaad328&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_b01165548377d21020eccc50ceaad334&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-14 13:39:06&lt;/sys_updated_on&gt;&lt;table&gt;x_1033940_gym_port_members&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2062987905</payload_hash>
+        <record_name>Member Assignment Form</record_name>
+        <reverted_from/>
+        <source>dd08b50183a3121020eccc50ceaad35e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-14 13:39:06</sys_created_on>
+        <sys_id>81e3bd1c83b7d21020eccc50ceaad39a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19504af37da0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-14 13:39:06</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>09e3bd1c38b7d2103d4f303c1e574c99</update_guid>
+        <update_guid_history>09e3bd1c38b7d2103d4f303c1e574c99:-2062987905,b493b9d860b7d2101b22d05b437568bb:-946157194,b47ce1d0e6b7d210da98f204374202e7:1856176227,4c3cad90bbb7d210b72ec1df55619004:-1296126723,611ce5d036b7d210238e6bc8d3c6f688:-692703396,079bad50b5b7d21023abef22f78b8f18:440790765,5fcaa95091b7d210e41578c27a8ff8a7:364484698,f78a291071b7d2101ec36f053b93faf4:-1296126723,0209e1dcaf77d210679ea967893deaaa:1599306073,cda8619cc677d2102b44d77e2fadc46c:2008609398,a768611c4b77d210f0fa7764f59e0af1:152499637,a638e19c9c77d2105345eee5f86f034c:-498008602,31e7a5583f77d2105bdda4bdbab16d06:2125491421,d5142d18e577d210a4de33a299cc30ca:1093369864,92d329188877d210fc1618e13e6d794e:-1213795885,6973e5d4dc77d2108ff84761754681e5:299789989,da03e5d49977d21019bdacc715d88bdf:1499713502,439225940977d2100fce8c1b1b205f5c:-1702415978,ca6261d4b577d210829884a2e3cce5ef:-636238370,58c1e914f877d210575ce0acee2dbc49:265025517</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-25 14:52:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>76581c39d908427e8400a269434f8799</sys_id>
+        <sys_metadata>b01165548377d21020eccc50ceaad334</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Member Assignment Form</sys_name>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_parent display_value="Members">c5b3e1c98323121020eccc50ceaad3ab</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_scope_delete display_value="">4ef7c16b5f9f42c89374a9b807c00710</sys_scope_delete>
+        <sys_update_name>sys_script_client_b01165548377d21020eccc50ceaad334</sys_update_name>
+        <sys_update_version display_value="sys_script_client_b01165548377d21020eccc50ceaad334">81e3bd1c83b7d21020eccc50ceaad39a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-25 14:52:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

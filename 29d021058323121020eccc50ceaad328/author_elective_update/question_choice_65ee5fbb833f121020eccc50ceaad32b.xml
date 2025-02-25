@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>200</order>
+        <published_ref/>
+        <question display_value="Workout Day">0dee1fbb833f121020eccc50ceaad390</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-25 18:25:22</sys_created_on>
+        <sys_id>65ee5fbb833f121020eccc50ceaad32b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Rest</sys_name>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_update_name>question_choice_65ee5fbb833f121020eccc50ceaad32b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-25 18:25:22</sys_updated_on>
+        <text>Rest</text>
+        <value>rest</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=65ee5fbb833f121020eccc50ceaad32b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gym Portal">29d021058323121020eccc50ceaad328</application>
+        <file_path/>
+        <instance_id>0a2000d81bd982dc78c7cb7b234bcb61</instance_id>
+        <instance_name>dev250396</instance_name>
+        <name>question_choice_65ee5fbb833f121020eccc50ceaad32b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>200</order><published_ref/><question display_value="Workout Day">0dee1fbb833f121020eccc50ceaad390</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-25 18:25:22</sys_created_on><sys_id>65ee5fbb833f121020eccc50ceaad32b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Rest</sys_name><sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package><sys_policy/><sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope><sys_update_name>question_choice_65ee5fbb833f121020eccc50ceaad32b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-25 18:25:22</sys_updated_on><text>Rest</text><value>rest</value></question_choice><fx_price action="delete_multiple" query="id=65ee5fbb833f121020eccc50ceaad32b"/></record_update>]]></payload>
+        <payload_hash>282176134</payload_hash>
+        <record_name>Rest</record_name>
+        <reverted_from/>
+        <source>dd08b50183a3121020eccc50ceaad35e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-25 18:25:22</sys_created_on>
+        <sys_id>a1ee5fbb833f121020eccc50ceaad333</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1953e5b3fd20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-25 18:25:22</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>a5ee5fbbfa3f12102b3a1a5665384b32</update_guid>
+        <update_guid_history>a5ee5fbbfa3f12102b3a1a5665384b32:282176134</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Rest">5a602f3f833f121020eccc50ceaad3b6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-25 18:31:59</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>8b2f237c4ed74432b91dd1c05de55264</sys_id>
+        <sys_metadata>65ee5fbb833f121020eccc50ceaad32b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Rest</sys_name>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_scope_delete display_value="">4ef7c16b5f9f42c89374a9b807c00710</sys_scope_delete>
+        <sys_update_name>question_choice_65ee5fbb833f121020eccc50ceaad32b</sys_update_name>
+        <sys_update_version display_value="question_choice_65ee5fbb833f121020eccc50ceaad32b">a1ee5fbb833f121020eccc50ceaad333</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-25 18:31:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

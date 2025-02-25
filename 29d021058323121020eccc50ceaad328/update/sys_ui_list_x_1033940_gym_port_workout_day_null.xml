@@ -3,122 +3,137 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>name</element>
-            <list_id display_value="x_1033940_gym_port_workout_day" element="NULL" name="x_1033940_gym_port_workout_day" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">82a9256783b7121020eccc50ceaad356</list_id>
+            <list_id display_value="x_1033940_gym_port_workout_day" element="NULL" name="x_1033940_gym_port_workout_day" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9ada393b8337121020eccc50ceaad339</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-24 15:14:38</sys_created_on>
-            <sys_id>cea9256783b7121020eccc50ceaad356</sys_id>
+            <sys_created_on>2025-02-25 11:08:14</sys_created_on>
+            <sys_id>1eda393b8337121020eccc50ceaad33a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-24 15:14:38</sys_updated_on>
+            <sys_updated_on>2025-02-25 11:08:14</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>workout_day</element>
-            <list_id display_value="x_1033940_gym_port_workout_day" element="NULL" name="x_1033940_gym_port_workout_day" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">82a9256783b7121020eccc50ceaad356</list_id>
+            <list_id display_value="x_1033940_gym_port_workout_day" element="NULL" name="x_1033940_gym_port_workout_day" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9ada393b8337121020eccc50ceaad339</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-24 15:14:38</sys_created_on>
-            <sys_id>42a9256783b7121020eccc50ceaad357</sys_id>
+            <sys_created_on>2025-02-25 11:08:14</sys_created_on>
+            <sys_id>16da393b8337121020eccc50ceaad33b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-24 15:14:38</sys_updated_on>
+            <sys_updated_on>2025-02-25 11:08:14</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>workout_plan</element>
-            <list_id display_value="x_1033940_gym_port_workout_day" element="NULL" name="x_1033940_gym_port_workout_day" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">82a9256783b7121020eccc50ceaad356</list_id>
+            <element>is_rest_day</element>
+            <list_id display_value="x_1033940_gym_port_workout_day" element="NULL" name="x_1033940_gym_port_workout_day" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9ada393b8337121020eccc50ceaad339</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-24 15:14:38</sys_created_on>
-            <sys_id>c2a9256783b7121020eccc50ceaad357</sys_id>
+            <sys_created_on>2025-02-25 11:08:14</sys_created_on>
+            <sys_id>1ada393b8337121020eccc50ceaad33b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-24 15:14:38</sys_updated_on>
+            <sys_updated_on>2025-02-25 11:08:14</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>exercise_1</element>
-            <list_id display_value="x_1033940_gym_port_workout_day" element="NULL" name="x_1033940_gym_port_workout_day" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">82a9256783b7121020eccc50ceaad356</list_id>
+            <element>workout_plan</element>
+            <list_id display_value="x_1033940_gym_port_workout_day" element="NULL" name="x_1033940_gym_port_workout_day" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9ada393b8337121020eccc50ceaad339</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-24 15:14:38</sys_created_on>
-            <sys_id>46a9256783b7121020eccc50ceaad357</sys_id>
+            <sys_created_on>2025-02-25 11:08:14</sys_created_on>
+            <sys_id>1eda393b8337121020eccc50ceaad33b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-24 15:14:38</sys_updated_on>
+            <sys_updated_on>2025-02-25 11:08:14</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>exercise_2</element>
-            <list_id display_value="x_1033940_gym_port_workout_day" element="NULL" name="x_1033940_gym_port_workout_day" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">82a9256783b7121020eccc50ceaad356</list_id>
+            <element>exercise_1</element>
+            <list_id display_value="x_1033940_gym_port_workout_day" element="NULL" name="x_1033940_gym_port_workout_day" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9ada393b8337121020eccc50ceaad339</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-24 15:14:38</sys_created_on>
-            <sys_id>c6a9256783b7121020eccc50ceaad357</sys_id>
+            <sys_created_on>2025-02-25 11:08:14</sys_created_on>
+            <sys_id>dada757b8337121020eccc50ceaad34d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-24 15:14:38</sys_updated_on>
+            <sys_updated_on>2025-02-25 11:08:14</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>exercise_3</element>
-            <list_id display_value="x_1033940_gym_port_workout_day" element="NULL" name="x_1033940_gym_port_workout_day" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">82a9256783b7121020eccc50ceaad356</list_id>
+            <element>exercise_2</element>
+            <list_id display_value="x_1033940_gym_port_workout_day" element="NULL" name="x_1033940_gym_port_workout_day" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9ada393b8337121020eccc50ceaad339</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-24 15:14:38</sys_created_on>
-            <sys_id>4aa9256783b7121020eccc50ceaad357</sys_id>
+            <sys_created_on>2025-02-25 11:08:14</sys_created_on>
+            <sys_id>deda757b8337121020eccc50ceaad34d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-24 15:14:38</sys_updated_on>
+            <sys_updated_on>2025-02-25 11:08:14</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>exercise_4</element>
-            <list_id display_value="x_1033940_gym_port_workout_day" element="NULL" name="x_1033940_gym_port_workout_day" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">82a9256783b7121020eccc50ceaad356</list_id>
+            <element>exercise_3</element>
+            <list_id display_value="x_1033940_gym_port_workout_day" element="NULL" name="x_1033940_gym_port_workout_day" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9ada393b8337121020eccc50ceaad339</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>6</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-24 15:14:38</sys_created_on>
-            <sys_id>caa9256783b7121020eccc50ceaad357</sys_id>
+            <sys_created_on>2025-02-25 11:08:14</sys_created_on>
+            <sys_id>d2da757b8337121020eccc50ceaad34e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-24 15:14:38</sys_updated_on>
+            <sys_updated_on>2025-02-25 11:08:14</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>exercise_5</element>
-            <list_id display_value="x_1033940_gym_port_workout_day" element="NULL" name="x_1033940_gym_port_workout_day" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">82a9256783b7121020eccc50ceaad356</list_id>
+            <element>exercise_4</element>
+            <list_id display_value="x_1033940_gym_port_workout_day" element="NULL" name="x_1033940_gym_port_workout_day" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9ada393b8337121020eccc50ceaad339</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>7</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-24 15:14:38</sys_created_on>
-            <sys_id>4ea9256783b7121020eccc50ceaad357</sys_id>
+            <sys_created_on>2025-02-25 11:08:14</sys_created_on>
+            <sys_id>d6da757b8337121020eccc50ceaad34e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-24 15:14:38</sys_updated_on>
+            <sys_updated_on>2025-02-25 11:08:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>exercise_5</element>
+            <list_id display_value="x_1033940_gym_port_workout_day" element="NULL" name="x_1033940_gym_port_workout_day" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9ada393b8337121020eccc50ceaad339</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-25 11:08:14</sys_created_on>
+            <sys_id>dada757b8337121020eccc50ceaad34e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-25 11:08:14</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -132,10 +147,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-24 15:14:38</sys_created_on>
+            <sys_created_on>2025-02-25 11:08:14</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>82a9256783b7121020eccc50ceaad356</sys_id>
+            <sys_id>9ada393b8337121020eccc50ceaad339</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_1033940_gym_port_workout_day</sys_name>
             <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
@@ -143,7 +158,7 @@
             <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
             <sys_update_name>sys_ui_list_x_1033940_gym_port_workout_day_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-24 15:14:38</sys_updated_on>
+            <sys_updated_on>2025-02-25 11:08:14</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
