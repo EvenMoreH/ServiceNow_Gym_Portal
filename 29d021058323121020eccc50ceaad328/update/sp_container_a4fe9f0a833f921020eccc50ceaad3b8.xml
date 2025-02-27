@@ -9,7 +9,7 @@
         <name>Gym Portal Homepage - Container 1</name>
         <order>1</order>
         <semantic_tag/>
-        <sp_page display_value="gyp_portal_ec_dashboard_1">acfe9f0a833f921020eccc50ceaad3b4</sp_page>
+        <sp_page display_value="gym_portal_ec_dashboard_1">acfe9f0a833f921020eccc50ceaad3b4</sp_page>
         <subheader>false</subheader>
         <sys_class_name>sp_container</sys_class_name>
         <sys_created_by>admin</sys_created_by>

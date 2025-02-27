@@ -79,7 +79,7 @@ main.body {&#13;
         <draft>false</draft>
         <dynamic_title_structure/>
         <human_readable_url_structure/>
-        <id>gyp_portal_ec_dashboard_1</id>
+        <id>gym_portal_ec_dashboard_1</id>
         <internal>false</internal>
         <omit_watcher>false</omit_watcher>
         <public>true</public>
@@ -90,14 +90,14 @@ main.body {&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-02-20 07:56:12</sys_created_on>
         <sys_id>acfe9f0a833f921020eccc50ceaad3b4</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>gyp_portal_ec_dashboard_1</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>gym_portal_ec_dashboard_1</sys_name>
         <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
         <sys_policy/>
         <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
         <sys_update_name>sp_page_acfe9f0a833f921020eccc50ceaad3b4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-20 09:47:41</sys_updated_on>
+        <sys_updated_on>2025-02-27 09:28:12</sys_updated_on>
         <title>Gym Portal Homepage</title>
         <use_seo_script>false</use_seo_script>
     </sp_page>

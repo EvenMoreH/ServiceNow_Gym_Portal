@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_guide_items">
+    <sc_cat_item_guide_items action="INSERT_OR_UPDATE">
+        <condition/>
+        <guide display_value="Create Workout Days">7f3e563b83f7121020eccc50ceaad339</guide>
+        <ignore_mandatory_eval>false</ignore_mandatory_eval>
+        <item display_value="Workout Day 2">f7218ce08380221020eccc50ceaad379</item>
+        <order>200</order>
+        <quantity>1</quantity>
+        <requested_by/>
+        <requested_for/>
+        <show_quantity>false</show_quantity>
+        <sys_class_name>sc_cat_item_guide_items</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-27 10:22:24</sys_created_on>
+        <sys_id>23734c288380221020eccc50ceaad3b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>f7218ce08380221020eccc50ceaad379</sys_name>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_update_name>sc_cat_item_guide_items_23734c288380221020eccc50ceaad3b8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-27 10:22:24</sys_updated_on>
+        <use_sc_layout>true</use_sc_layout>
+    </sc_cat_item_guide_items>
+</record_update>
