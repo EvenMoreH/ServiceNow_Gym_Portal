@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Workout Day 4">a6320c648380221020eccc50ceaad383</catalog_item>
+        <catalog_variable>IO:0b32c0a48380221020eccc50ceaad30f</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-27 10:16:44</sys_created_on>
+        <sys_id>a332c0a48380221020eccc50ceaad389</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>exercises</sys_name>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_a332c0a48380221020eccc50ceaad389</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-27 10:16:44</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Hide Exercises on Rest Day">6732c0a48380221020eccc50ceaad374</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>exercises</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=a332c0a48380221020eccc50ceaad389"/>
+</record_update>

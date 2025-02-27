@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Workout Day 1">afc4d9f38373121020eccc50ceaad3db</sc_cat_item>
+        <sc_catalog display_value="GymHub">28307a6d83f3121020eccc50ceaad303</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-25 13:41:32</sys_created_on>
+        <sys_id>bbeddaf783f7121020eccc50ceaad387</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GymHub.Workout Day 1</sys_name>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_bbeddaf783f7121020eccc50ceaad387</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-25 13:41:32</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gym Portal">29d021058323121020eccc50ceaad328</application>
+        <file_path/>
+        <instance_id>0a2000d81bd982dc78c7cb7b234bcb61</instance_id>
+        <instance_name>dev250396</instance_name>
+        <name>sc_cat_item_catalog_bbeddaf783f7121020eccc50ceaad387</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="DELETE"><sc_cat_item display_value="Workout Day 1">afc4d9f38373121020eccc50ceaad3db</sc_cat_item><sc_catalog display_value="GymHub">28307a6d83f3121020eccc50ceaad303</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-25 13:41:32</sys_created_on><sys_id>bbeddaf783f7121020eccc50ceaad387</sys_id><sys_mod_count>0</sys_mod_count><sys_name>GymHub.Workout Day 1</sys_name><sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package><sys_policy/><sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope><sys_update_name>sc_cat_item_catalog_bbeddaf783f7121020eccc50ceaad387</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-25 13:41:32</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>69252520</payload_hash>
+        <record_name>GymHub.Workout Day 1</record_name>
+        <reverted_from/>
+        <source>ac0080a08380221020eccc50ceaad338</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-27 10:07:00</sys_created_on>
+        <sys_id>7800c0a08380221020eccc50ceaad306</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19546dfb2560000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-27 10:07:00</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>f800c0a08b802210e700afe828c16705</update_guid>
+        <update_guid_history>f800c0a08b802210e700afe828c16705:69252520,f7eddaf749f71210744bbfe0c97c7a8e:1991068340</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="GymHub.Workout Day 1">7000c0a08380221020eccc50ceaad308</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-27 10:18:24</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>7392cca48380221020eccc50ceaad362</sys_id>
+        <sys_metadata>bbeddaf783f7121020eccc50ceaad387</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_parent display_value="Workout Day 5">ba92c4a48380221020eccc50ceaad30c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_scope_delete display_value="">4ef7c16b5f9f42c89374a9b807c00710</sys_scope_delete>
+        <sys_update_name>sys_metadata_delete_7392cca48380221020eccc50ceaad362</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_bbeddaf783f7121020eccc50ceaad387">7800c0a08380221020eccc50ceaad306</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-27 10:18:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
