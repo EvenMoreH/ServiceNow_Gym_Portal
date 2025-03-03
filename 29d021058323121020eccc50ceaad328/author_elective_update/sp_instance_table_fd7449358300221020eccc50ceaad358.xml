@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field/>
+        <field_list/>
+        <filter/>
+        <glyph>heart</glyph>
+        <id/>
+        <maximum_entries>1</maximum_entries>
+        <order>3</order>
+        <order_by>country</order_by>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">05fe9f4a833f921020eccc50ceaad30b</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Data Table from Instance Definition">38058ff1cb11020000f8d856634c9c8c</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 12:18:28</sys_created_on>
+        <sys_id>fd7449358300221020eccc50ceaad358</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>My Gym</sys_name>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_update_name>sp_instance_table_fd7449358300221020eccc50ceaad358</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 12:20:19</sys_updated_on>
+        <table>x_1033940_gym_port_gyms</table>
+        <title>My Gym</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="DELETE" query="documentkey=fd7449358300221020eccc50ceaad358"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gym Portal">29d021058323121020eccc50ceaad328</application>
+        <file_path/>
+        <instance_id>0a2000d81bd982dc78c7cb7b234bcb61</instance_id>
+        <instance_name>dev250396</instance_name>
+        <name>sp_instance_table_fd7449358300221020eccc50ceaad358</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table"><sp_instance_table action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><display_field/><field_list/><filter/><glyph>heart</glyph><id/><maximum_entries>1</maximum_entries><order>3</order><order_by>country</order_by><order_direction>asc</order_direction><roles/><short_description/><size>md</size><sp_column display_value="2">05fe9f4a833f921020eccc50ceaad30b</sp_column><sp_page/><sp_widget display_value="Data Table from Instance Definition">38058ff1cb11020000f8d856634c9c8c</sp_widget><sys_class_name>sp_instance_table</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-03 12:18:28</sys_created_on><sys_id>fd7449358300221020eccc50ceaad358</sys_id><sys_mod_count>7</sys_mod_count><sys_name>My Gym</sys_name><sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package><sys_policy/><sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope><sys_update_name>sp_instance_table_fd7449358300221020eccc50ceaad358</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-03 12:20:19</sys_updated_on><table>x_1033940_gym_port_gyms</table><title>My Gym</title><url/><widget_parameters/></sp_instance_table><sys_translated_text action="delete_multiple" query="documentkey=fd7449358300221020eccc50ceaad358"/></record_update>]]></payload>
+        <payload_hash>578636756</payload_hash>
+        <record_name>My Gym</record_name>
+        <reverted_from/>
+        <source>dd08b50183a3121020eccc50ceaad35e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 12:20:19</sys_created_on>
+        <sys_id>b0e48db58300221020eccc50ceaad3b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1955bf332f50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 12:20:19</sys_updated_on>
+        <type>Instance with Table</type>
+        <update_guid>70e48db5610022101673d8f9513bdeac</update_guid>
+        <update_guid_history>70e48db5610022101673d8f9513bdeac:578636756,fce48db5f8002210b8c00838c7132ca1:-1326038574,e7d48db595002210d8b8788d48487841:-373700909,27d445b5090022103bd2d3a8dde72e23:-1001200520,47d44db51b002210c3ea2710a41207e2:-373700909,6cd40db5e5002210525d73d8f9b17073:-1326038574,5f74c1b59000221023581457375682d9:-1486569861,f17449353d0022109a5c144f07fbfe5a:-1891400452</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="My Gym">aae4c9358300221020eccc50ceaad302</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 12:20:26</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_table">sp_instance_table</sys_db_object>
+        <sys_id>539458c77a684fc8aafda1fe3ebaae90</sys_id>
+        <sys_metadata>fd7449358300221020eccc50ceaad358</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Gym</sys_name>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_scope_delete display_value="">4ef7c16b5f9f42c89374a9b807c00710</sys_scope_delete>
+        <sys_update_name>sp_instance_table_fd7449358300221020eccc50ceaad358</sys_update_name>
+        <sys_update_version display_value="sp_instance_table_fd7449358300221020eccc50ceaad358">b0e48db58300221020eccc50ceaad3b9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 12:20:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
