@@ -1,0 +1,1181 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=712000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>changerevoke_employment</internal_name>
+        <label_cache>[{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","usedInstances":{"32e5353b-1458-4e1c-b1dd-5489e7393a77":["requested_item"]},"attributes":{"default_search_field":"number"}},{"name":"32e5353b-1458-4e1c-b1dd-5489e7393a77.set_new_role_deactivate","label":"1 - Get Catalog Variables➛set_new_role_deactivate","reference":"x_1033940_gym_port_employees","reference_display":"Employees","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":100.0},{"label":"Staff","value":"staff","order":100.0},{"label":"Instructor","value":"instructor","order":100.0},{"label":"Manager","value":"manager","order":100.0},{"label":"Engineer","value":"engineer","order":100.0},{"label":"Inactive","value":"inactive","order":100.0}],"usedInstances":{"ab7f3caa-69d8-4ec6-97d9-68135f69cbaf":["role"]},"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"32e5353b-1458-4e1c-b1dd-5489e7393a77.select_employee_to_amend","label":"1 - Get Catalog Variables➛select_employee_to_amend","reference":"x_1033940_gym_port_employees","reference_display":"Employees","type":"reference","base_type":"reference","usedInstances":{"ab7f3caa-69d8-4ec6-97d9-68135f69cbaf":["record"]},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}}]</label_cache>
+        <master_snapshot>36d6d97d8340221020eccc50ceaad380</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Change/Revoke Employment</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>8bd6d97d8340221020eccc50ceaad3c2</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 13:26:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fc245d798340221020eccc50ceaad32b</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Change/Revoke Employment</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_update_name>sys_hub_flow_fc245d798340221020eccc50ceaad32b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 13:38:51</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=fc245d798340221020eccc50ceaad32b"/>
+    <sys_variable_value action="delete_multiple" query="document_key=fc245d798340221020eccc50ceaad32b"/>
+    <sys_flow_catalog_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <catalog_item/>
+        <name/>
+        <run_flow_in>background</run_flow_in>
+        <sys_class_name>sys_flow_catalog_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 13:38:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8bd6d97d8340221020eccc50ceaad3c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 13:38:51</sys_updated_on>
+    </sys_flow_catalog_trigger>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=fc245d798340221020eccc50ceaad32b"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=fc245d798340221020eccc50ceaad32b"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=fc245d798340221020eccc50ceaad32b^sys_idNOT INf4245d798340221020eccc50ceaad32e"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>fc245d798340221020eccc50ceaad32b</id>
+        <name>Change/Revoke Employment</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 13:26:57</sys_created_on>
+        <sys_id>f4245d798340221020eccc50ceaad32e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 13:26:57</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=f4245d798340221020eccc50ceaad32e^sys_idNOT IN02f5153d8340221020eccc50ceaad39f,0975d9f98340221020eccc50ceaad36a,d15455b98340221020eccc50ceaad3eb"/>
+    <sys_flow_cat_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <attributes/>
+        <cat_item display_value="Manage Employees">939359358340221020eccc50ceaad345</cat_item>
+        <category/>
+        <choice_direction>down</choice_direction>
+        <choice_field>role</choice_field>
+        <choice_table>x_1033940_gym_port_employees</choice_table>
+        <conversational_label/>
+        <create_roles/>
+        <default_html_value/>
+        <default_value/>
+        <delete_roles/>
+        <delivery_plan/>
+        <description/>
+        <display_title>false</display_title>
+        <do_not_select_first>false</do_not_select_first>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <dynamic_value_dot_walk_path/>
+        <dynamic_value_field/>
+        <enable_also_request_for>false</enable_also_request_for>
+        <example_text/>
+        <field/>
+        <flow_catalog_model display_value="Change/Revoke Employment">f4245d798340221020eccc50ceaad32e</flow_catalog_model>
+        <global>false</global>
+        <help_tag>More information</help_tag>
+        <help_text/>
+        <hidden>false</hidden>
+        <include_none>true</include_none>
+        <instructions/>
+        <layout>normal</layout>
+        <list_table/>
+        <lookup_label/>
+        <lookup_price/>
+        <lookup_table/>
+        <lookup_unique>true</lookup_unique>
+        <lookup_value/>
+        <macro/>
+        <macroponent/>
+        <mandatory>false</mandatory>
+        <map_to_field>false</map_to_field>
+        <mask_use_confirmation>false</mask_use_confirmation>
+        <mask_use_encryption>false</mask_use_encryption>
+        <name>set_new_role_deactivate</name>
+        <not_available_conversation>false</not_available_conversation>
+        <order>300</order>
+        <post_insert_script/>
+        <price_if_checked>0</price_if_checked>
+        <pricing_implications>false</pricing_implications>
+        <published_ref/>
+        <question_text>Set New Role/Deactivate</question_text>
+        <read_only>false</read_only>
+        <read_roles/>
+        <read_script/>
+        <rec_lookup_price/>
+        <rec_price_if_checked>0</rec_price_if_checked>
+        <record/>
+        <record_producer_table/>
+        <reference>x_1033940_gym_port_employees</reference>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <rich_text/>
+        <roles_to_use_also_request_for/>
+        <save_script><![CDATA[/** This script is executed before the Record is generated
+* `current`- GlideRecord produced by Record Producer
+* Don't use `current.update()` or `current.insert()` as the record is generated by Record Producer
+* Don't use `current.setValue('sys_class_name', 'xxx')` as this will trigger reparent flow and can cause data loss
+* Avoid `current.setAbortAction()` and generate a separate record
+* Use `producer.var1` to access variables
+*/]]></save_script>
+        <scale_max>5</scale_max>
+        <scale_min>0</scale_min>
+        <show_help>false</show_help>
+        <show_help_on_load>false</show_help_on_load>
+        <sp_widget/>
+        <summary_macro/>
+        <sys_class_name>sys_flow_cat_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 13:36:07</sys_created_on>
+        <sys_id>02f5153d8340221020eccc50ceaad39f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 13:39:33</sys_updated_on>
+        <table/>
+        <tooltip/>
+        <topic_block/>
+        <type>5</type>
+        <ui_page/>
+        <unique>false</unique>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <validate_regex/>
+        <variable_name/>
+        <variable_set/>
+        <variable_width/>
+        <visibility>1</visibility>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <visible_summary>true</visible_summary>
+        <write_roles/>
+    </sys_flow_cat_variable>
+    <sys_translated_text action="delete_multiple" query="documentkey=02f5153d8340221020eccc50ceaad39f"/>
+    <fx_price action="delete_multiple" query="id=02f5153d8340221020eccc50ceaad39f"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price_if_checked</field>
+        <id>02f5153d8340221020eccc50ceaad39f</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 13:36:07</sys_created_on>
+        <sys_id>03361d3d8340221020eccc50ceaad3ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 13:36:07</sys_updated_on>
+        <table>sys_flow_cat_variable</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_price_if_checked</field>
+        <id>02f5153d8340221020eccc50ceaad39f</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 13:36:07</sys_created_on>
+        <sys_id>c7361d3d8340221020eccc50ceaad3ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 13:36:07</sys_updated_on>
+        <table>sys_flow_cat_variable</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_flow_cat_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <attributes/>
+        <cat_item display_value="Manage Employees">939359358340221020eccc50ceaad345</cat_item>
+        <category/>
+        <choice_direction>down</choice_direction>
+        <choice_field/>
+        <choice_table/>
+        <conversational_label/>
+        <create_roles/>
+        <default_html_value/>
+        <default_value/>
+        <delete_roles/>
+        <delivery_plan/>
+        <description/>
+        <display_title>false</display_title>
+        <do_not_select_first>false</do_not_select_first>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <dynamic_value_dot_walk_path>role</dynamic_value_dot_walk_path>
+        <dynamic_value_field display_value="Select Employee to Amend">d15455b98340221020eccc50ceaad3eb</dynamic_value_field>
+        <enable_also_request_for>false</enable_also_request_for>
+        <example_text/>
+        <field/>
+        <flow_catalog_model display_value="Change/Revoke Employment">f4245d798340221020eccc50ceaad32e</flow_catalog_model>
+        <global>false</global>
+        <help_tag>More information</help_tag>
+        <help_text/>
+        <hidden>false</hidden>
+        <include_none>false</include_none>
+        <instructions/>
+        <layout>normal</layout>
+        <list_table/>
+        <lookup_label/>
+        <lookup_price/>
+        <lookup_table/>
+        <lookup_unique>false</lookup_unique>
+        <lookup_value/>
+        <macro/>
+        <macroponent/>
+        <mandatory>false</mandatory>
+        <map_to_field>false</map_to_field>
+        <mask_use_confirmation>false</mask_use_confirmation>
+        <mask_use_encryption>false</mask_use_encryption>
+        <name>current_employee_role</name>
+        <not_available_conversation>false</not_available_conversation>
+        <order>200</order>
+        <post_insert_script/>
+        <price_if_checked>0</price_if_checked>
+        <pricing_implications>false</pricing_implications>
+        <published_ref/>
+        <question_text>Current Employee Role</question_text>
+        <read_only>true</read_only>
+        <read_roles/>
+        <read_script/>
+        <rec_lookup_price/>
+        <rec_price_if_checked>0</rec_price_if_checked>
+        <record/>
+        <record_producer_table/>
+        <reference>x_1033940_gym_port_employees</reference>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <rich_text/>
+        <roles_to_use_also_request_for/>
+        <save_script><![CDATA[/** This script is executed before the Record is generated
+* `current`- GlideRecord produced by Record Producer
+* Don't use `current.update()` or `current.insert()` as the record is generated by Record Producer
+* Don't use `current.setValue('sys_class_name', 'xxx')` as this will trigger reparent flow and can cause data loss
+* Avoid `current.setAbortAction()` and generate a separate record
+* Use `producer.var1` to access variables
+*/]]></save_script>
+        <scale_max>5</scale_max>
+        <scale_min>0</scale_min>
+        <show_help>false</show_help>
+        <show_help_on_load>false</show_help_on_load>
+        <sp_widget/>
+        <summary_macro/>
+        <sys_class_name>sys_flow_cat_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 13:34:17</sys_created_on>
+        <sys_id>0975d9f98340221020eccc50ceaad36a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 13:34:17</sys_updated_on>
+        <table/>
+        <tooltip/>
+        <topic_block/>
+        <type>8</type>
+        <ui_page/>
+        <unique>false</unique>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <validate_regex/>
+        <variable_name/>
+        <variable_set/>
+        <variable_width/>
+        <visibility>1</visibility>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <visible_summary>true</visible_summary>
+        <write_roles/>
+    </sys_flow_cat_variable>
+    <sys_translated_text action="delete_multiple" query="documentkey=0975d9f98340221020eccc50ceaad36a"/>
+    <fx_price action="delete_multiple" query="id=0975d9f98340221020eccc50ceaad36a"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price_if_checked</field>
+        <id>0975d9f98340221020eccc50ceaad36a</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 13:34:17</sys_created_on>
+        <sys_id>04d5d9f98340221020eccc50ceaad352</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 13:34:17</sys_updated_on>
+        <table>sys_flow_cat_variable</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_price_if_checked</field>
+        <id>0975d9f98340221020eccc50ceaad36a</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 13:34:17</sys_created_on>
+        <sys_id>c8d5d9f98340221020eccc50ceaad351</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 13:34:17</sys_updated_on>
+        <table>sys_flow_cat_variable</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_flow_cat_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <attributes/>
+        <cat_item display_value="Manage Employees">939359358340221020eccc50ceaad345</cat_item>
+        <category/>
+        <choice_direction>down</choice_direction>
+        <choice_field/>
+        <choice_table/>
+        <conversational_label/>
+        <create_roles/>
+        <default_html_value/>
+        <default_value/>
+        <delete_roles/>
+        <delivery_plan/>
+        <description/>
+        <display_title>false</display_title>
+        <do_not_select_first>false</do_not_select_first>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <dynamic_value_dot_walk_path/>
+        <dynamic_value_field/>
+        <enable_also_request_for>false</enable_also_request_for>
+        <example_text/>
+        <field/>
+        <flow_catalog_model display_value="Change/Revoke Employment">f4245d798340221020eccc50ceaad32e</flow_catalog_model>
+        <global>false</global>
+        <help_tag>More information</help_tag>
+        <help_text/>
+        <hidden>false</hidden>
+        <include_none>false</include_none>
+        <instructions/>
+        <layout>normal</layout>
+        <list_table/>
+        <lookup_label/>
+        <lookup_price/>
+        <lookup_table/>
+        <lookup_unique>false</lookup_unique>
+        <lookup_value/>
+        <macro/>
+        <macroponent/>
+        <mandatory>true</mandatory>
+        <map_to_field>false</map_to_field>
+        <mask_use_confirmation>false</mask_use_confirmation>
+        <mask_use_encryption>false</mask_use_encryption>
+        <name>select_employee_to_amend</name>
+        <not_available_conversation>false</not_available_conversation>
+        <order>100</order>
+        <post_insert_script/>
+        <price_if_checked>0</price_if_checked>
+        <pricing_implications>false</pricing_implications>
+        <published_ref/>
+        <question_text>Select Employee to Amend</question_text>
+        <read_only>false</read_only>
+        <read_roles/>
+        <read_script/>
+        <rec_lookup_price/>
+        <rec_price_if_checked>0</rec_price_if_checked>
+        <record/>
+        <record_producer_table/>
+        <reference>x_1033940_gym_port_employees</reference>
+        <reference_qual>gymSAMEASgym.manager.gym^role!=manager^EQ</reference_qual>
+        <reference_qual_condition table="x_1033940_gym_port_employees">gymSAMEASgym.manager.gym^role!=manager^EQ<item endquery="false" field="gym" goto="false" newquery="false" operator="SAMEAS" or="false" value="gym.manager.gym"/>
+            <item display_value="Manager" endquery="false" field="role" goto="false" newquery="false" operator="!=" or="false" value="manager"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </reference_qual_condition>
+        <rich_text/>
+        <roles_to_use_also_request_for/>
+        <save_script><![CDATA[/** This script is executed before the Record is generated
+* `current`- GlideRecord produced by Record Producer
+* Don't use `current.update()` or `current.insert()` as the record is generated by Record Producer
+* Don't use `current.setValue('sys_class_name', 'xxx')` as this will trigger reparent flow and can cause data loss
+* Avoid `current.setAbortAction()` and generate a separate record
+* Use `producer.var1` to access variables
+*/]]></save_script>
+        <scale_max>5</scale_max>
+        <scale_min>0</scale_min>
+        <show_help>false</show_help>
+        <show_help_on_load>false</show_help_on_load>
+        <sp_widget/>
+        <summary_macro/>
+        <sys_class_name>sys_flow_cat_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 13:30:42</sys_created_on>
+        <sys_id>d15455b98340221020eccc50ceaad3eb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 13:40:32</sys_updated_on>
+        <table/>
+        <tooltip/>
+        <topic_block/>
+        <type>8</type>
+        <ui_page/>
+        <unique>false</unique>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <validate_regex/>
+        <variable_name/>
+        <variable_set/>
+        <variable_width/>
+        <visibility>1</visibility>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <visible_summary>true</visible_summary>
+        <write_roles/>
+    </sys_flow_cat_variable>
+    <sys_translated_text action="delete_multiple" query="documentkey=d15455b98340221020eccc50ceaad3eb"/>
+    <fx_price action="delete_multiple" query="id=d15455b98340221020eccc50ceaad3eb"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price_if_checked</field>
+        <id>d15455b98340221020eccc50ceaad3eb</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 13:30:43</sys_created_on>
+        <sys_id>bbf4d1f98340221020eccc50ceaad3dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 13:30:43</sys_updated_on>
+        <table>sys_flow_cat_variable</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_price_if_checked</field>
+        <id>d15455b98340221020eccc50ceaad3eb</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 13:30:43</sys_created_on>
+        <sys_id>bbf4d1f98340221020eccc50ceaad3dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 13:30:43</sys_updated_on>
+        <table>sys_flow_cat_variable</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_hub_flow_input action="delete_multiple" query="model=fc245d798340221020eccc50ceaad32b^sys_idNOT INe4b6957d8340221020eccc50ceaad3c8,f0b6957d8340221020eccc50ceaad3d2"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Request Item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Change/Revoke Employment">fc245d798340221020eccc50ceaad32b</model>
+        <model_id>fc245d798340221020eccc50ceaad32b</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_fc245d798340221020eccc50ceaad32b</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 13:38:08</sys_created_on>
+        <sys_id>e4b6957d8340221020eccc50ceaad3c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 13:38:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e4b6957d8340221020eccc50ceaad3c8"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>sc_req_item</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Change/Revoke Employment">fc245d798340221020eccc50ceaad32b</model>
+        <model_id>fc245d798340221020eccc50ceaad32b</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_fc245d798340221020eccc50ceaad32b</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 13:38:08</sys_created_on>
+        <sys_id>f0b6957d8340221020eccc50ceaad3d2</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 13:38:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f0b6957d8340221020eccc50ceaad3d2"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=fc245d798340221020eccc50ceaad32b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=fc245d798340221020eccc50ceaad32b"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=fc245d798340221020eccc50ceaad32b^sys_idNOT IN34b6d57d8340221020eccc50ceaad308"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Change/Revoke Employment">fc245d798340221020eccc50ceaad32b</flow>
+        <name>Service Catalog</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 13:38:09</sys_created_on>
+        <sys_id>34b6d57d8340221020eccc50ceaad308</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 13:38:13</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/81U32vbMBD+V4yeVkjASdZm8dsoBAJdO5ptL6EYWTo7YrLkSbJbL+R/38k/EqczZbCXvll3p7vv032fdwciaQKSROSxVMFa6udgo8iECOXAKCq/1QVgku21YIDx9uNOWEei3YGkP6gsfQGm0ruu03Qa3GsFwXTqo5ucZn3FFiQwB5xEKZUWMPLdDk9fhLVCZV3gOBkMSCj7mRldKj4c5UGnHrRQwbki+MAhpaV0V68BfKWG5oDULIkOROE3JmxtY98kNsC04bEzIsvAYD2HAhQH5eLKw8BLO0Kejv/HJNUG3mZyWfEe8D9NSE4Vp06b+lSEs3BKNAvDCWn6b2u74S3SDpopVQtNeFFVY7ssekqeEdsLyQ0oBIojhW92E65Ctpyvlst5uFiEYXqdpCxlbPlpFt7MrlfYYlzCoxDcKz0POcCL8691foW/KRug/EHJc2CPRmkZ5/TFit/Y/GPo61JAGqzb2+kYc2ELSes23KKwjZPkvyt69Bl7Il5qY70uNFWNSbHrMPfL7qbdvluA7dM9FE5oFAtZ+NXSRL5tB6Zlmav7MV106Ae/s9Litnr/nI2x3evnx36da6EaSF1Sakbl6UQdTk5KB41XKa8o3vCKdgZnHBtVxL9Kf4NceLVh5As6sawFyM5WlhlRuM/MiQpO3vwDWpTFBcUFAAA=</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=fc245d798340221020eccc50ceaad32b^sys_idNOT IN70b6d57d8340221020eccc50ceaad30c,74b6d57d8340221020eccc50ceaad30a"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Change/Revoke Employment">fc245d798340221020eccc50ceaad32b</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 13:38:09</sys_created_on>
+        <sys_id>70b6d57d8340221020eccc50ceaad30c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 13:41:09</sys_updated_on>
+        <ui_id>ab7f3caa-69d8-4ec6-97d9-68135f69cbaf</ui_id>
+        <values>H4sIAAAAAAAA/+VVXU/bMBT9K8jPbZU0KbR9m+iQJjGQYOIFkOXYt8WSE2e2U8iq/vddJ04bFcSKxAta3ny/cs7JPfH9hkhB5iQFEcWz+JQncZKMo2g8TePsNMnisUgYQEwGpGA5YKUBro3A85qpygc2m2QMk2SSZMM4nUyHKcR8mMVCDCfpdAZnySxhZ2cjCwq4o5CXStcA1GmKAwux3eIsIW2pWH0XRmKEP0klDBRkfv84ICUzWOzAkPnmIHUsfMUyUFh60+E/5OPq0p+F5hXiclR2wcvQuQiZkx8LzGCThxNHAwIvDokAAlkyZWFAclYI5rSpydyZCgMGmLguVL2reJKFa4nm7MXKP/jmNPJ1S0BmPIiwO9IgUBteLphjtziZu8rs9NKSg201EbBklXLn/VhbcF06qYu2xbFMdd1aVXlx1SpCdgN636OyCAJKz9Mjb2ktb5/0800H8kIWjSSBotKcqd2JOWdkVjkPZ0NwFxqNc1aWsljR0ui1bJoRSj5aKTyMlko/4zutXBUjxj3uEarKRhcYXzThO2akJ/ETx2DzdkBsbc8Vs3ZPBTWkvyuPpCUWKNBGhUYC2myCb+ZGlu4bvmoNAfh2EAySTd7bMD7bL1Rv5t4kLzSOkmSWRnRV57TUZu8E+3r/v/dSHzPCETA7I/xqPv/bsIMXXsUu+70nV20iOGHyaU6YfiUnBBpf3gr/MkA0fvcX29ukZudtb/mNVvBQRVEijr4rHC3gmfpGpO0Zr5mDt66KT539Ma8doUjntQsJStg3JOqM5n8GiIK2kh2YLSRP7kJyd/V8muPi06h5vpDv/psb6PEvtuozEKQJAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
+        <action_type_parent display_value="Get Catalog Variables">22f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>330ba3abc31013002841b63b12d3aee8</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Change/Revoke Employment">fc245d798340221020eccc50ceaad32b</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 13:38:09</sys_created_on>
+        <sys_id>74b6d57d8340221020eccc50ceaad30a</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 13:41:09</sys_updated_on>
+        <ui_id>32e5353b-1458-4e1c-b1dd-5489e7393a77</ui_id>
+        <values>H4sIAAAAAAAA/91V247TMBD9lcrPUZVLw9K+wcJKSFwkivYFrSzHmbQWjhNsp6VU/XfGidNmu7vdrsQiQOpLx2PPmTNzTr5uicjJjGRFmLGEZTyJwigJw/jlJMpeJFkU5wkDYCQgipWAmRq+N2As5FRYKDG+YrJxB9vtHPRKcBhdMstktaDR2Ce3qbsdJufC1JJtrv0djPClkLkGRWZfbwJSM41lLGgy2x4dnYtTsgwkps6brBQWgY4+dyhO9GA3dRcvAOtx8KH3/qnPg3ilc4cuDAj8sKByQFgFkwYCUjKVM1vpDZlZ3WBAA8s/KbnZZyyFsl3bJfthxE8smsTBoO6MGE4RXg9sf0I9cy0aj370rksq3iDhcyzJbaP3tFY4CtNRl0PBGmkvh7Eu4VNtRaW6K5Zlsr9dyaZUHzu2yP6Bwdgag5CgdgS4lnx/xXxZrfdsXQnVcuUPZcWZHKQC03x5JUC6waqmzDA3IMxaLbLGOpxbAhJKLEBLVtdCLWitq5VoH0WM5Xgh8c+4kNUawRixUGPGXUNjnAMbX2H8TRu+Zlq47j7gM22VCqdCc13VtW/aDYzsAmI25lIyYw694wjo98Yh75jwPdOONneFa1HbV1h4Bb69XdDrKju1r0V02EkcJc7XAuVePUfymibTJMXfy2QSxnEUxiFwztOQA2N5MknviusDU2wBo7f4brUB5PPJYnscfC+2Lx59r/12Nc0IBTHquR/NwZrH+326FKNnk6KluA63ABqKD9OVb4marqX7VPo4Ef+FbF2tPyVaYdAaywp3pu2ZDmfV6he1iI3gVBzEQ3CJ9ahulBUl0FZPVCha1WYlYP182r84LZ+Lgxb6Dev3ygx0n0fpJE2z6f26h2zm1hKbcQxSBesgnF6k+bR44MILdvdCXKRRmuT3X5gWxxfuOs1fifFpXnfGsHqv65V9PZjWiUF6QzOyMcus4d/AHlna3J2MXvdH3tXi067mI+fYWhSHYXjb2R7wrH/VlG7bD9pEgV8W5O4wB9wJaJkk7RUs+lwmdZbZ4NIpLhvMLJEKobHKHqr7OOzTHDUDEKDpWneV9im1xjt65T5GErhtm+zdsGo0926J0WON/D7Lu/kFa+zUt0gMAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=fc245d798340221020eccc50ceaad32b"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=fc245d798340221020eccc50ceaad32b"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=fc245d798340221020eccc50ceaad32b"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=fc245d798340221020eccc50ceaad32b"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_fc245d798340221020eccc50ceaad32b^sys_idNOT IN7cb6957d8340221020eccc50ceaad3d0,b4b6957d8340221020eccc50ceaad3d7"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request_item</element>
+        <help/>
+        <hint/>
+        <label>Request Item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_fc245d798340221020eccc50ceaad32b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 13:38:08</sys_created_on>
+        <sys_id>7cb6957d8340221020eccc50ceaad3d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 13:38:08</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_fc245d798340221020eccc50ceaad32b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 13:38:08</sys_created_on>
+        <sys_id>b4b6957d8340221020eccc50ceaad3d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 13:38:08</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_fc245d798340221020eccc50ceaad32b"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_fc245d798340221020eccc50ceaad32b"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_fc245d798340221020eccc50ceaad32b"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>changerevoke_employment</internal_name>
+        <label_cache>[{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","usedInstances":{"32e5353b-1458-4e1c-b1dd-5489e7393a77":["requested_item"]},"attributes":{"default_search_field":"number"}},{"name":"32e5353b-1458-4e1c-b1dd-5489e7393a77.set_new_role_deactivate","label":"1 - Get Catalog Variables➛set_new_role_deactivate","reference":"x_1033940_gym_port_employees","reference_display":"Employees","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":100.0},{"label":"Staff","value":"staff","order":100.0},{"label":"Instructor","value":"instructor","order":100.0},{"label":"Manager","value":"manager","order":100.0},{"label":"Engineer","value":"engineer","order":100.0},{"label":"Inactive","value":"inactive","order":100.0}],"usedInstances":{"ab7f3caa-69d8-4ec6-97d9-68135f69cbaf":["role"]},"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"32e5353b-1458-4e1c-b1dd-5489e7393a77.select_employee_to_amend","label":"1 - Get Catalog Variables➛select_employee_to_amend","reference":"x_1033940_gym_port_employees","reference_display":"Employees","type":"reference","base_type":"reference","usedInstances":{"ab7f3caa-69d8-4ec6-97d9-68135f69cbaf":["record"]},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}}]</label_cache>
+        <master>true</master>
+        <name>Change/Revoke Employment</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Change/Revoke Employment">fc245d798340221020eccc50ceaad32b</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 13:38:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>36d6d97d8340221020eccc50ceaad380</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 13:38:50</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=36d6d97d8340221020eccc50ceaad380"/>
+    <sys_variable_value action="delete_multiple" query="document_key=36d6d97d8340221020eccc50ceaad380"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=36d6d97d8340221020eccc50ceaad380"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=36d6d97d8340221020eccc50ceaad380^sys_idNOT INfed6d97d8340221020eccc50ceaad380"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>36d6d97d8340221020eccc50ceaad380</id>
+        <name>Change/Revoke Employment</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 13:38:50</sys_created_on>
+        <sys_id>fed6d97d8340221020eccc50ceaad380</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 13:38:50</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=fed6d97d8340221020eccc50ceaad380"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=36d6d97d8340221020eccc50ceaad380^sys_idNOT IN7ed6d97d8340221020eccc50ceaad381,f6d6d97d8340221020eccc50ceaad391"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>sc_req_item</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Change/Revoke Employment">36d6d97d8340221020eccc50ceaad380</model>
+        <model_id>36d6d97d8340221020eccc50ceaad380</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_36d6d97d8340221020eccc50ceaad380</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 13:38:50</sys_created_on>
+        <sys_id>7ed6d97d8340221020eccc50ceaad381</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 13:38:50</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=7ed6d97d8340221020eccc50ceaad381"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Request Item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Change/Revoke Employment">36d6d97d8340221020eccc50ceaad380</model>
+        <model_id>36d6d97d8340221020eccc50ceaad380</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_36d6d97d8340221020eccc50ceaad380</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 13:38:50</sys_created_on>
+        <sys_id>f6d6d97d8340221020eccc50ceaad391</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 13:38:50</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f6d6d97d8340221020eccc50ceaad391"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=36d6d97d8340221020eccc50ceaad380"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=36d6d97d8340221020eccc50ceaad380"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=36d6d97d8340221020eccc50ceaad380^sys_idNOT INbad6d97d8340221020eccc50ceaad3b7"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Change/Revoke Employment">36d6d97d8340221020eccc50ceaad380</flow>
+        <name>Service Catalog</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 13:38:50</sys_created_on>
+        <sys_id>bad6d97d8340221020eccc50ceaad3b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 13:38:50</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/81U32vbMBD+V4yeVkjASdZm8dsoBAJdO5ptL6EYWTo7YrLkSbJbL+R/38k/EqczZbCXvll3p7vv032fdwciaQKSROSxVMFa6udgo8iECOXAKCq/1QVgku21YIDx9uNOWEei3YGkP6gsfQGm0ruu03Qa3GsFwXTqo5ucZn3FFiQwB5xEKZUWMPLdDk9fhLVCZV3gOBkMSCj7mRldKj4c5UGnHrRQwbki+MAhpaV0V68BfKWG5oDULIkOROE3JmxtY98kNsC04bEzIsvAYD2HAhQH5eLKw8BLO0Kejv/HJNUG3mZyWfEe8D9NSE4Vp06b+lSEs3BKNAvDCWn6b2u74S3SDpopVQtNeFFVY7ssekqeEdsLyQ0oBIojhW92E65Ctpyvlst5uFiEYXqdpCxlbPlpFt7MrlfYYlzCoxDcKz0POcCL8691foW/KRug/EHJc2CPRmkZ5/TFit/Y/GPo61JAGqzb2+kYc2ELSes23KKwjZPkvyt69Bl7Il5qY70uNFWNSbHrMPfL7qbdvluA7dM9FE5oFAtZ+NXSRL5tB6Zlmav7MV106Ae/s9Litnr/nI2x3evnx36da6EaSF1Sakbl6UQdTk5KB41XKa8o3vCKdgZnHBtVxL9Kf4NceLVh5As6sawFyM5WlhlRuM/MiQpO3vwDWpTFBcUFAAA=</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=36d6d97d8340221020eccc50ceaad380^sys_idNOT IN36d6d97d8340221020eccc50ceaad3b6,f2d6d97d8340221020eccc50ceaad3b7"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
+        <action_type_parent display_value="Get Catalog Variables">22f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>330ba3abc31013002841b63b12d3aee8</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Change/Revoke Employment">36d6d97d8340221020eccc50ceaad380</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 13:38:50</sys_created_on>
+        <sys_id>36d6d97d8340221020eccc50ceaad3b6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 13:38:50</sys_updated_on>
+        <ui_id>32e5353b-1458-4e1c-b1dd-5489e7393a77</ui_id>
+        <values>H4sIAAAAAAAA/91V247TMBD9lcrPUZVLw9K+wcJKSFwkivYFrSzHmbQWjhNsp6VU/XfGidNmu7vdrsQiQOpLx2PPmTNzTr5uicjJjGRFmLGEZTyJwigJw/jlJMpeJFkU5wkDYCQgipWAmRq+N2As5FRYKDG+YrJxB9vtHPRKcBhdMstktaDR2Ce3qbsdJufC1JJtrv0djPClkLkGRWZfbwJSM41lLGgy2x4dnYtTsgwkps6brBQWgY4+dyhO9GA3dRcvAOtx8KH3/qnPg3ilc4cuDAj8sKByQFgFkwYCUjKVM1vpDZlZ3WBAA8s/KbnZZyyFsl3bJfthxE8smsTBoO6MGE4RXg9sf0I9cy0aj370rksq3iDhcyzJbaP3tFY4CtNRl0PBGmkvh7Eu4VNtRaW6K5Zlsr9dyaZUHzu2yP6Bwdgag5CgdgS4lnx/xXxZrfdsXQnVcuUPZcWZHKQC03x5JUC6waqmzDA3IMxaLbLGOpxbAhJKLEBLVtdCLWitq5VoH0WM5Xgh8c+4kNUawRixUGPGXUNjnAMbX2H8TRu+Zlq47j7gM22VCqdCc13VtW/aDYzsAmI25lIyYw694wjo98Yh75jwPdOONneFa1HbV1h4Bb69XdDrKju1r0V02EkcJc7XAuVePUfymibTJMXfy2QSxnEUxiFwztOQA2N5MknviusDU2wBo7f4brUB5PPJYnscfC+2Lx59r/12Nc0IBTHquR/NwZrH+326FKNnk6KluA63ABqKD9OVb4marqX7VPo4Ef+FbF2tPyVaYdAaywp3pu2ZDmfV6he1iI3gVBzEQ3CJ9ahulBUl0FZPVCha1WYlYP182r84LZ+Lgxb6Dev3ygx0n0fpJE2z6f26h2zm1hKbcQxSBesgnF6k+bR44MILdvdCXKRRmuT3X5gWxxfuOs1fifFpXnfGsHqv65V9PZjWiUF6QzOyMcus4d/AHlna3J2MXvdH3tXi067mI+fYWhSHYXjb2R7wrH/VlG7bD9pEgV8W5O4wB9wJaJkk7RUs+lwmdZbZ4NIpLhvMLJEKobHKHqr7OOzTHDUDEKDpWneV9im1xjt65T5GErhtm+zdsGo0926J0WON/D7Lu/kFa+zUt0gMAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Change/Revoke Employment">36d6d97d8340221020eccc50ceaad380</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 13:38:50</sys_created_on>
+        <sys_id>f2d6d97d8340221020eccc50ceaad3b7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 13:38:50</sys_updated_on>
+        <ui_id>ab7f3caa-69d8-4ec6-97d9-68135f69cbaf</ui_id>
+        <values>H4sIAAAAAAAA/+VVXU/bMBT9K8jPbZU0KbR9m+iQJjGQYOIFkOXYt8WSE2e2U8iq/vddJ04bFcSKxAta3ny/cs7JPfH9hkhB5iQFEcWz+JQncZKMo2g8TePsNMnisUgYQEwGpGA5YKUBro3A85qpygc2m2QMk2SSZMM4nUyHKcR8mMVCDCfpdAZnySxhZ2cjCwq4o5CXStcA1GmKAwux3eIsIW2pWH0XRmKEP0klDBRkfv84ICUzWOzAkPnmIHUsfMUyUFh60+E/5OPq0p+F5hXiclR2wcvQuQiZkx8LzGCThxNHAwIvDokAAlkyZWFAclYI5rSpydyZCgMGmLguVL2reJKFa4nm7MXKP/jmNPJ1S0BmPIiwO9IgUBteLphjtziZu8rs9NKSg201EbBklXLn/VhbcF06qYu2xbFMdd1aVXlx1SpCdgN636OyCAJKz9Mjb2ktb5/0800H8kIWjSSBotKcqd2JOWdkVjkPZ0NwFxqNc1aWsljR0ui1bJoRSj5aKTyMlko/4zutXBUjxj3uEarKRhcYXzThO2akJ/ETx2DzdkBsbc8Vs3ZPBTWkvyuPpCUWKNBGhUYC2myCb+ZGlu4bvmoNAfh2EAySTd7bMD7bL1Rv5t4kLzSOkmSWRnRV57TUZu8E+3r/v/dSHzPCETA7I/xqPv/bsIMXXsUu+70nV20iOGHyaU6YfiUnBBpf3gr/MkA0fvcX29ukZudtb/mNVvBQRVEijr4rHC3gmfpGpO0Zr5mDt66KT539Ma8doUjntQsJStg3JOqM5n8GiIK2kh2YLSRP7kJyd/V8muPi06h5vpDv/psb6PEvtuozEKQJAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=36d6d97d8340221020eccc50ceaad380"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=36d6d97d8340221020eccc50ceaad380"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=36d6d97d8340221020eccc50ceaad380"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=36d6d97d8340221020eccc50ceaad380"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_36d6d97d8340221020eccc50ceaad380^sys_idNOT IN3ed6d97d8340221020eccc50ceaad395,7ed6d97d8340221020eccc50ceaad38e"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request_item</element>
+        <help/>
+        <hint/>
+        <label>Request Item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_36d6d97d8340221020eccc50ceaad380</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 13:38:50</sys_created_on>
+        <sys_id>3ed6d97d8340221020eccc50ceaad395</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 13:38:50</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_36d6d97d8340221020eccc50ceaad380</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 13:38:50</sys_created_on>
+        <sys_id>7ed6d97d8340221020eccc50ceaad38e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 13:38:50</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_36d6d97d8340221020eccc50ceaad380"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_36d6d97d8340221020eccc50ceaad380"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_36d6d97d8340221020eccc50ceaad380"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>fc245d798340221020eccc50ceaad32b</sys_id>
+        <latest_snapshot>36d6d97d8340221020eccc50ceaad380</latest_snapshot>
+        <compiler_build>glide-xanadu-07-02-2024__patch4a-12-16-2024_01-07-2025_0947.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=fc245d798340221020eccc50ceaad32b^sys_idNOT IN83d6d97d8340221020eccc50ceaad3c3"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"83d6d97d8340221020eccc50ceaad3c3","name":"plan","plan_signature":null}}</plan>
+        <plan_id>fc245d798340221020eccc50ceaad32b</plan_id>
+        <snapshot>bc67d9bd8340221020eccc50ceaad394</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 13:38:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>83d6d97d8340221020eccc50ceaad3c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 13:38:51</sys_updated_on>
+        <trigger display_value="">8bd6d97d8340221020eccc50ceaad3c2</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=fc245d798340221020eccc50ceaad32b"/>
+</record_update>
