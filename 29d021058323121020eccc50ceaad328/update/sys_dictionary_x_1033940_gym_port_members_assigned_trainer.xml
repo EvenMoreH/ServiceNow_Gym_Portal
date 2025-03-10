@@ -19,8 +19,8 @@
         <default_value/>
         <defaultsort/>
         <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
+        <dependent>franchise</dependent>
+        <dependent_on_field>franchise</dependent_on_field>
         <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
@@ -42,7 +42,7 @@
         <read_roles/>
         <reference display_value="" name="x_1033940_gym_port_employees">x_1033940_gym_port_employees</reference>
         <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
+        <reference_floats>true</reference_floats>
         <reference_key/>
         <reference_qual>role=instructor^EQ</reference_qual>
         <reference_qual_condition table="x_1033940_gym_port_employees">role=instructor^EQ<item display_value="Instructor" endquery="false" field="role" goto="false" newquery="false" operator="=" or="false" value="instructor"/>
@@ -60,11 +60,11 @@
         <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
         <sys_update_name>sys_dictionary_x_1033940_gym_port_members_assigned_trainer</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-18 11:57:01</sys_updated_on>
+        <sys_updated_on>2025-03-10 15:36:03</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
+        <use_dependent_field>true</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
