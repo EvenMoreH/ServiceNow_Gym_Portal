@@ -6,7 +6,7 @@
         <action_insert>true</action_insert>
         <action_query>false</action_query>
         <action_update>true</action_update>
-        <active>true</active>
+        <active>false</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
@@ -31,18 +31,17 @@
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*, action*/) {
     
-    // Check if the request state is "Closed Complete"
-    // Adjust the condition based on your actual field values (e.g., string or numeric code)
+    // check if the request state is "Closed Complete"
     if (current.request_state == 'closed_complete' || current.request_state == 'closed_incomplete' || current.request_state == 'closed_skipped') {
         
-        // Initialize GlideRecord for the sc_req_item table
+        // initialize GlideRecord for the sc_req_item table
         var reqItemGR = new GlideRecord('sc_req_item');
         reqItemGR.addQuery('request', current.sys_id);
         reqItemGR.query();
         
-        // Iterate over each matching sc_req_item record
+        // iterate over each matching sc_req_item record
         while (reqItemGR.next()) {
-            // Set the state to "Closed Complete"
+            // set the state to "Closed Complete"
             // RITM uses integers thus:
             reqItemGR.state = 3;
             reqItemGR.update();
@@ -56,7 +55,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>53cab42083c4221020eccc50ceaad384</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Close RITM when REQ is Closed</sys_name>
         <sys_overrides/>
         <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
@@ -64,7 +63,7 @@
         <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
         <sys_update_name>sys_script_53cab42083c4221020eccc50ceaad384</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-27 14:48:27</sys_updated_on>
+        <sys_updated_on>2025-03-10 11:19:14</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>
