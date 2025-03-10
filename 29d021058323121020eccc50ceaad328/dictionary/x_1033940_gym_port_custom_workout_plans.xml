@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="448e6dc58363121020eccc50ceaad360" extends="x_1033940_gym_port_standard_workout_plans" label="Custom Workout Plans" max_length="40" name="x_1033940_gym_port_custom_workout_plans" type="collection">
-        <element attributes="encode_utf8=false" label="Plan Owner" max_length="32" name="plan_owner" reference="x_1033940_gym_port_members" type="reference"/>
-        <index name="index">
-            <element name="plan_owner"/>
-        </index>
-    </element>
-</database>

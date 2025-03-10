@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Choose Workout Plan">c5eaf8008390221020eccc50ceaad368</sc_cat_item>
+        <sc_catalog display_value="MyGym">1a52362d83f3121020eccc50ceaad3df</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-10 11:23:45</sys_created_on>
+        <sys_id>ac1bbc008390221020eccc50ceaad3e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MyGym.Choose Workout Plan</sys_name>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_ac1bbc008390221020eccc50ceaad3e5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-10 11:23:45</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gym Portal">29d021058323121020eccc50ceaad328</application>
+        <file_path/>
+        <instance_id>0a2000d81bd982dc78c7cb7b234bcb61</instance_id>
+        <instance_name>dev250396</instance_name>
+        <name>sc_cat_item_catalog_ac1bbc008390221020eccc50ceaad3e5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Choose Workout Plan">c5eaf8008390221020eccc50ceaad368</sc_cat_item><sc_catalog display_value="MyGym">1a52362d83f3121020eccc50ceaad3df</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-10 11:23:45</sys_created_on><sys_id>ac1bbc008390221020eccc50ceaad3e5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>MyGym.Choose Workout Plan</sys_name><sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package><sys_policy/><sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope><sys_update_name>sc_cat_item_catalog_ac1bbc008390221020eccc50ceaad3e5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-10 11:23:45</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>980878236</payload_hash>
+        <record_name>MyGym.Choose Workout Plan</record_name>
+        <reverted_from/>
+        <source>dd08b50183a3121020eccc50ceaad35e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-10 11:23:46</sys_created_on>
+        <sys_id>241bbc008390221020eccc50ceaad3ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1957fcbedcf0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-10 11:23:46</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>281bbc0099902210a2812cd5a60af4e9</update_guid>
+        <update_guid_history>281bbc0099902210a2812cd5a60af4e9:980878236</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="MyGym.Choose Workout Plan">8b9ba5408394221020eccc50ceaad3a4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-10 14:55:50</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>610e0bfca8094f1badd64477a46e4ef1</sys_id>
+        <sys_metadata>ac1bbc008390221020eccc50ceaad3e5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MyGym.Choose Workout Plan</sys_name>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_parent display_value="">c5eaf8008390221020eccc50ceaad368</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_scope_delete display_value="">4ef7c16b5f9f42c89374a9b807c00710</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_ac1bbc008390221020eccc50ceaad3e5</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_ac1bbc008390221020eccc50ceaad3e5">241bbc008390221020eccc50ceaad3ea</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-10 14:55:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

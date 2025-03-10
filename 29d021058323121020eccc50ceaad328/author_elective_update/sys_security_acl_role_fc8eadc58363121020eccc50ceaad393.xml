@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-04 10:55:21</sys_created_on>
+        <sys_id>fc8eadc58363121020eccc50ceaad393</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1033940_gym_port_custom_workout_plans.x_1033940_gym_port.staff</sys_name>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_security_acl display_value="x_1033940_gym_port_custom_workout_plans">bc8eadc58363121020eccc50ceaad390</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_fc8eadc58363121020eccc50ceaad393</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-04 10:55:21</sys_updated_on>
+        <sys_user_role display_value="x_1033940_gym_port.staff" name="x_1033940_gym_port.staff">7421e9c58323121020eccc50ceaad316</sys_user_role>
+    </sys_security_acl_role>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gym Portal">29d021058323121020eccc50ceaad328</application>
+        <file_path/>
+        <instance_id>0a2000d81bd982dc78c7cb7b234bcb61</instance_id>
+        <instance_name>dev250396</instance_name>
+        <name>sys_security_acl_role_fc8eadc58363121020eccc50ceaad393</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-04 10:55:21</sys_created_on>
+        <sys_id>fc8eadc58363121020eccc50ceaad393</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1033940_gym_port_custom_workout_plans.x_1033940_gym_port.staff</sys_name>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_security_acl display_value="x_1033940_gym_port_custom_workout_plans">bc8eadc58363121020eccc50ceaad390</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_fc8eadc58363121020eccc50ceaad393</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-04 10:55:21</sys_updated_on>
+        <sys_user_role display_value="x_1033940_gym_port.staff" name="x_1033940_gym_port.staff">7421e9c58323121020eccc50ceaad316</sys_user_role>
+    </sys_security_acl_role>
+</record_update>]]></payload>
+        <payload_hash>1006123803</payload_hash>
+        <record_name>x_1033940_gym_port_custom_workout_plans.x_1033940_gym_port.staff</record_name>
+        <reverted_from/>
+        <source>db4ade0483b7921020eccc50ceaad372</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-13 21:48:51</sys_created_on>
+        <sys_id>d16a964483b7921020eccc50ceaad315</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19501493d3b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-13 21:48:51</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>9d6a9644fdb79210e3dd4ed1f0e71914</update_guid>
+        <update_guid_history>9d6a9644fdb79210e3dd4ed1f0e71914:0,b08eadc56763121043803f3bb228f196:-1077648817</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1033940_gym_port_custom_workout_plans.x_1033940_gym_port.staff">73b334848350221020eccc50ceaad3e8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-10 10:51:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>06d28ed77b7c49d981f41093dd290171</sys_id>
+        <sys_metadata>fc8eadc58363121020eccc50ceaad393</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1033940_gym_port_custom_workout_plans.x_1033940_gym_port.staff</sys_name>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_parent display_value="">bc8eadc58363121020eccc50ceaad390</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_scope_delete display_value="">4ef7c16b5f9f42c89374a9b807c00710</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_fc8eadc58363121020eccc50ceaad393</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_fc8eadc58363121020eccc50ceaad393">d16a964483b7921020eccc50ceaad315</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-10 10:51:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
