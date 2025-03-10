@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_dl_definition_rel_mat">
+    <catalog_dl_definition_rel_mat action="INSERT_OR_UPDATE">
+        <applies_to>item</applies_to>
+        <catalog_item display_value="Gym Support Request">f5bfa5848394221020eccc50ceaad3a7</catalog_item>
+        <dl_definition display_value="Members Lookup">4fe5168c8358221020eccc50ceaad318</dl_definition>
+        <exact_match>false</exact_match>
+        <matcher_table>x_1033940_gym_port_members</matcher_table>
+        <matcher_table_field>name</matcher_table_field>
+        <source_catalog_variable>IO:aa1039c48394221020eccc50ceaad351</source_catalog_variable>
+        <source_table/>
+        <source_table_field/>
+        <source_variable>logged_in_user</source_variable>
+        <sys_class_name>catalog_dl_definition_rel_mat</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-10 18:08:34</sys_created_on>
+        <sys_id>15a7d6cc8358221020eccc50ceaad3ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IO:aa1039c48394221020eccc50ceaad351</sys_name>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_update_name>catalog_dl_definition_rel_mat_15a7d6cc8358221020eccc50ceaad3ce</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-10 18:08:34</sys_updated_on>
+        <variable_set/>
+    </catalog_dl_definition_rel_mat>
+</record_update>

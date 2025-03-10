@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Gym Support Request">f5bfa5848394221020eccc50ceaad3a7</catalog_item>
+        <catalog_variable>IO:1a8f754c83d4221020eccc50ceaad39c</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>false</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-10 16:24:09</sys_created_on>
+        <sys_id>fecffd4c83d4221020eccc50ceaad355</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>reason_for_change_workout</sys_name>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_fecffd4c83d4221020eccc50ceaad355</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-10 18:33:03</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Reason for Workout Change">40bf3d4c83d4221020eccc50ceaad3ae</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>reason_for_change_workout</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=fecffd4c83d4221020eccc50ceaad355"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gym Portal">29d021058323121020eccc50ceaad328</application>
+        <file_path/>
+        <instance_id>0a2000d81bd982dc78c7cb7b234bcb61</instance_id>
+        <instance_name>dev250396</instance_name>
+        <name>catalog_ui_policy_action_fecffd4c83d4221020eccc50ceaad355</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Gym Support Request">f5bfa5848394221020eccc50ceaad3a7</catalog_item><catalog_variable>IO:1a8f754c83d4221020eccc50ceaad39c</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><field_message/><field_message_type>none</field_message_type><mandatory>false</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-10 16:24:09</sys_created_on><sys_id>fecffd4c83d4221020eccc50ceaad355</sys_id><sys_mod_count>2</sys_mod_count><sys_name>reason_for_change_workout</sys_name><sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package><sys_policy/><sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope><sys_update_name>catalog_ui_policy_action_fecffd4c83d4221020eccc50ceaad355</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-10 18:33:03</sys_updated_on><table/><ui_policy display_value="Reason for Workout Change">40bf3d4c83d4221020eccc50ceaad3ae</ui_policy><value/><value_action>ignore</value_action><variable>reason_for_change_workout</variable><variable_set/><visible>false</visible></catalog_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=fecffd4c83d4221020eccc50ceaad355"/></record_update>]]></payload>
+        <payload_hash>-614006477</payload_hash>
+        <record_name>reason_for_change_workout</record_name>
+        <reverted_from/>
+        <source>dd08b50183a3121020eccc50ceaad35e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-10 18:33:04</sys_created_on>
+        <sys_id>495dda088398221020eccc50ceaad334</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1958154f7030000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-10 18:33:04</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>cd5dda081e982210b89034d3a21fad33</update_guid>
+        <update_guid_history>cd5dda081e982210b89034d3a21fad33:-614006477,dc5d9a08099822104caa3c26339c0add:1654279948,74df318c66d42210dc546e1fc1255429:-1034869837</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="reason_for_change_workout">c2c0a24c8398221020eccc50ceaad39c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-10 18:48:09</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>0d9b086627d74e5a96f9a4521c24b8c4</sys_id>
+        <sys_metadata>fecffd4c83d4221020eccc50ceaad355</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>reason_for_change_workout</sys_name>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_scope_delete display_value="">4ef7c16b5f9f42c89374a9b807c00710</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_fecffd4c83d4221020eccc50ceaad355</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_fecffd4c83d4221020eccc50ceaad355">495dda088398221020eccc50ceaad334</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-10 18:48:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

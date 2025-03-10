@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
     <sc_cat_item_catalog action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="Manage Membership">811b60e88344221020eccc50ceaad34e</sc_cat_item>
-        <sc_catalog display_value="GymHub">28307a6d83f3121020eccc50ceaad303</sc_catalog>
+        <sc_cat_item display_value="Gym Support Request">f5bfa5848394221020eccc50ceaad3a7</sc_cat_item>
+        <sc_catalog display_value="MyGym">1a52362d83f3121020eccc50ceaad3df</sc_catalog>
         <sys_class_name>sc_cat_item_catalog</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-02-27 13:23:59</sys_created_on>
-        <sys_id>961de0ac8344221020eccc50ceaad328</sys_id>
+        <sys_created_on>2025-03-10 15:15:06</sys_created_on>
+        <sys_id>9500f5848394221020eccc50ceaad313</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>GymHub.Amend Membership</sys_name>
+        <sys_name>MyGym.Gym Support Request</sys_name>
         <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
         <sys_policy/>
         <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
-        <sys_update_name>sc_cat_item_catalog_961de0ac8344221020eccc50ceaad328</sys_update_name>
+        <sys_update_name>sc_cat_item_catalog_9500f5848394221020eccc50ceaad313</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-27 13:23:59</sys_updated_on>
+        <sys_updated_on>2025-03-10 15:15:06</sys_updated_on>
     </sc_cat_item_catalog>
 </record_update>
