@@ -14,18 +14,18 @@
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_1033940_gym_port_employees</name>
         <order>25</order>
-        <override_menu_roles>false</override_menu_roles>
+        <override_menu_roles>true</override_menu_roles>
         <query/>
         <report/>
         <require_confirmation>true</require_confirmation>
-        <roles>x_1033940_gym_port.employees_user</roles>
+        <roles>x_1033940_gym_port.franchise_user,x_1033940_gym_port.instructor,x_1033940_gym_port.manager,x_1033940_gym_port.staff</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-02-14 10:12:49</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>57a4851083f3d21020eccc50ceaad333</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Employees</sys_name>
         <sys_overrides/>
         <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
@@ -33,7 +33,7 @@
         <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
         <sys_update_name>sys_app_module_57a4851083f3d21020eccc50ceaad333</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-14 10:29:43</sys_updated_on>
+        <sys_updated_on>2025-03-11 10:23:44</sys_updated_on>
         <timeline_page/>
         <title>Employees</title>
         <uncancelable>false</uncancelable>

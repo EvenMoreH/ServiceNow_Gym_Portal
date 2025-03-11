@@ -50,7 +50,7 @@
         <pricing_implications>false</pricing_implications>
         <published_ref/>
         <question_text>Current Workout Plan</question_text>
-        <read_only>false</read_only>
+        <read_only>true</read_only>
         <read_roles>x_1033940_gym_port.amenities_user,x_1033940_gym_port.employees_user,x_1033940_gym_port.franchise_user,x_1033940_gym_port.instructor,x_1033940_gym_port.manager,x_1033940_gym_port.member,x_1033940_gym_port.staff,x_1033940_gym_port.vip</read_roles>
         <read_script/>
         <rec_lookup_price/>
@@ -79,14 +79,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-10 15:21:20</sys_created_on>
         <sys_id>7e4175088394221020eccc50ceaad3c1</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name>Current Workout Plan</sys_name>
         <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
         <sys_policy/>
         <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
         <sys_update_name>item_option_new_7e4175088394221020eccc50ceaad3c1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-10 17:47:21</sys_updated_on>
+        <sys_updated_on>2025-03-11 07:51:52</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>

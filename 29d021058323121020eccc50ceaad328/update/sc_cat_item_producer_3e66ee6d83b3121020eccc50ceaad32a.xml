@@ -91,14 +91,14 @@ producer.portal_redirect = '?id=gym_portal_ticket_1&is_new_order=true&table=x_10
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-02-18 14:32:21</sys_created_on>
         <sys_id>3e66ee6d83b3121020eccc50ceaad32a</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>33</sys_mod_count>
         <sys_name>Add New Gym Member</sys_name>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
         <sys_update_name>sc_cat_item_producer_3e66ee6d83b3121020eccc50ceaad32a</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-20 14:04:04</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-03-11 08:30:08</sys_updated_on>
         <table_name>x_1033940_gym_port_members</table_name>
         <taxonomy_topic display_value="Technology services">06d3df67c3053010069aec4b7d40dd70</taxonomy_topic>
         <template/>
@@ -106,7 +106,7 @@ producer.portal_redirect = '?id=gym_portal_ticket_1&is_new_order=true&table=x_10
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>30</version>
+        <version>31</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
