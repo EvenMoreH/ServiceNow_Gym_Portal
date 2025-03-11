@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
         <sc_cat_item display_value="Gym Support Request">f5bfa5848394221020eccc50ceaad3a7</sc_cat_item>
-        <sc_category display_value="Workouts &amp; Classes">c3a276218337121020eccc50ceaad37b</sc_category>
+        <sc_category display_value="Instructors &amp; Workouts">c3a276218337121020eccc50ceaad37b</sc_category>
         <sys_class_name>sc_cat_item_category</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-10 15:15:06</sys_created_on>

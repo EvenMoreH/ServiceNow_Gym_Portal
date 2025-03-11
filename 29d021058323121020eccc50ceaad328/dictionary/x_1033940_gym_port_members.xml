@@ -12,7 +12,7 @@
         <element label="Phone" max_length="40" name="phone" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Last Name" mandatory="true" max_length="80" name="surname" type="string"/>
         <element label="Email" mandatory="true" max_length="80" name="email" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Gym" max_length="32" name="gym" reference="x_1033940_gym_port_gyms" reference_qual="franchise=576d19108377d21020eccc50ceaad370^EQ" reference_qual_condition="franchise=576d19108377d21020eccc50ceaad370^EQ" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" dependent="franchise" dependent_on_field="franchise" label="Gym" max_length="32" name="gym" reference="x_1033940_gym_port_gyms" type="reference" use_dependent_field="true"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Current Training Plan" max_length="40" name="current_training_plan" reference="x_1033940_gym_port_standard_workout_plans" reference_key="name" type="reference"/>
         <element label="First Name" mandatory="true" max_length="40" name="first_name" type="string"/>

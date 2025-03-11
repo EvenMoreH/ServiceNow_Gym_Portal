@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_script">
+    <sys_ui_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Gym Standard Members and VIP Members shoul have only access to Portal</description>
+        <global>false</global>
+        <ignore_in_now_experience>false</ignore_in_now_experience>
+        <name>x_1033940_gym_port.User Redirect</name>
+        <script><![CDATA[var workspaceFunctions = (function() {
+  return {
+    // Define your Workspace function here
+    redirectIfNoBackendAccess: function() {
+      // Check if the user does have the role.
+      if (g_user.hasRole('x_1033940_gym_port.member')) {
+        // Redirect non-authorized users to the portal page.
+        window.location.href = '/gp';
+      }
+    }
+  };
+})(); // End of IIFE and assignment
+
+// Define your core UI function here
+function redirectIfNoBackendAccess() {
+  // Check if the user does have the role.
+  if (g_user.hasRole('x_1033940_gym_port.member')) {
+    // Redirect non-authorized users to the portal page.
+    window.location.href = '/gp';
+  }
+}]]></script>
+        <script_name>User Redirect</script_name>
+        <sys_class_name>sys_ui_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-11 10:04:39</sys_created_on>
+        <sys_id>90e0f15883d0221020eccc50ceaad382</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1033940_gym_port.User Redirect</sys_name>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_update_name>sys_ui_script_90e0f15883d0221020eccc50ceaad382</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-11 10:04:39</sys_updated_on>
+        <ui_type>10</ui_type>
+        <use_scoped_format>false</use_scoped_format>
+    </sys_ui_script>
+</record_update>

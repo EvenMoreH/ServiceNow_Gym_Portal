@@ -4,7 +4,7 @@
         <active>true</active>
         <availability>on_desktop</availability>
         <billable>false</billable>
-        <category display_value="Workouts &amp; Classes">c3a276218337121020eccc50ceaad37b</category>
+        <category display_value="Instructors &amp; Workouts">c3a276218337121020eccc50ceaad37b</category>
         <checked_out/>
         <cost>0</cost>
         <custom_cart/>
@@ -67,21 +67,21 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-10 15:15:06</sys_created_on>
         <sys_id>f5bfa5848394221020eccc50ceaad3a7</sys_id>
-        <sys_mod_count>116</sys_mod_count>
+        <sys_mod_count>142</sys_mod_count>
         <sys_name>Gym Support Request</sys_name>
         <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
         <sys_policy/>
         <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
         <sys_update_name>sc_cat_item_f5bfa5848394221020eccc50ceaad3a7</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-03-10 19:08:48</sys_updated_on>
+        <sys_updated_on>2025-03-11 08:12:54</sys_updated_on>
         <taxonomy_topic/>
         <template/>
         <template_manager_roles/>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>116</version>
+        <version>142</version>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>
