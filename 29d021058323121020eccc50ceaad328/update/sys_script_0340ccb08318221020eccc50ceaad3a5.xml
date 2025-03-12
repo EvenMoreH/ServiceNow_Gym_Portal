@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>true</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1033940_gym_port_gyms</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Limit View to My Gyms</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var managerEmail = gs.getUser().getEmail();
+
+	var managerGR = new GlideRecord('x_1033940_gym_port_employees');
+	managerGR.addQuery('email', managerEmail);
+	managerGR.query();
+
+	if (managerGR.next()) {
+		var isRole = managerGR.getValue('role');
+		var currentGym = managerGR.getValue('gym');
+		var currentFranchise = managerGR.getValue('franchise');
+	}
+
+	var gymID = new GlideRecord('x_1033940_gym_port_gyms');
+	gymID.addQuery('sys_id', currentGym);
+	gymID.query();
+
+	if(gymID.next()) {
+		var gymNumber = gymID.getValue('number');
+	}
+
+	var encodedQuery;
+
+	if (isRole == 'owner') {
+		encodedQuery = 'franchise=' + currentFranchise;
+	} else {
+		encodedQuery = 'number=' + gymNumber;
+	}
+
+	if (managerEmail != 'admin@example.com') {
+		current.addEncodedQuery(encodedQuery);
+	}
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-12 15:04:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0340ccb08318221020eccc50ceaad3a5</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Limit View to My Gyms</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_update_name>sys_script_0340ccb08318221020eccc50ceaad3a5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-12 15:48:24</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=0340ccb08318221020eccc50ceaad3a5"/>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>0340ccb08318221020eccc50ceaad3a5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-12 15:04:56</sys_created_on>
+        <sys_id>23d008f08318221020eccc50ceaad3dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-12 15:04:56</sys_updated_on>
+        <table>sys_script</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
