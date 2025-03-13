@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>danger</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">05fe9f4a833f921020eccc50ceaad30b</sp_column>
+        <sp_widget display_value="link-button">abc50de6d702120023c84f80de61036a</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-13 15:28:18</sys_created_on>
+        <sys_id>3bcf01458394221020eccc50ceaad341</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_update_name>sp_instance_3bcf01458394221020eccc50ceaad341</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-13 15:29:46</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"href": {
+		"value": "https://dev250396.service-now.com/gp?id=form&table=x_1033940_gym_port_standard_workout_plans&sys_id=1f6815ef8337121020eccc50ceaad3a2&sysparm_view=portal",
+		"displayValue": "https://dev250396.service-now.com/gp?id=form&table=x_1033940_gym_port_standard_workout_plans&sys_id=1f6815ef8337121020eccc50ceaad3a2&sysparm_view=portal"
+	},
+	"button_text": {
+		"value": "Preview My Workout Plan",
+		"displayValue": "Preview My Workout Plan"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=3bcf01458394221020eccc50ceaad341"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gym Portal">29d021058323121020eccc50ceaad328</application>
+        <file_path/>
+        <instance_id>0a2000d81bd982dc78c7cb7b234bcb61</instance_id>
+        <instance_name>dev250396</instance_name>
+        <name>sp_instance_3bcf01458394221020eccc50ceaad341</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;danger&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;2&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="2"&gt;05fe9f4a833f921020eccc50ceaad30b&lt;/sp_column&gt;&lt;sp_widget display_value="link-button"&gt;abc50de6d702120023c84f80de61036a&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-13 15:28:18&lt;/sys_created_on&gt;&lt;sys_id&gt;3bcf01458394221020eccc50ceaad341&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Gym Portal" source="x_1033940_gym_port"&gt;29d021058323121020eccc50ceaad328&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Gym Portal"&gt;29d021058323121020eccc50ceaad328&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_3bcf01458394221020eccc50ceaad341&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-13 15:29:46&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"href": {
+		"value": "https://dev250396.service-now.com/gp?id=form&amp;table=x_1033940_gym_port_standard_workout_plans&amp;sys_id=1f6815ef8337121020eccc50ceaad3a2&amp;sysparm_view=portal",
+		"displayValue": "https://dev250396.service-now.com/gp?id=form&amp;table=x_1033940_gym_port_standard_workout_plans&amp;sys_id=1f6815ef8337121020eccc50ceaad3a2&amp;sysparm_view=portal"
+	},
+	"button_text": {
+		"value": "Preview My Workout Plan",
+		"displayValue": "Preview My Workout Plan"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=3bcf01458394221020eccc50ceaad341"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1726634500</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>dd08b50183a3121020eccc50ceaad35e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-13 15:29:46</sys_created_on>
+        <sys_id>d52019458394221020eccc50ceaad314</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19590203d880000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-13 15:29:46</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>5d201945fc9422101742e5610f39f513</update_guid>
+        <update_guid_history>5d201945fc9422101742e5610f39f513:1726634500,cfef814513942210b609185dce4a4fea:1506112434,3bcf014503942210ae942d756dc30d43:1376624910</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">12c215458394221020eccc50ceaad31f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-13 15:41:18</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>2f167d1ddf214708b1bd74a3ff629d90</sys_id>
+        <sys_metadata>3bcf01458394221020eccc50ceaad341</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_scope_delete display_value="">4ef7c16b5f9f42c89374a9b807c00710</sys_scope_delete>
+        <sys_update_name>sp_instance_3bcf01458394221020eccc50ceaad341</sys_update_name>
+        <sys_update_version display_value="sp_instance_3bcf01458394221020eccc50ceaad341">d52019458394221020eccc50ceaad314</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-13 15:41:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

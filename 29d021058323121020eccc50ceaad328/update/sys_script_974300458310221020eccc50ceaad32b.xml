@@ -11,95 +11,91 @@
         <advanced>true</advanced>
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
-        <collection>x_1033940_gym_port_gyms</collection>
+        <collection>x_1033940_gym_port_members</collection>
         <condition/>
         <description/>
         <execute_function>false</execute_function>
         <filter_condition/>
         <is_rest>false</is_rest>
         <message/>
-        <name>Limit View to My Gyms</name>
-        <order>100</order>
+        <name>See Only Relevant Members</name>
+        <order>400</order>
         <priority>100</priority>
         <rest_method/>
         <rest_method_text/>
         <rest_service/>
         <rest_service_text/>
         <rest_variables/>
-        <role_conditions/>
+        <role_conditions>x_1033940_gym_port.franchise_user,x_1033940_gym_port.instructor,x_1033940_gym_port.manager,x_1033940_gym_port.member,x_1033940_gym_port.staff</role_conditions>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
-	var currentEmail = gs.getUser().getEmail();
+	var getEmail = gs.getUser().getEmail();
+	var isRole;
+	var isPass;
+	var currentGym;
+	var currentFranchise;
+	var encodedQuery;
 
-	var managerGR = new GlideRecord('x_1033940_gym_port_employees');
-	managerGR.addQuery('email', currentEmail);
-	managerGR.query();
+	var isEmployeeGR = new GlideRecord('x_1033940_gym_port_employees');
+	isEmployeeGR.addQuery('email', getEmail);
+	isEmployeeGR.query();
 
-	if (managerGR.next()) {
-		var isRole = managerGR.getValue('role');
-		var currentGym = managerGR.getValue('gym');
-		var currentFranchise = managerGR.getValue('franchise');
-	} else {
+	if (isEmployeeGR.next()) {
+			isRole = isEmployeeGR.getValue('role');
+			currentGym = isEmployeeGR.getValue('gym');
+			currentFranchise = isEmployeeGR.getValue('franchise');
+		} else {
 		var isMemberGR = new GlideRecord('x_1033940_gym_port_members');
-			isMemberGR.addQuery('email', currentEmail);
+			isMemberGR.addQuery('email', getEmail);
 			isMemberGR.query();
 
 		if (isMemberGR.next()) {
 			// members table uses passes instead of roles
-			isRole = isMemberGR.getValue('pass');
-			currentGym = isMemberGR.getValue('gym');
-			currentFranchise = isMemberGR.getValue('franchise');
+			isPass = isMemberGR.getValue('pass');
 		}
 	}
 
-	var gymID = new GlideRecord('x_1033940_gym_port_gyms');
-	gymID.addQuery('sys_id', currentGym);
-	gymID.query();
-
-	if(gymID.next()) {
-		var gymNumber = gymID.getValue('number');
-	}
-
-	var encodedQuery;
-
 	if (isRole == 'owner') {
 		encodedQuery = 'franchise=' + currentFranchise;
+	} else if (isPass == 'standard' || isPass == 'vip') {
+		encodedQuery = 'email=' + getEmail;
+	// handles 'this' gym manager and all 'this' gym employees
 	} else {
-		encodedQuery = 'number=' + gymNumber;
+		encodedQuery = 'gym=' + currentGym;
 	}
 
-	if (currentEmail != 'admin@example.com') {
+	if (getEmail != 'admin@example.com') {
 		current.addEncodedQuery(encodedQuery);
 	}
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-03-12 15:04:56</sys_created_on>
+        <sys_created_on>2025-03-13 09:55:25</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>0340ccb08318221020eccc50ceaad3a5</sys_id>
+        <sys_id>974300458310221020eccc50ceaad32b</sys_id>
         <sys_mod_count>15</sys_mod_count>
-        <sys_name>Limit View to My Gyms</sys_name>
+        <sys_name>See Only Relevant Members</sys_name>
         <sys_overrides/>
         <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
         <sys_policy/>
         <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
-        <sys_update_name>sys_script_0340ccb08318221020eccc50ceaad3a5</sys_update_name>
+        <sys_update_name>sys_script_974300458310221020eccc50ceaad32b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-13 13:59:06</sys_updated_on>
+        <sys_updated_on>2025-03-13 12:01:18</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
-    <sys_translated_text action="delete_multiple" query="documentkey=0340ccb08318221020eccc50ceaad3a5"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=974300458310221020eccc50ceaad32b"/>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
-        <id>0340ccb08318221020eccc50ceaad3a5</id>
+        <id>974300458310221020eccc50ceaad32b</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-03-12 15:04:56</sys_created_on>
-        <sys_id>23d008f08318221020eccc50ceaad3dc</sys_id>
+        <sys_created_on>2025-03-13 09:55:25</sys_created_on>
+        <sys_id>a39304458310221020eccc50ceaad342</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-12 15:04:56</sys_updated_on>
+        <sys_updated_on>2025-03-13 09:55:25</sys_updated_on>
         <table>sys_script</table>
         <use_es_latest>true</use_es_latest>
     </sys_es_latest_script>

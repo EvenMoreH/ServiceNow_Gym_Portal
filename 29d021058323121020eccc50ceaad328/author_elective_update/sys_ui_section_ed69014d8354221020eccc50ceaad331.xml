@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="New Section" section_id="ed69014d8354221020eccc50ceaad331" sys_domain="global" table="x_1033940_gym_port_standard_workout_plans" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>day_1</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-13 15:00:19</sys_created_on>
+            <sys_id>4669014d8354221020eccc50ceaad386</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1033940_gym_port_standard_workout_plans" sys_domain="global" view="Default view">ed69014d8354221020eccc50ceaad331</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-13 15:00:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>New Section</caption>
+            <header>false</header>
+            <name>x_1033940_gym_port_standard_workout_plans</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-13 15:00:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ed69014d8354221020eccc50ceaad331</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1033940_gym_port_standard_workout_plans</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+            <sys_update_name>sys_ui_section_ed69014d8354221020eccc50ceaad331</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-13 15:00:17</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gym Portal">29d021058323121020eccc50ceaad328</application>
+        <file_path/>
+        <instance_id>0a2000d81bd982dc78c7cb7b234bcb61</instance_id>
+        <instance_name>dev250396</instance_name>
+        <name>sys_ui_section_ed69014d8354221020eccc50ceaad331</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="New Section" section_id="ed69014d8354221020eccc50ceaad331" sys_domain="global" table="x_1033940_gym_port_standard_workout_plans" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>day_1</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-13 15:00:19</sys_created_on><sys_id>4669014d8354221020eccc50ceaad386</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_1033940_gym_port_standard_workout_plans" sys_domain="global" view="Default view">ed69014d8354221020eccc50ceaad331</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-13 15:00:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>New Section</caption><header>false</header><name>x_1033940_gym_port_standard_workout_plans</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-13 15:00:17</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ed69014d8354221020eccc50ceaad331</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1033940_gym_port_standard_workout_plans</sys_name><sys_overrides/><sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package><sys_policy/><sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope><sys_update_name>sys_ui_section_ed69014d8354221020eccc50ceaad331</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-13 15:00:17</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-100073727</payload_hash>
+        <record_name>Standard Workout Plans</record_name>
+        <reverted_from/>
+        <source>dd08b50183a3121020eccc50ceaad35e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-13 15:00:19</sys_created_on>
+        <sys_id>4669014d8354221020eccc50ceaad388</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195900546e40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-13 15:00:19</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>ca69014d24542210d254e25739d76387</update_guid>
+        <update_guid_history>ca69014d24542210d254e25739d76387:-100073727</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-13 15:00:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>55e8c2095f4a45baa4c2e3a4047355c9</sys_id>
+        <sys_metadata>ed69014d8354221020eccc50ceaad331</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Section</sys_name>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_parent display_value="Standard Workout Plans">234c25458363121020eccc50ceaad375</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_scope_delete display_value="">4ef7c16b5f9f42c89374a9b807c00710</sys_scope_delete>
+        <sys_update_name>sys_ui_section_ed69014d8354221020eccc50ceaad331</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_ed69014d8354221020eccc50ceaad331">4669014d8354221020eccc50ceaad388</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-13 15:00:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
