@@ -5,14 +5,14 @@
         <color>default</color>
         <css/>
         <display_field/>
-        <field_list>name,type</field_list>
+        <field_list>assigned_trainer,current_training_plan</field_list>
         <filter/>
-        <glyph/>
+        <glyph>line-chart</glyph>
         <id/>
         <maximum_entries>5</maximum_entries>
-        <order>2</order>
-        <order_by>name</order_by>
-        <order_direction>asc</order_direction>
+        <order>3</order>
+        <order_by>assigned_trainer</order_by>
+        <order_direction>desc</order_direction>
         <roles/>
         <short_description/>
         <size>md</size>
@@ -23,16 +23,16 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-02-27 12:16:20</sys_created_on>
         <sys_id>5b9dd4a88304221020eccc50ceaad34d</sys_id>
-        <sys_mod_count>9</sys_mod_count>
-        <sys_name>Current Workout Plan</sys_name>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>Instructor &amp; Workout Plan</sys_name>
         <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
         <sys_policy/>
         <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
         <sys_update_name>sp_instance_table_5b9dd4a88304221020eccc50ceaad34d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-03 12:20:19</sys_updated_on>
-        <table>x_1033940_gym_port_standard_workout_plans</table>
-        <title>Current Workout Plan</title>
+        <sys_updated_on>2025-03-13 15:41:41</sys_updated_on>
+        <table>x_1033940_gym_port_members</table>
+        <title>Instructor &amp; Workout Plan</title>
         <url/>
         <widget_parameters/>
     </sp_instance_table>

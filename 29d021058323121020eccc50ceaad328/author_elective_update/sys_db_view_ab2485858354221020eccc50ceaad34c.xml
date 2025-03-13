@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view">
+    <sys_db_view action="DELETE">
+        <description/>
+        <label>Full Workouts</label>
+        <name>x_1033940_gym_port_full_workouts</name>
+        <plural/>
+        <sys_class_name>sys_db_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-13 14:38:00</sys_created_on>
+        <sys_id>ab2485858354221020eccc50ceaad34c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1033940_gym_port_full_workouts</sys_name>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_update_name>sys_db_view_ab2485858354221020eccc50ceaad34c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-13 14:38:00</sys_updated_on>
+    </sys_db_view>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gym Portal">29d021058323121020eccc50ceaad328</application>
+        <file_path/>
+        <instance_id>0a2000d81bd982dc78c7cb7b234bcb61</instance_id>
+        <instance_name>dev250396</instance_name>
+        <name>sys_db_view_ab2485858354221020eccc50ceaad34c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view"><sys_db_view action="INSERT_OR_UPDATE"><description/><label>Full Workouts</label><name>x_1033940_gym_port_full_workouts</name><plural/><sys_class_name>sys_db_view</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-13 14:38:00</sys_created_on><sys_id>ab2485858354221020eccc50ceaad34c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1033940_gym_port_full_workouts</sys_name><sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package><sys_policy/><sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope><sys_update_name>sys_db_view_ab2485858354221020eccc50ceaad34c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-13 14:38:00</sys_updated_on></sys_db_view></record_update>]]></payload>
+        <payload_hash>-1496157544</payload_hash>
+        <record_name>x_1033940_gym_port_full_workouts</record_name>
+        <reverted_from/>
+        <source>dd08b50183a3121020eccc50ceaad35e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-13 14:38:00</sys_created_on>
+        <sys_id>0f4409858354221020eccc50ceaad3cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1958ff0d8970000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-13 14:38:00</sys_updated_on>
+        <type>Database View</type>
+        <update_guid>034409850f542210ee9b9cc145115fcc</update_guid>
+        <update_guid_history>034409850f542210ee9b9cc145115fcc:-1496157544</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-13 14:46:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_view">sys_db_view</sys_db_object>
+        <sys_id>1307a269ea304cf0b063f82f0dcdd990</sys_id>
+        <sys_metadata>ab2485858354221020eccc50ceaad34c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1033940_gym_port_full_workouts</sys_name>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_scope_delete display_value="">4ef7c16b5f9f42c89374a9b807c00710</sys_scope_delete>
+        <sys_update_name>sys_db_view_ab2485858354221020eccc50ceaad34c</sys_update_name>
+        <sys_update_version display_value="sys_db_view_ab2485858354221020eccc50ceaad34c">0f4409858354221020eccc50ceaad3cc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-13 14:46:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

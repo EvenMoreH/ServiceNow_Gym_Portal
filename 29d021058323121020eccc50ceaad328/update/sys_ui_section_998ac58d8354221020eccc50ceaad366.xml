@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Day 6" section_id="998ac58d8354221020eccc50ceaad366" sys_domain="global" table="x_1033940_gym_port_standard_workout_plans" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>day_6</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-13 15:11:18</sys_created_on>
+            <sys_id>0feb85018394221020eccc50ceaad361</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Day 6" display_value="Day 6" name="x_1033940_gym_port_standard_workout_plans" sys_domain="global" view="Default view">998ac58d8354221020eccc50ceaad366</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-13 15:11:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-13 15:11:18</sys_created_on>
+            <sys_id>07eb85018394221020eccc50ceaad362</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Day 6" display_value="Day 6" name="x_1033940_gym_port_standard_workout_plans" sys_domain="global" view="Default view">998ac58d8354221020eccc50ceaad366</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-13 15:11:18</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>day_6.exercise_1</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-13 15:11:18</sys_created_on>
+            <sys_id>0feb85018394221020eccc50ceaad362</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Day 6" display_value="Day 6" name="x_1033940_gym_port_standard_workout_plans" sys_domain="global" view="Default view">998ac58d8354221020eccc50ceaad366</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-13 15:11:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>day_6.exercise_2</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-13 15:11:18</sys_created_on>
+            <sys_id>07eb85018394221020eccc50ceaad363</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Day 6" display_value="Day 6" name="x_1033940_gym_port_standard_workout_plans" sys_domain="global" view="Default view">998ac58d8354221020eccc50ceaad366</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-13 15:11:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>day_6.exercise_3</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-13 15:11:18</sys_created_on>
+            <sys_id>0feb85018394221020eccc50ceaad363</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Day 6" display_value="Day 6" name="x_1033940_gym_port_standard_workout_plans" sys_domain="global" view="Default view">998ac58d8354221020eccc50ceaad366</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-13 15:11:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>day_6.exercise_4</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-13 15:11:19</sys_created_on>
+            <sys_id>07eb85018394221020eccc50ceaad364</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Day 6" display_value="Day 6" name="x_1033940_gym_port_standard_workout_plans" sys_domain="global" view="Default view">998ac58d8354221020eccc50ceaad366</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-13 15:11:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>day_6.exercise_5</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-13 15:11:19</sys_created_on>
+            <sys_id>0feb85018394221020eccc50ceaad364</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Day 6" display_value="Day 6" name="x_1033940_gym_port_standard_workout_plans" sys_domain="global" view="Default view">998ac58d8354221020eccc50ceaad366</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-13 15:11:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-13 15:11:19</sys_created_on>
+            <sys_id>07eb85018394221020eccc50ceaad365</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Day 6" display_value="Day 6" name="x_1033940_gym_port_standard_workout_plans" sys_domain="global" view="Default view">998ac58d8354221020eccc50ceaad366</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-13 15:11:19</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Day 6</caption>
+            <header>false</header>
+            <name>x_1033940_gym_port_standard_workout_plans</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-13 15:05:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>998ac58d8354221020eccc50ceaad366</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1033940_gym_port_standard_workout_plans</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+            <sys_update_name>sys_ui_section_998ac58d8354221020eccc50ceaad366</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-13 15:05:11</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

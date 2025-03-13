@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.btn {
+  width: 100%;
+  height: min(60px, 120px);
+  font-size: clamp(1.5rem, 2rem, 3rem);
+  display: flex;
+  flex-direction: column;
+	justify-content: center;
+  align-items: center;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data>{
+	"href": "www.google.com",
+	"button_text": "Go to google"
+}</demo_data>
+        <description/>
+        <docs/>
+        <field_list>color</field_list>
+        <has_preview>true</has_preview>
+        <id>custom_link_button</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Custom Link Button</name>
+        <option_schema>[{"name":"href","section":"Presentation","label":"Link for button","type":"string"},{"name":"button_text","section":"Presentation","label":"Contents of button","type":"string"}]</option_schema>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[data.buttonMsg = gs.getMessage(options.button_text || "Click Here");
+
+// retrieve the current user and associated email address
+var userName = gs.getUser().getName();
+var userEmail = gs.getUser().getEmail();
+
+// query the gym members table based on the user's email
+var memberGR = new GlideRecord('x_1033940_gym_port_members');
+memberGR.addQuery('email', userEmail);
+memberGR.query();
+
+if (memberGR.next()) {
+    // get the training plan value (which may be a name instead of a sys_id)
+    var trainingPlanIdentifier = memberGR.getValue('current_training_plan');
+    var trainingPlanSysId = '';
+
+    if (trainingPlanIdentifier) {
+        // lookup the training plan record by name in the standard workout plans table
+        var planGR = new GlideRecord('x_1033940_gym_port_standard_workout_plans');
+        planGR.addQuery('name', trainingPlanIdentifier);
+        planGR.query();
+        if (planGR.next()) {
+            trainingPlanSysId = planGR.getUniqueValue(); // get the actual sys_id
+        }
+    }
+    
+    if (trainingPlanSysId) {
+        // compose the fully defined URL with the dynamic SYSID value
+        data.href = 'https://dev250396.service-now.com/gp?id=form&table=x_1033940_gym_port_standard_workout_plans&sys_id=' +
+            trainingPlanSysId +
+            '&sysparm_view=portal';
+    } else {
+        // fallback: if no valid training plan is found, use a default URL or placeholder
+        data.href = options.href || '#';
+        // TODO: Proper Error Messages
+    		// gs.info("No current training plan found for user: " + userName);
+    }
+} else {
+    // fallback: if the member record isn't found, use a default URL
+    data.href = options.href || '#';
+		// TODO: Proper Error Messages
+    // gs.info("No member record found for user: " + userName);
+}
+
+// rest of the OOTB code
+data.socialQAEnabled = true;
+data.canReadKnowledgeBase = true;
+
+if (options.href == "?id=sqanda_new_question") {
+    data.socialQAEnabled = gs.getProperty('glide.sp.socialqa.enabled') === 'true';
+    data.knowledgeBase = $sp.getPortalRecord().getValue("sqanda_knowledge_base") || gs.getProperty("glide.service_portal.sqanda.default_kb");
+    data.canReadKnowledgeBase = $sp.canReadRecord("kb_knowledge_base", data.knowledgeBase);
+}
+]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-13 15:34:10</sys_created_on>
+        <sys_id>7121d5458394221020eccc50ceaad339</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>Custom Link Button</sys_name>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_update_name>sp_widget_7121d5458394221020eccc50ceaad339</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-13 16:22:10</sys_updated_on>
+        <template><![CDATA[<a ng-href="{{data.href}}" class="btn btn-{{options.color}} m-b" ng-if="data.socialQAEnabled && data.canReadKnowledgeBase">{{data.buttonMsg}}</a>]]></template>
+    </sp_widget>
+</record_update>

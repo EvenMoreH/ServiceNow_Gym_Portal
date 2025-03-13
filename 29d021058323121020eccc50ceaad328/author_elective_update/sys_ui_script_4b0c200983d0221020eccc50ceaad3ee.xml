@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_script">
+    <sys_ui_script action="DELETE">
+        <active>true</active>
+        <description/>
+        <global>false</global>
+        <ignore_in_now_experience>false</ignore_in_now_experience>
+        <name>x_1033940_gym_port.Member Redirect</name>
+        <script><![CDATA[(function() {
+	return {
+		// Function that checks the user role and redirects if necessary
+		checkRestrictedUser: function() {
+			var ga = new GlideAjax('CheckUserRole');
+			ga.addParam('sysparm_name', 'hasRestrictedRole');
+			ga.getXMLAnswer(function(response) {
+				// If the user has the restricted role and is not in the Service Portal, redirect them.
+				if (response === 'true' && window.location.pathname.indexOf('/gp') !== 0) {
+					window.location = '/gp';
+				}
+			});
+		}
+	};
+})();
+
+// Define a global function that can also be called
+function checkRestrictedUser() {
+	var ga = new GlideAjax('CheckUserRole');
+	ga.addParam('sysparm_name', 'hasRestrictedRole');
+	ga.getXMLAnswer(function(response) {
+		if (response === 'true' && window.location.pathname.indexOf('/gp') !== 0) {
+			window.location = '/gp';
+		}
+	});
+}]]></script>
+        <script_name>Member Redirect</script_name>
+        <sys_class_name>sys_ui_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-13 12:58:48</sys_created_on>
+        <sys_id>4b0c200983d0221020eccc50ceaad3ee</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_1033940_gym_port.Member Redirect</sys_name>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_update_name>sys_ui_script_4b0c200983d0221020eccc50ceaad3ee</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-13 12:59:43</sys_updated_on>
+        <ui_type>10</ui_type>
+        <use_scoped_format>false</use_scoped_format>
+    </sys_ui_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gym Portal">29d021058323121020eccc50ceaad328</application>
+        <file_path/>
+        <instance_id>0a2000d81bd982dc78c7cb7b234bcb61</instance_id>
+        <instance_name>dev250396</instance_name>
+        <name>sys_ui_script_4b0c200983d0221020eccc50ceaad3ee</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_script"&gt;&lt;sys_ui_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;description/&gt;&lt;global&gt;false&lt;/global&gt;&lt;ignore_in_now_experience&gt;false&lt;/ignore_in_now_experience&gt;&lt;name&gt;x_1033940_gym_port.Member Redirect&lt;/name&gt;&lt;script&gt;&lt;![CDATA[(function() {
+	return {
+		// Function that checks the user role and redirects if necessary
+		checkRestrictedUser: function() {
+			var ga = new GlideAjax('CheckUserRole');
+			ga.addParam('sysparm_name', 'hasRestrictedRole');
+			ga.getXMLAnswer(function(response) {
+				// If the user has the restricted role and is not in the Service Portal, redirect them.
+				if (response === 'true' &amp;&amp; window.location.pathname.indexOf('/gp') !== 0) {
+					window.location = '/gp';
+				}
+			});
+		}
+	};
+})();
+
+// Define a global function that can also be called
+function checkRestrictedUser() {
+	var ga = new GlideAjax('CheckUserRole');
+	ga.addParam('sysparm_name', 'hasRestrictedRole');
+	ga.getXMLAnswer(function(response) {
+		if (response === 'true' &amp;&amp; window.location.pathname.indexOf('/gp') !== 0) {
+			window.location = '/gp';
+		}
+	});
+}]]&gt;&lt;/script&gt;&lt;script_name&gt;Member Redirect&lt;/script_name&gt;&lt;sys_class_name&gt;sys_ui_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-13 12:58:48&lt;/sys_created_on&gt;&lt;sys_id&gt;4b0c200983d0221020eccc50ceaad3ee&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_1033940_gym_port.Member Redirect&lt;/sys_name&gt;&lt;sys_package display_value="Gym Portal" source="x_1033940_gym_port"&gt;29d021058323121020eccc50ceaad328&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Gym Portal"&gt;29d021058323121020eccc50ceaad328&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_script_4b0c200983d0221020eccc50ceaad3ee&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-13 12:59:43&lt;/sys_updated_on&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;use_scoped_format&gt;false&lt;/use_scoped_format&gt;&lt;/sys_ui_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1728171066</payload_hash>
+        <record_name>x_1033940_gym_port.Member Redirect</record_name>
+        <reverted_from/>
+        <source>dd08b50183a3121020eccc50ceaad35e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-13 12:59:43</sys_created_on>
+        <sys_id>d3cd248983d0221020eccc50ceaad304</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1958f96dd190000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-13 12:59:43</sys_updated_on>
+        <type>UI Script</type>
+        <update_guid>5bcd2489bad022101b4bad17bd2ba003</update_guid>
+        <update_guid_history>5bcd2489bad022101b4bad17bd2ba003:-1728171066,39cd6489ecd02210cee6c0cd032a512a:1424744228,f59dac4969d0221009b79ef67a4b6885:-1957519068</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-13 13:02:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_script">sys_ui_script</sys_db_object>
+        <sys_id>090f2ef0a20c4507aa46df3973073359</sys_id>
+        <sys_metadata>4b0c200983d0221020eccc50ceaad3ee</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1033940_gym_port.Member Redirect</sys_name>
+        <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
+        <sys_scope_delete display_value="">4ef7c16b5f9f42c89374a9b807c00710</sys_scope_delete>
+        <sys_update_name>sys_ui_script_4b0c200983d0221020eccc50ceaad3ee</sys_update_name>
+        <sys_update_version display_value="sys_ui_script_4b0c200983d0221020eccc50ceaad3ee">d3cd248983d0221020eccc50ceaad304</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-13 13:02:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
