@@ -6,7 +6,7 @@
         <action_insert>false</action_insert>
         <action_query>true</action_query>
         <action_update>false</action_update>
-        <active>true</active>
+        <active>false</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
@@ -43,7 +43,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a89b17a48354221020eccc50ceaad30f</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Limit View to Own Franchises</sys_name>
         <sys_overrides/>
         <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
@@ -51,7 +51,7 @@
         <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
         <sys_update_name>sys_script_a89b17a48354221020eccc50ceaad30f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-12 13:02:17</sys_updated_on>
+        <sys_updated_on>2025-04-08 10:59:45</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

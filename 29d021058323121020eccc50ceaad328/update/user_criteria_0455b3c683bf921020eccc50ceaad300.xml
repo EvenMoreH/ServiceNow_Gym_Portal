@@ -4,7 +4,7 @@
         <advanced>false</advanced>
         <company/>
         <department/>
-        <group name="Managers">955e759883f7d21020eccc50ceaad3d3</group>
+        <group>956ecdb18340221020eccc50ceaad332,955e759883f7d21020eccc50ceaad3d3</group>
         <location/>
         <match_all>false</match_all>
         <name>Gym Managers</name>
@@ -23,14 +23,14 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0455b3c683bf921020eccc50ceaad300</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Gym Managers</sys_name>
         <sys_package display_value="Gym Portal" source="x_1033940_gym_port">29d021058323121020eccc50ceaad328</sys_package>
         <sys_policy/>
         <sys_scope display_value="Gym Portal">29d021058323121020eccc50ceaad328</sys_scope>
         <sys_update_name>user_criteria_0455b3c683bf921020eccc50ceaad300</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-20 09:34:10</sys_updated_on>
+        <sys_updated_on>2025-04-08 10:35:38</sys_updated_on>
         <user/>
     </user_criteria>
     <sys_translated_text action="delete_multiple" query="documentkey=0455b3c683bf921020eccc50ceaad300"/>
